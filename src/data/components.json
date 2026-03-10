@@ -91,25 +91,6 @@
     "instructions": null
   },
   {
-    "id": "gradient-button-with-grow-effect-on-hover",
-    "name": "Gradient Button with Grow Effect on Hover",
-    "slug": "gradient-button-with-grow-effect-on-hover",
-    "category": "Buttons",
-    "tags": [
-      "CSS"
-    ],
-    "platforms": [
-      "CF1.0"
-    ],
-    "status": "Planning",
-    "previewUrl": null,
-    "description": null,
-    "html": null,
-    "css": ".elButton {\n\t-webkit-box-shadow: 0px 2px 18px -1px rgba(208,31,74,1);\n\t-moz-box-shadow: 0px 2px 18px -1px rgba(208,31,74,1);\n\tbox-shadow: 0px 2px 18px -1px rgba(208,31,74,1);\n\t-webkit-transition: all .2s ease;\n\t-o-transition: all .2s ease;\n\ttransition: all .2s ease;\n\tbackground-image: linear-gradient(to right, #EB3349 0%, #F45C43 51%, #EB3349 100%) !important;\n\tbackground-position: left center !important;\n\tbackground-size: 200% auto !important;\n}\n\n.elButton:hover {\n\t-webkit-transform: scale(1.1);\n\t-ms-transform: scale(1.1);\n\ttransform: scale(1.1);\n\tbackground-position: right center !important; \n\tbox-shadow: none !important;\n}",
-    "js": null,
-    "instructions": null
-  },
-  {
     "id": "custom-icon-on-button",
     "name": "Custom icon on button",
     "slug": "custom-icon-on-button",
@@ -285,162 +266,6 @@
     "instructions": "1. Add the Javascript inside the footer tracking code. \n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled.png)\n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled%201.png)\n\n1. Add the Styles in Custom CSS.\n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled%202.png)\n\n1. Modify button actions to “Website URL” and input the ID of the checkout form. ID of the form can be found when we inspect element the checkout form.\n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled%203.png)\n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled%204.png)\n\n1. In Button Settings, go to “Advance” then look for “Custom Class” field and add the class name “add-option-btn”.\n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled%205.png)"
   },
   {
-    "id": "button-hover-1-moving-icon-on-hover",
-    "name": "Button Hover #1: Moving Icon on Hover",
-    "slug": "button-hover-1-moving-icon-on-hover",
-    "category": "Buttons",
-    "tags": [
-      "CSS"
-    ],
-    "platforms": [
-      "CF1.0"
-    ],
-    "status": "In progress",
-    "previewUrl": null,
-    "description": null,
-    "html": null,
-    "css": "[data-title*='button'] .elButton .elButtonMain i::before {\n    -webkit-transform: translateZ(0);\n    transform: translateZ(0);\n    position: absolute;\n    left: -25px;\n    padding: 0;\n    top: 0;\n}\n[data-title*='button'] .elButton:hover .elButtonMain i:before, \n[data-title*='button'] .elButton:focus .elButtonMain i:before, \n[data-title*='button'] .elButton:active .elButtonMain i:before {\n  -webkit-animation-name: hvr-icon-wobble-horizontal;\n  animation-name: hvr-icon-wobble-horizontal;\n  -webkit-animation-duration: 1s;\n  animation-duration: 1s;\n  -webkit-animation-timing-function: ease-in-out;\n  animation-timing-function: ease-in-out;\n  -webkit-animation-iteration-count: 1;\n  animation-iteration-count: 1;\n}\n\n/* Icon Wobble Horizontal */\n@-webkit-keyframes hvr-icon-wobble-horizontal {\n  16.65% {\n    -webkit-transform: translateX(6px);\n    transform: translateX(6px);\n  }\n\n  33.3% {\n    -webkit-transform: translateX(-5px);\n    transform: translateX(-5px);\n  }\n\n  49.95% {\n    -webkit-transform: translateX(4px);\n    transform: translateX(4px);\n  }\n\n  66.6% {\n    -webkit-transform: translateX(-2px);\n    transform: translateX(-2px);\n  }\n\n  83.25% {\n    -webkit-transform: translateX(1px);\n    transform: translateX(1px);\n  }\n\n  100% {\n    -webkit-transform: translateX(0);\n    transform: translateX(0);\n  }\n}\n\n@keyframes hvr-icon-wobble-horizontal {\n  16.65% {\n    -webkit-transform: translateX(6px);\n    transform: translateX(6px);\n  }\n\n  33.3% {\n    -webkit-transform: translateX(-5px);\n    transform: translateX(-5px);\n  }\n\n  49.95% {\n    -webkit-transform: translateX(4px);\n    transform: translateX(4px);\n  }\n\n  66.6% {\n    -webkit-transform: translateX(-2px);\n    transform: translateX(-2px);\n  }\n\n  83.25% {\n    -webkit-transform: translateX(1px);\n    transform: translateX(1px);\n  }\n\n  100% {\n    -webkit-transform: translateX(0);\n    transform: translateX(0);\n  }\n}",
-    "js": null,
-    "instructions": "(embed video here)"
-  },
-  {
-    "id": "button-hover-2-gradient-button-icon-with-grow-effect-on-hover",
-    "name": "Button Hover #2: Gradient Button+Icon with Grow Effect on Hover",
-    "slug": "button-hover-2-gradient-button-icon-with-grow-effect-on-hover",
-    "category": "Buttons",
-    "tags": [
-      "CSS"
-    ],
-    "platforms": [
-      "CF1.0"
-    ],
-    "status": "In progress",
-    "previewUrl": "https://preview.funnelduo.com/optin1587915407998",
-    "description": null,
-    "html": null,
-    "css": "[data-title='button'] .elButton{\n  padding: 15px 80px !important;\n  position: relative;\n  will-change: transform, filter;\n  -webkit-transform-style: preserve-3d;\n  transform-style: preserve-3d;\n  -webkit-transition: all 0.3s ease-out;\n  transition: all 0.3s ease-out;\n  background: #fa6c9f;\n  background: -webkit-gradient(linear, left top, right top, from(#fa6c9f), color-stop(80%, #ffe140), to(#ffe140));\n  background: linear-gradient(to right, #ee7d19 0%, #fb6a00 80%, #e1ce2e 100%)\n}\n[data-title='button'] .elButton:hover {\n    -webkit-transform: scale(1.04);\n    transform: scale(1.04);\n    -webkit-filter: brightness(1.05) contrast(1.05);\n    filter: brightness(1.05) contrast(1.05);\n    -webkit-transform: scale(1.05);\n    transform: scale(1.05);\n}\n[data-title='button'] .elButton:before { \n  \tcontent:'';\n  \tcontent: '';\n\tdisplay: inline-block;\n\theight: 40px;\n  \twidth:100%;\n\tposition: absolute;\n\t-webkit-filter: blur(20px) brightness(0.95);\n\tfilter: blur(20px) brightness(0.95);\n\t-webkit-transform-style: preserve-3d;\n\ttransform-style: preserve-3d;\n\t-webkit-transition: all 0.3s ease-out;\n\ttransition: all 0.3s ease-out;\n  \tbackground: #fa6c9f;\n\tbackground: -webkit-gradient(linear, left top, right top, from(#fa6c9f), color-stop(80%, #ffe140), to(#ffe140));\n\tbackground: linear-gradient(to right, #ee7d19 0%, #fb6a00 80%, #e1ce2e 100%);\n\topacity: 0;\n\tbottom: 10px;\n  \tright:0;\n}\n[data-title='button'] .elButton:hover::before {\n    bottom: -6px;\n    opacity: 0.5;\n    -webkit-filter: blur(20px);\n    filter: blur(11px);\n}\n[data-title='button'] .elButton i {\n    -webkit-transform: translateZ(0);\n    transform: translateZ(0);\n    -webkit-transition-duration: 0.3s;\n    transition-duration: 0.3s;\n    -webkit-transition-property: transform;\n    transition-property: transform;\n    -webkit-transition-timing-function: ease-out;\n    transition-timing-function: ease-out;\n}\n[data-title='button'] .elButton:hover i {\n    -webkit-transform: scale(1.5) rotate(12deg);\n    transform: scale(1.5) rotate(12deg);\n}",
-    "js": null,
-    "instructions": "(embed video here)"
-  },
-  {
-    "id": "video-play-button-pulse-1",
-    "name": "Video Play Button Pulse #1",
-    "slug": "video-play-button-pulse-1",
-    "category": "Buttons",
-    "tags": [
-      "CSS"
-    ],
-    "platforms": [
-      "CF1.0"
-    ],
-    "status": "Planning",
-    "previewUrl": "https://preview.funnelduo.com/optin1587915407998",
-    "description": null,
-    "html": null,
-    "css": "",
-    "js": null,
-    "instructions": "(embed video here)\n\n>"
-  },
-  {
-    "id": "faq-toggle",
-    "name": "FAQ Toggle",
-    "slug": "faq-toggle",
-    "category": "FAQ",
-    "tags": [
-      "CSS",
-      "JS"
-    ],
-    "platforms": [
-      "CF1.0"
-    ],
-    "status": "Planning",
-    "previewUrl": null,
-    "description": null,
-    "html": null,
-    "css": "/* Section FAQ */\n.clickfunnels-com [data-title='Section FAQ'] [data-title='faq-accord-question'] {\n    border: 0 !important;\n    border-radius: 20px;\n    padding: 5px 20px;\n    position: relative;\n    z-index: 99;\n    margin-bottom: -25px;\n    background-color: #fff !important;\n    box-shadow: -6px 6px 20px rgba(0, 0, 0, 0.09);\n    height: 92px;\n    display: flex;\n    align-items: center;\n}\n.clickfunnels-com [data-title='Section FAQ'] [data-title='faq-accord-question'] .elHeadline {\n    padding-right: 40px !important;\n}\n.clickfunnels-com [data-title='Section FAQ'] [data-title='faq-accord-answer'] {\n    margin: 0 !important;\n    padding: 0 35px 0 !important;\n    background: #F4F4F4;\n    border-radius: 0 0 20px 20px;\n    position: relative;\n    z-index: 9;\n    transition: all 0.3s ease;\n    height: 0;\n    overflow: hidden;\n    display: block !important;\n    opacity: 0 !important;\n}\n.clickfunnels-com [data-title='Section FAQ'] [data-title='faq-accord-answer'].open {\n    height: 100%;\n    opacity: 1 !important;\n    padding: 50px 35px 30px !important;\n}\n.clickfunnels-com [data-title='Section FAQ'] [data-title='faq-accord-question'] i {\n    color: #6a9a37 !important;\n    font-size: 35px;\n    transition: all 0.3s ease;\n}",
-    "js": null,
-    "instructions": "(embed video here)\n\n>"
-  },
-  {
-    "id": "faq-accordion",
-    "name": "FAQ Accordion",
-    "slug": "faq-accordion",
-    "category": "FAQ",
-    "tags": [
-      "CSS",
-      "JS"
-    ],
-    "platforms": [
-      "CF1.0"
-    ],
-    "status": "Planning",
-    "previewUrl": null,
-    "description": null,
-    "html": null,
-    "css": "/* FAQ */\n.clickfunnels-com [data-title*='Section FAQ'] [data-title*='faq-accord-question'] {\n    border: 1px solid rgba(0, 0, 0, 0.1) !important;\n    border-radius: 0;\n    padding: 5px 20px;\n    position: relative;\n    z-index: 99;\n    margin-bottom: -25px;\n    background-color: #fff;\n    box-shadow: -6px 6px 20px rgba(0, 0, 0, 0.09);\n    height: auto;\n    display: flex;\n    align-items: center;\n}\n\n.clickfunnels-com [data-title*='Section FAQ'] [data-title*='faq-accord-question'] h1 {\n    color: #1A1E39 !important;\n}\n\n.clickfunnels-com [data-title*='Section FAQ'] .active[data-title*='faq-accord-question'] {\n    background-color: #000;\n}\n\n.clickfunnels-com [data-title*='Section FAQ'] .active[data-title*='faq-accord-question'] h1,\n.clickfunnels-com [data-title*='Section FAQ'] .active[data-title*='faq-accord-question'] h1 b {\n    color: #fff !important;\n}\n\n.clickfunnels-com [data-title*='Section FAQ'] [data-title*='faq-accord-question'] .elHeadline {\n    padding-right: 40px !important;\n    width: 100% !important;\n}\n\n.clickfunnels-com [data-title*='Section FAQ'] [data-title*='faq-accord-answer'] {\n    margin: 0 !important;\n    padding: 0 35px 0 !important;\n    background: #fff;\n    border-radius: 0 !important;\n    position: relative;\n    z-index: 9;\n    transition: all 0.3s ease;\n    height: 0;\n    overflow: hidden;\n    display: block !important;\n    opacity: 0 !important;\n}\n\n.clickfunnels-com [data-title*='Section FAQ'] [data-title*='faq-accord-answer'].open {\n    height: 100%;\n    opacity: 1 !important;\n    padding: 50px 55px 30px 35px !important;\n    border: 1px solid rgba(0, 0, 0, 0.1) !important;\n}\n\n.clickfunnels-com [data-title*='Section FAQ'] [data-title*='faq-accord-answer'] .elHeadline {\n    color: #000 !important;\n}\n\n.clickfunnels-com [data-title*='Section FAQ'] [data-title*='faq-accord-question'] i {\n    color: #001038 !important;\n    font-size: 20px;\n    transition: all 0.3s ease;\n}\n\n.clickfunnels-com [data-title*='Section FAQ'] .active[data-title*='faq-accord-question'] i {\n    color: #fff !important;\n}\n\n/* FAQ - END */\n\n<script>\n    $(document).ready(function () {\n        $(document).find('[data-title=\"faq-accord-question\"] > h1').css({ 'cursor': 'pointer' })\n        var accordQuest = $(document).find(\n            '[data-title=\"faq-accord-question\"] > h1'\n        );\n        var accordAns = $(document).find('[data-title=\"faq-accord-answer\"]');\n        var fontColorBase = accordQuest.css('color');\n    \n        accordQuest.each(function () {\n            $(this).css({ 'text-align': 'left', padding: '15px' });\n            $(this).after(\n                '<i style=\"cursor:pointer;color:' +\n                fontColorBase +\n                ';position: absolute;top: 50%;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);right: 20px;}\" class=\"fa_prepended fas fa-angle-right\" contenteditable=\"false\"></i>'\n            );\n\n            $(this).click(function () {\n                $('[data-title=\"faq-accord-question\"]').removeClass('active');\n                $('[data-title=\"faq-accord-answer\"]').removeClass('open');\n\n                $(this).parent().toggleClass('active');\n    \n                if ( $(this).parent().hasClass('active')) {\n                    $('[data-title=\"faq-accord-question\"]').find('i').removeClass('fas fa-angle-right').addClass('fas fa-angle-down');\n                    $(this).parent().find('i').removeClass('fas fa-angle-down').addClass('fas fa-angle-right');\n                } else {\n                    $('[data-title=\"faq-accord-question\"]').find('i').removeClass('fas fa-angle-down').addClass('fas fa-angle-right');\n                    $(this).parent().find('i').removeClass('fas fa-angle-right').addClass('fas fa-angle-down');\n                }\n                \n                $(this).parent().nextUntil('[data-title=\"faq-accord-question\"]').toggleClass('open');\n            });\n        });\n    \n    \n        accordAns.each(function () {\n            $(this).css({ 'text-align': 'left', padding: '15px' });\n        });\n        accordAns.slideUp();\n        // accordBut.eq(0).click()\n    });\n    </script>",
-    "js": null,
-    "instructions": "(embed video here)\n\n>"
-  },
-  {
-    "id": "grayscale-to-colored-on-hover-image-cuts-description-box-ongoing",
-    "name": "Grayscale to Colored on Hover Image Cuts+Description Box (ongoing)",
-    "slug": "grayscale-to-colored-on-hover-image-cuts-description-box-ongoing",
-    "category": "Hover Effects",
-    "tags": [
-      "CSS"
-    ],
-    "platforms": [
-      "Elementor"
-    ],
-    "status": "Planning",
-    "previewUrl": null,
-    "description": null,
-    "html": null,
-    "css": "",
-    "js": null,
-    "instructions": "(embed video here)\n\n>"
-  },
-  {
-    "id": "vimeo-autoplay-no-sound-until-click",
-    "name": "Vimeo Autoplay No Sound Until Click",
-    "slug": "vimeo-autoplay-no-sound-until-click",
-    "category": "Video",
-    "tags": [
-      "CSS",
-      "JS"
-    ],
-    "platforms": [
-      "CF1.0"
-    ],
-    "status": "Planning",
-    "previewUrl": null,
-    "description": null,
-    "html": null,
-    "css": null,
-    "js": null,
-    "instructions": "(embed video here)\n\n>"
-  },
-  {
-    "id": "elementor-dynamic-display-menu",
-    "name": "Elementor Dynamic display menu",
-    "slug": "elementor-dynamic-display-menu",
-    "category": "Navigation",
-    "tags": [
-      "CSS",
-      "JS"
-    ],
-    "platforms": [
-      "Elementor"
-    ],
-    "status": "Planning",
-    "previewUrl": "https://stbl.io",
-    "description": null,
-    "html": null,
-    "css": "/* inside the wordpress menu module */\nselector .elementor-nav-menu {\n  display: flex !important;\n  max-height: 50px;\n  width: 200px;\n  position: relative;\n}\n\nselector .elementor-nav-menu .menu-item {\n  width: 100%;\n  background-color: #fff;\n}\n\nselector .menu-item .elementor-item {\n  max-width: max-content;\n}\n\nselector .elementor-nav-menu .menu-item.super-active-menu{\n    order: 1;\n}\n\nselector .elementor-nav-menu .menu-item:first-child {\n  order: 2;\n}\nselector .elementor-nav-menu .menu-item{\n    order: 3;\n}\n\nselector .menu-item {\n  display: none !important;\n}\n\nselector:hover .elementor-nav-menu .menu-item {\n      display: flex !important;\n}\n\nselector .menu-item.menu-item-home {\n  display: flex !important;\n  align-items: center;\n}\n\nselector .menu-item.super-active-menu {\n  display: flex !important;\n  align-items: center;\n}\n\nselector .e-n-menu-item-icon {\n  color: #949494;\n}\nselector .e-n-menu-item-icon-opened{\n    display: none;\n}\nselector .e-n-menu-item-icon-closed{\n    display: block;\n}\nselector:hover .e-n-menu-item-icon-opened{\n    display: block;\n}\nselector:hover .e-n-menu-item-icon-closed{\n    display: none;\n}\n\nselector .menu-item-home .elementor-item::before {\n  content: '\\f0d7';\n  font-family: \"Font Awesome 5 Free\";\n  font-weight: 900;\n  font-size: 12px;\n  width: var(--n-menu-item-icon-size,var(--n-menu-item-title-font-size));\n  font-style: normal;\n  font-variant: normal;\n  text-rendering: auto;\n  line-height: 1;\n  opacity: 1 !important;\n  position: absolute;\n  right: 0;\n  background: none !important;\n}\n\nselector:hover .menu-item-home .elementor-item::before{\n    content: '\\f0d8';\n}",
-    "js": null,
-    "instructions": "(embed video here)\n\n>"
-  },
-  {
     "id": "form-style-1-inner-box-shadow",
     "name": "Form Style #1: Inner Box Shadow",
     "slug": "form-style-1-inner-box-shadow",
@@ -477,25 +302,6 @@
     "css": ".c-button button.nothanks-textbtn {\n    text-decoration: underline;\n}\n\n.c-button button.nothanks-textbtn:hover {\n    transform: unset !important;\n}\n\n.c-button button.nothanks-textbtn .main-heading-button {\n    font-weight: normal !important;\n    text-decoration: underline;\n}\n\n.c-button button.nothanks-textbtn .button-icon-start, .c-button button.nothanks-textbtn .button-icon-end {\n    display: none;\n}",
     "js": null,
     "instructions": "(embed video here)"
-  },
-  {
-    "id": "pure-css-faq-toggle",
-    "name": "Pure CSS FAQ Toggle",
-    "slug": "pure-css-faq-toggle",
-    "category": "FAQ",
-    "tags": [
-      "CSS"
-    ],
-    "platforms": [
-      "Ontraport"
-    ],
-    "status": "In progress",
-    "previewUrl": "https://mastery.adrtimes.com/",
-    "description": null,
-    "html": null,
-    "css": "/* Section FAQ */\n.clickfunnels-com [data-title='Section FAQ'] [data-title='faq-accord-question'] {\n    border: 0 !important;\n    border-radius: 20px;\n    padding: 5px 20px;\n    position: relative;\n    z-index: 99;\n    margin-bottom: -25px;\n    background-color: #fff !important;\n    box-shadow: -6px 6px 20px rgba(0, 0, 0, 0.09);\n    height: 92px;\n    display: flex;\n    align-items: center;\n}\n.clickfunnels-com [data-title='Section FAQ'] [data-title='faq-accord-question'] .elHeadline {\n    padding-right: 40px !important;\n}\n.clickfunnels-com [data-title='Section FAQ'] [data-title='faq-accord-answer'] {\n    margin: 0 !important;\n    padding: 0 35px 0 !important;\n    background: #F4F4F4;\n    border-radius: 0 0 20px 20px;\n    position: relative;\n    z-index: 9;\n    transition: all 0.3s ease;\n    height: 0;\n    overflow: hidden;\n    display: block !important;\n    opacity: 0 !important;\n}\n.clickfunnels-com [data-title='Section FAQ'] [data-title='faq-accord-answer'].open {\n    height: 100%;\n    opacity: 1 !important;\n    padding: 50px 35px 30px !important;\n}\n.clickfunnels-com [data-title='Section FAQ'] [data-title='faq-accord-question'] i {\n    color: #6a9a37 !important;\n    font-size: 35px;\n    transition: all 0.3s ease;\n}",
-    "js": null,
-    "instructions": "(embed video here)\n\n>"
   },
   {
     "id": "ghl-button-classes-styling",
@@ -695,26 +501,6 @@
     "css": ".marquee-logos {\n        position: relative;\n        overflow: hidden;\n        display: flex;\n    }\n    .hero__logos-wrapper {\n        animation: marquee--move__logos 35s linear infinite;\n        display: flex;\n        white-space: nowrap;\n        will-change: transform;\n        width: 1300px;\n        gap: 15px;\n        align-items: center;\n    }\n    .marquee-logos .hero-client-logo {\n        object-fit: contain;\n        display: inline-block;\n        width: 8.625rem;\n        height: 2.375rem;\n    }\n    .marquee-logos::before {\n        content: '';\n        top: 0%;\n        bottom: 0%;\n        left: 0%;\n        right: auto;\n        position: absolute;\n        width: 2rem;\n        background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);\n        z-index: 1;\n    }\n    .marquee-logos::after {\n        content: '';\n        top: 0%;\n        bottom: 0%;\n        left: auto;\n        right: 0%;\n        position: absolute;\n        width: 2rem;\n        background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);\n        z-index: 1;\n    }\n\n    @keyframes marquee--move__logos{\n        0% {\n            transform: translateX(0%);\n        }\n        100% {\n            transform: translateX(-100%);\n        }\n    }",
     "js": null,
     "instructions": "(embed video here)\n\n>"
-  },
-  {
-    "id": "navigation-mobile-menu",
-    "name": "Navigation Mobile Menu",
-    "slug": "navigation-mobile-menu",
-    "category": "Navigation",
-    "tags": [
-      "CSS",
-      "JS"
-    ],
-    "platforms": [
-      "CF1.0"
-    ],
-    "status": "Planning",
-    "previewUrl": "https://preview.funnelduo.com/home1588476128293",
-    "description": null,
-    "html": null,
-    "css": "/* MOBILE MENU */\n@media screen and (max-width:769px){\n    [data-title*='Navigation'] {\n        padding: 0 !important;\n        position: absolute;\n        right: 5%;\n        top: 9%;\n    }\n\t [data-title*='Navigation'] nav {\n        -webkit-transition: right 0.5s ease;\n        -moz-transition: right 0.5s ease;\n        -ms-transition: right 0.5s ease;\n        -o-transition: right 0.5s ease;\n        transition: right 0.5s ease;\n        background: #d60000;\n        cursor: pointer;\n        height: auto;\n        right: -40rem;\n        padding: 0px !important;\n        position: absolute;\n        top: -20px;\n        width: 200px;\n        z-index: 999999999999;\n        border-radius: 0;\n        border: none;\n    }\n    [data-title*='Navigation'] nav.expanded {\n        right: 0;\n        top: -20px;\n    }\n    [data-title*='Navigation'] nav ul {\n        list-style: none;\n        margin: 0;\n        padding: 0;\n        width: 100%;\n    }\n    [data-title*='Navigation'] nav li {\n        display: block !important;\n        text-align: left;\n        padding: 0 !important;\n    }\n    [data-title*='Navigation'] nav a {\n        font-size: 14px;\n        line-height: 24px;\n        color: #fff !important;\n        padding: 5px 10px !important;\n        display: block !important;\n    }\n    [data-title*='Navigation'] nav a:hover {\n        text-decoration: none;\n        background-color: #000;\n        color: #fff !important;\n    }\n    [data-title*='Navigation'] .nav-toggle {\n        -webkit-user-select: none;\n        -moz-user-select: none;\n        user-select: none;\n        cursor: pointer;\n        height: 2rem;\n        right: 0;\n        position: absolute;\n        top: -60px;\n        width: 25px;\n        z-index: 2;\n    }\n    [data-title*='Navigation'] .nav-toggle:hover { opacity: 0.8; }\n    [data-title*='Navigation'] .nav-toggle .nav-toggle-bar,\n  \t[data-title*='Navigation'] .nav-toggle .nav-toggle-bar::after,\n    [data-title*='Navigation'] .nav-toggle .nav-toggle-bar::before {\n      position: absolute;\n      top: 50%;\n      -webkit-transform: translateY(-50%);\n      -ms-transform: translateY(-50%);\n      transform: translateY(-50%);\n      -webkit-transition: all 0.5s ease;\n      -moz-transition: all 0.5s ease;\n      -ms-transition: all 0.5s ease;\n      -o-transition: all 0.5s ease;\n      transition: all 0.5s ease;\n      background: #ffffff;\n      content: '';\n      height: 0.2rem;\n      width: 100%;\n    }\n    [data-title*='Navigation'] .nav-toggle .nav-toggle-bar { margin-top: 0; }\n    [data-title*='Navigation'] .nav-toggle .nav-toggle-bar::after { margin-top: 0.8rem; }\n    [data-title*='Navigation'] .nav-toggle .nav-toggle-bar::before { margin-top: -0.8rem; }\n    [data-title*='Navigation'] .nav-toggle.expanded .nav-toggle-bar { background: transparent; }\n    [data-title*='Navigation'] .nav-toggle.expanded .nav-toggle-bar::after,\n  \t[data-title*='Navigation'] .nav-toggle.expanded .nav-toggle-bar::before {\n      background: #ffffff;\n      margin-top: 0;\n    }\n    [data-title*='Navigation'] .nav-toggle.expanded .nav-toggle-bar::after {\n      -ms-transform: rotate(45deg);\n      -webkit-transform: rotate(45deg);\n      transform: rotate(45deg);\n    }\n    [data-title*='Navigation'] .nav-toggle.expanded .nav-toggle-bar::before {\n      -ms-transform: rotate(-45deg);\n      -webkit-transform: rotate(-45deg);\n      transform: rotate(-45deg);\n    }\n}",
-    "js": null,
-    "instructions": "(embed video here)\n\n> \n\n![Untitled](Navigation%20Mobile%20Menu/Untitled.png)\n\nAdd a the Custom JS/HTML element below navigation (see screenshot above) and paste the following:"
   },
   {
     "id": "vertical-scrolling-bar-simple",

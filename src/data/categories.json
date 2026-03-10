@@ -12,12 +12,6 @@
     "icon": "🔘"
   },
   {
-    "id": "faq",
-    "name": "FAQ",
-    "slug": "faq",
-    "icon": "❓"
-  },
-  {
     "id": "forms",
     "name": "Forms",
     "slug": "forms",
