@@ -96,6 +96,7 @@ export default async function ComponentPage({ params }: ComponentPageProps) {
                 html={component.html}
                 css={component.css}
                 js={component.js}
+                category={component.category}
               />
             ) : (
               <div className="h-full flex items-center justify-center bg-gray-50 text-gray-500">

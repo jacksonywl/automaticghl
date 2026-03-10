@@ -97,6 +97,60 @@ function parseCSVLine(line: string): string[] {
   return result;
 }
 
+// Extract JavaScript from <script> tags in HTML content
+function extractScriptTags(html: string): { cleanHtml: string; js: string | null } {
+  const scripts: string[] = [];
+
+  // Match <script> tags with src (external scripts - keep the src URL)
+  const externalScriptRegex = /<script[^>]*\ssrc=["']([^"']+)["'][^>]*><\/script>/gi;
+  let externalScripts: string[] = [];
+  let match;
+
+  while ((match = externalScriptRegex.exec(html)) !== null) {
+    externalScripts.push(match[0]); // Keep full tag for external scripts
+  }
+
+  // Match inline <script> tags and extract content
+  const inlineScriptRegex = /<script(?:\s[^>]*)?>(?!<)([\s\S]*?)<\/script>/gi;
+  let cleanHtml = html;
+
+  while ((match = inlineScriptRegex.exec(html)) !== null) {
+    const fullTag = match[0];
+    const scriptContent = match[1].trim();
+
+    // Skip external scripts (with src)
+    if (fullTag.includes('src=')) continue;
+
+    if (scriptContent) {
+      scripts.push(scriptContent);
+    }
+
+    // Remove this script tag from HTML
+    cleanHtml = cleanHtml.replace(fullTag, '');
+  }
+
+  // Also remove external script tags from HTML (we'll include them in JS section)
+  for (const extScript of externalScripts) {
+    cleanHtml = cleanHtml.replace(extScript, '');
+  }
+
+  // Build JS output - external scripts as comments + inline code
+  let jsOutput = '';
+  if (externalScripts.length > 0) {
+    jsOutput += '// External scripts (add to page head or before closing body tag):\n';
+    jsOutput += externalScripts.map(s => `// ${s}`).join('\n');
+    jsOutput += '\n\n';
+  }
+  if (scripts.length > 0) {
+    jsOutput += scripts.join('\n\n');
+  }
+
+  return {
+    cleanHtml: cleanHtml.trim(),
+    js: jsOutput.trim() || null
+  };
+}
+
 // Extract code blocks from markdown
 function extractCodeBlocks(markdown: string): { html: string | null; css: string | null; js: string | null } {
   const result = { html: null as string | null, css: null as string | null, js: null as string | null };
@@ -112,11 +166,19 @@ function extractCodeBlocks(markdown: string): { html: string | null; css: string
     if (lang === 'css') {
       result.css = result.css ? result.css + '\n\n' + code : code;
     } else if (lang === 'html') {
-      result.html = result.html ? result.html + '\n\n' + code : code;
+      // Extract any <script> tags from HTML
+      const { cleanHtml, js } = extractScriptTags(code);
+      result.html = result.html ? result.html + '\n\n' + cleanHtml : cleanHtml;
+      if (js) {
+        result.js = result.js ? result.js + '\n\n' + js : js;
+      }
     } else if (lang === 'js' || lang === 'javascript') {
       result.js = result.js ? result.js + '\n\n' + code : code;
     }
   }
+
+  // Clean up empty html
+  if (result.html === '') result.html = null;
 
   return result;
 }
@@ -307,8 +369,14 @@ async function importNotion() {
   // Stats
   const withCode = components.filter(c => c.css || c.html || c.js).length;
   const withInstructions = components.filter(c => c.instructions).length;
+  const withCSS = components.filter(c => c.css).length;
+  const withHTML = components.filter(c => c.html).length;
+  const withJS = components.filter(c => c.js).length;
   console.log(`\n📊 Stats:`);
   console.log(`   With code: ${withCode}/${components.length}`);
+  console.log(`   With CSS: ${withCSS}/${components.length}`);
+  console.log(`   With HTML: ${withHTML}/${components.length}`);
+  console.log(`   With JS: ${withJS}/${components.length}`);
   console.log(`   With instructions: ${withInstructions}/${components.length}`);
   console.log(`   Status breakdown:`);
 
