@@ -1,0 +1,1396 @@
+[
+  {
+    "id": "button-gradient-background",
+    "name": "Button: Gradient Background",
+    "slug": "button-gradient-background",
+    "category": "Buttons",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Done",
+    "previewUrl": "https://app.automaticsales.ai/v2/preview/UY2jkSGyIeof7hCsQUWB?notrack=true",
+    "description": null,
+    "html": null,
+    "css": ".c-button button {\n    position: relative;\n    background: linear-gradient(86.61deg, #7F37FD 6.68%, #F40DE7 94.28%); /* 这里换颜色和参数 */\n}",
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "button-icon-float-right",
+    "name": "Button: Icon Float Right",
+    "slug": "button-icon-float-right",
+    "category": "Buttons",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Done",
+    "previewUrl": "https://app.automaticsales.ai/v2/preview/gpCO7gjiSoLgqraIsEeI?notrack=true",
+    "description": null,
+    "html": null,
+    "css": "/* BUTTON FLOAT RIGHT */\n.button-icon-float-right .button-icon-start {\n    display: none !important;\n}\n\n.button-icon-float-right .button-icon-end {\n    position: absolute;\n    right: 30px;\n    top: 50%;\n    transform: translateY(-50%);\n}\n\n.button-icon-float-right .main-heading-button {\n    width: 80% !important;\n    display: block !important;\n    margin: 0 auto;\n}\n\n/* RESPONSIVE */\n@media screen and (max-width:767px) {\n .button-icon-float-right .main-heading-button {\n  width: 100% !important;\n }\n.button-icon-float-right .button-icon-end {\n  right: 20px;\n}\n}",
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "background-hover-box",
+    "name": "Background Hover Box",
+    "slug": "background-hover-box",
+    "category": "Hover Effects",
+    "tags": [],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Planning",
+    "previewUrl": null,
+    "description": null,
+    "html": null,
+    "css": "",
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "ghl-style-and-responsive-classes",
+    "name": "GHL Style and Responsive Classes",
+    "slug": "ghl-style-and-responsive-classes",
+    "category": "Other",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Planning",
+    "previewUrl": "https://app.automaticsales.ai/v2/preview/aahZZN4Geqp0Ym6ShnC7",
+    "description": null,
+    "html": null,
+    "css": ".text-decoration-none {\n    text-decoration: none;\n}\n\n@media screen and (max-width:767px) {\n    .c-section.mw-90 {\n        max-width: 90%;\n    }\n\n    .c-section.p-0,\n    body .c-row.p-0,\n    body .c-column>.p-0,\n    .p-0 {\n        padding: 0rem !important;\n    }\n\n    .c-section.p-1,\n    body .c-row.p-1,\n    body .c-column>.p-1,\n    .p-1 {\n        padding: 1rem !important;\n    }\n\n    .c-section.p-2,\n    body .c-row.p-2,\n    body .c-column>.p-2,\n    .p-2 {\n        padding: 2rem !important;\n    }\n\n    .c-section.p-3,\n    body .c-row.p-3,\n    body .c-column>.p-3,\n    .p-3 {\n        padding: 3rem !important;\n    }\n\n    .c-section.p-y-1,\n    body .c-row.p-y-1,\n    body .c-column>.p-y-1,\n    .p-y-1 {\n        padding-top: 1rem !important;\n        padding-bottom: 1rem !important;\n    }\n\n    .c-section.p-y-2,\n    body .c-row.p-y-2,\n    body .c-column>.p-y-2,\n    .p-y-2 {\n        padding-top: 2rem !important;\n        padding-bottom: 2rem !important;\n    }\n\n    .c-section.p-y-3,\n    body .c-row.p-y-3,\n    body .c-column>.p-y-3,\n    .p-y-3 {\n        padding-top: 3rem !important;\n        padding-bottom: 3rem !important;\n    }\n\n    .c-section.p-x-0,\n    body .c-row.p-x-0,\n    body .c-column .p-x-0,\n    .p-x-0 {\n        padding-left: 0rem !important;\n        padding-right: 0rem !important;\n    }\n\n    .c-section.p-x-1,\n    body .c-row.p-x-1,\n    body .c-column .p-x-1,\n    .p-x-1 {\n        padding-left: 1rem !important;\n        padding-right: 1rem !important;\n    }\n\n    .c-section.p-x-2,\n    body .c-row.p-x-2,\n    body .c-column>.p-x-2,\n    .p-x-2 {\n        padding-left: 2rem !important;\n        padding-right: 2rem !important;\n    }\n\n    .c-section.p-x-3,\n    body .c-row.p-x-3,\n    body .c-column>.p-x-3,\n    .p-x-3 {\n        padding-left: 3rem !important;\n        padding-right: 3rem !important;\n    }\n\n    .c-section.m-1,\n    body .c-row.m-1,\n    body .c-column>.m-1,\n    .m-1 {\n        margin: 1rem !important;\n    }\n\n    .c-section.m-2,\n    body .c-row.m-2,\n    body .c-column>.m-2,\n    .m-2 {\n        margin: 2rem !important;\n    }\n\n    .c-section.m-3,\n    body .c-row.m-3,\n    body .c-column>.m-3,\n    .m-3 {\n        margin: 3rem !important;\n    }\n\n    .c-section.mb-0,\n    body .c-row.mb-0,\n    body .c-column>.mb-0,\n    .mb-0 {\n        margin-bottom: 0rem !important;\n    }\n\n    .c-section.mb-1,\n    body .c-row.mb-1,\n    body .c-column>.mb-1,\n    .mb-1 {\n        margin-bottom: 1rem !important;\n    }\n\n    .c-section.mb-2,\n    body .c-row.mb-2,\n    body .c-column>.mb-2,\n    .mb-2 {\n        margin-bottom: 2rem !important;\n    }\n\n    .c-section.mb-3,\n    body .c-row.mb-3,\n    body .c-column>.mb-3,\n    .mb-3 {\n        margin-bottom: 3rem !important;\n    }\n\n    .c-section.mt-0,\n    body .c-row.mt-0,\n    body .c-column>.mt-0,\n    .mt-0 {\n        margin-top: 0rem !important;\n    }\n\n    .c-section.mt-1,\n    body .c-row.mt-1,\n    body .c-column>.mt-1,\n    .mt-1 {\n        margin-top: 1rem !important;\n    }\n\n    .c-section.mt-2,\n    body .c-row.mt-2,\n    body .c-column>.mt-2,\n    .mt-2 {\n        margin-top: 2rem !important;\n    }\n\n    .c-section.mt-3,\n    body .c-row.mt-3,\n    body .c-column>.mt-3,\n    .mt-3 {\n        margin-top: 3rem !important;\n    }\n\n    .c-section.pb-0,\n    body .c-row.pb-0,\n    body .c-column>.pb-0,\n    .pb-0 {\n        padding-bottom: 0rem !important;\n    }\n\n    .c-section.pb-1,\n    body .c-row.pb-1,\n    body .c-column>.pb-1,\n    .pb-1 {\n        padding-bottom: 1rem !important;\n    }\n\n    .c-section.pb-2,\n    body .c-row.pb-2,\n    body .c-column>.pb-2,\n    .pb-2 {\n        padding-bottom: 2rem !important;\n    }\n\n    .c-section.pb-3,\n    body .c-row.pb-3,\n    body .c-column>.pb-3,\n    .pb-3 {\n        padding-bottom: 3rem !important;\n    }\n\n    .c-section.pt-0,\n    body .c-row.pt-0,\n    body .c-column>.pt-0,\n    .pt-0 {\n        padding-top: 0rem !important;\n    }\n\n    .c-section.pt-1,\n    body .c-row.pt-1,\n    body .c-column>.pt-1,\n    .pt-1 {\n        padding-top: 1rem !important;\n    }\n\n    .c-section.pt-2,\n    body .c-row.pt-2,\n    body .c-column>.pt-2,\n    .pt-2 {\n        padding-top: 2rem !important;\n    }\n\n    .c-section.pt-3,\n    body .c-row.pt-3,\n    body .c-column>.pt-3,\n    .pt-3 {\n        padding-top: 3rem !important;\n    }\n\n    .mb-text-center {\n        text-align: center !important;\n    }\n\n    .mb-text-left {\n        text-align: left !important;\n    }\n\n    .btn-center {\n        margin-left: auto;\n        margin-right: auto;\n        display: block;\n    }\n}",
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "sample",
+    "name": "Sample",
+    "slug": "sample",
+    "category": "Other",
+    "tags": [],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Planning",
+    "previewUrl": null,
+    "description": null,
+    "html": null,
+    "css": null,
+    "js": null,
+    "instructions": null
+  },
+  {
+    "id": "gradient-button-with-grow-effect-on-hover",
+    "name": "Gradient Button with Grow Effect on Hover",
+    "slug": "gradient-button-with-grow-effect-on-hover",
+    "category": "Buttons",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "CF1.0"
+    ],
+    "status": "Planning",
+    "previewUrl": null,
+    "description": null,
+    "html": null,
+    "css": ".elButton {\n\t-webkit-box-shadow: 0px 2px 18px -1px rgba(208,31,74,1);\n\t-moz-box-shadow: 0px 2px 18px -1px rgba(208,31,74,1);\n\tbox-shadow: 0px 2px 18px -1px rgba(208,31,74,1);\n\t-webkit-transition: all .2s ease;\n\t-o-transition: all .2s ease;\n\ttransition: all .2s ease;\n\tbackground-image: linear-gradient(to right, #EB3349 0%, #F45C43 51%, #EB3349 100%) !important;\n\tbackground-position: left center !important;\n\tbackground-size: 200% auto !important;\n}\n\n.elButton:hover {\n\t-webkit-transform: scale(1.1);\n\t-ms-transform: scale(1.1);\n\ttransform: scale(1.1);\n\tbackground-position: right center !important; \n\tbox-shadow: none !important;\n}",
+    "js": null,
+    "instructions": null
+  },
+  {
+    "id": "custom-icon-on-button",
+    "name": "Custom icon on button",
+    "slug": "custom-icon-on-button",
+    "category": "Buttons",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Planning",
+    "previewUrl": null,
+    "description": null,
+    "html": null,
+    "css": "asdada",
+    "js": null,
+    "instructions": "- Add CSS Custom Class to the button\n\n![Untitled](Custom%20icon%20on%20button/Untitled.png)\n\n- Add the script….. bla bla bla"
+  },
+  {
+    "id": "multiple-popup-in-ghl",
+    "name": "Multiple Popup in GHL",
+    "slug": "multiple-popup-in-ghl",
+    "category": "Video",
+    "tags": [
+      "JS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Done",
+    "previewUrl": null,
+    "description": null,
+    "html": "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js\" integrity=\"sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>\n<script>\n  $(document).ready(function () {\n    $('.pop-row').hide();\n\n    let popItem = $('.c-image');\n    let popButton = $('.pop-button').parent();\n\n    $(popButton).on('click', function (e) {\n      e.preventDefault();\n      e.stopPropagation();\n\n      $('.pop-row').hide();\n\n      hRef = $(this).attr('id');\n      $('.'+ hRef).show();\n\n      console.log('.'+ hRef);\n    });\n\n    $(popItem).on('click', function (e) {\n      e.preventDefault();\n      e.stopPropagation();\n\n      $('.pop-row').hide();\n        \n      hRef = $(this).attr('id');\n      $('.'+ hRef).show();\n\n      console.log('.'+ hRef);\n    });\n    \n    // Show exit intent popup\n    $(document).on('mouseleave', function (e) {\n      if (e.clientY < 50) { // Trigger when the cursor leaves the page (exit intent)\n        $('.pop-row').hide(); // Hide all pop-ups\n        $('.exit-popup').show(); // Show the exit intent popup\n      }\n    });\n  });\n</script>",
+    "css": null,
+    "js": null,
+    "instructions": "***Add the script below and paste it in a Code Block. Place it in the very bottom part*\n\nIf popup trigger is a image:**\n\n1. Set Action of the Image to “Open popup”.\n\n![Untitled](Multiple%20Popup%20in%20GHL/Untitled.png)\n\n1. Copy the ID of the image you wish to be a trigger of the popup (*not including the “#”*).\n\n![Untitled](Multiple%20Popup%20in%20GHL/Untitled%201.png)\n\n1. Open popup settings, then paste the **Image ID** copied as a class of the row you have added\n2. Add class “pop-row” for each row inside the popup.\n\n![Untitled](Multiple%20Popup%20in%20GHL/Untitled%202.png)\n\n![Untitled](Multiple%20Popup%20in%20GHL/Untitled%203.png)\n\n**If popup trigger is a button:**\n\n1. Set action of the button to “”Open Popup”.\n2. Add class “pop-button”.\n3. Copy the Id of the button.\n4. Paste the copied Id of the button as a Class of the row in the popup.\n\n>"
+  },
+  {
+    "id": "order-bump-checkbox-bind-button-single-order-bump",
+    "name": "[Order Bump] Checkbox bind Button Single Order Bump",
+    "slug": "order-bump-checkbox-bind-button-single-order-bump",
+    "category": "Buttons",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Planning",
+    "previewUrl": "LifeDNA",
+    "description": null,
+    "html": null,
+    "css": "/* add Guide and order checkbox custom */\n.order-bump-container .main-section {\n    display: none;\n}\n\n.add-option-btn {\n    max-width: 160px;\n    width: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    margin: 0 auto;\n}\n\n.add-option-btn.option-added {\n    background-color: #baf1ca;\n    border-color: rgb(0, 153, 0);\n    color: rgb(0, 153, 0);\n    transition: all 0.3s ease;\n}\n\n.add-option-btn.option-added:hover {\n    background-color: #e43b2c;\n    border-color: #e43b2c;\n    color: #ffffff;\n}\n\n.add-option-btn .main-heading-group {\n    display: flex !important;\n    align-items: center;\n    justify-content: center;\n}\n\n.add-option-btn .button-icon-start {\n    order: 2;\n}\n\n.add-option-btn.option-added:hover .button-icon-start {\n    display: none;\n}\n\n.add-option-btn .main-heading-button {\n    order: 3;\n}\n\n.add-option-btn .button-icon-end {\n    order: 1;\n    display: none;\n    margin-left: 0;\n    margin-right: 5px;\n}\n\n.add-option-btn.option-added:hover .button-icon-end {\n    display: block;\n}\n\n.add-option-btn.option-added:hover .main-heading-button {\n    font-size: 0;\n}\n\n.add-option-btn.option-added .main-heading-button::before {\n    content: 'REMOVE';\n    font-size: 0;\n}\n\n.add-option-btn.option-added:hover .main-heading-button::before {\n    font-size: 20px;\n}",
+    "js": null,
+    "instructions": "(embed video here)\n\n1. Add custom class to your desired button and name it “add-option-btn”\n\n![Untitled](%5BOrder%20Bump%5D%20Checkbox%20bind%20Button%20Single%20Order%20Bum/Untitled.png)\n\n1. Modify button actions to “Website URL” and input the ID of the checkout form. ID of the form can be found when we inspect element the checkout form.\n\n![Untitled](%5BOrder%20Bump%5D%20Checkbox%20bind%20Button%20Single%20Order%20Bum/Untitled%201.png)\n\n![Untitled](%5BOrder%20Bump%5D%20Checkbox%20bind%20Button%20Single%20Order%20Bum/Untitled%202.png)\n\n1. Add the custom styles in Custom CSS\n\n![Untitled](%5BOrder%20Bump%5D%20Checkbox%20bind%20Button%20Single%20Order%20Bum/Untitled%203.png)\n\n1. Add the script in Footer Tracking Code.\n\n![Untitled](%5BOrder%20Bump%5D%20Checkbox%20bind%20Button%20Single%20Order%20Bum/Untitled%204.png)\n\n![Untitled](%5BOrder%20Bump%5D%20Checkbox%20bind%20Button%20Single%20Order%20Bum/Untitled%205.png)\n\n>"
+  },
+  {
+    "id": "highlight-text-box",
+    "name": "Highlight Text Box",
+    "slug": "highlight-text-box",
+    "category": "Text & Labels",
+    "tags": [],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Planning",
+    "previewUrl": null,
+    "description": null,
+    "html": null,
+    "css": "",
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "order-bump-interactive-type-1-extra-add-remove-button-outside-order-bump-form",
+    "name": "[Order Bump] Interactive Type 1 - Extra Add/Remove Button OUTSIDE Order Bump Form",
+    "slug": "order-bump-interactive-type-1-extra-add-remove-button-outside-order-bump-form",
+    "category": "Buttons",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "AS",
+      "GHL"
+    ],
+    "status": "Review",
+    "previewUrl": "https://app.automaticsales.ai/v2/preview/QbWbQolL4Do3ZliogcLi",
+    "description": null,
+    "html": null,
+    "css": "/**************************\n* Copyright 2024 Jackson Yew, All Rights Reserved\n* Do not share, or distribute this code without author's consent.\n* This copyright notice must remain in place whenever using\n* this code - DO NOT REMOVE\n* Author: Jackson Yew\n* Website: https://jacksonyew.com\n* This script is provided as-is.\n* Custom Bump Section\n* Last Updated: 25/01/2024\n**************************/\n\n/* remove the comment below if you want to hide the default Order Bump Form */\n/* .order-bump-container .main-section { \n    display: none;\n} */\n\n.add-option-btn {\n    max-width: 160px;\n    width: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    margin: 0 auto;\n}\n\n.add-option-btn.option-added {\n    background-color: #baf1ca;\n    border-color: rgb(0, 153, 0);\n    color: rgb(0, 153, 0);\n    transition: all 0.3s ease;\n}\n\n.add-option-btn.option-added:hover {\n    background-color: #e43b2c;\n    border-color: #e43b2c;\n    color: #ffffff;\n}\n\n.add-option-btn .main-heading-group {\n    display: flex !important;\n    align-items: center;\n    justify-content: center;\n}\n\n.add-option-btn .button-icon-start {\n    order: 2;\n}\n\n.add-option-btn.option-added:hover .button-icon-start {\n    display: none;\n}\n\n.add-option-btn .main-heading-button {\n    order: 3;\n}\n\n.add-option-btn .button-icon-end {\n    order: 1;\n    display: none;\n    margin-left: 0;\n    margin-right: 5px;\n}\n\n.add-option-btn.option-added:hover .button-icon-end {\n    display: block;\n}\n\n.add-option-btn.option-added:hover .main-heading-button {\n    font-size: 0;\n}\n\n.add-option-btn.option-added .main-heading-button::before {\n    content: 'REMOVE';\n    font-size: 0;\n}\n\n.add-option-btn.option-added:hover .main-heading-button::before {\n    font-size: 20px;\n}",
+    "js": null,
+    "instructions": "1. Add the Javascript inside the footer tracking code. \n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled.png)\n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled%201.png)\n\n1. Add the Styles in Custom CSS.\n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled%202.png)\n\n1. Modify button actions to “Website URL” and input the ID of the checkout form. ID of the form can be found when we inspect element the checkout form.\n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled%203.png)\n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled%204.png)\n\n1. In Button Settings, go to “Advance” then look for “Custom Class” field and add the class name “add-option-btn”.\n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled%205.png)"
+  },
+  {
+    "id": "custom-flashlight-cursor-effect-not-working-100-perfect-yet",
+    "name": "Custom Flashlight Cursor Effect (not working 100% perfect yet)",
+    "slug": "custom-flashlight-cursor-effect-not-working-100-perfect-yet",
+    "category": "Other",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "In progress",
+    "previewUrl": null,
+    "description": null,
+    "html": "<span id=\"circle\" class=\"circle\"></span>\n\n<style>\n.circle {\n\tposition: fixed;\n  border: solid 1px #f00;\n\twidth: 60px; \n\theight: 60px; \n  border-radius: 50%;  \n}\n</style>\n\n<script src=\"https://code.jquery.com/jquery-3.7.0.slim.min.js\" integrity=\"sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=\" crossorigin=\"anonymous\"></script><script>\njQuery(document).ready(function() {\n\n  var mouseX = 0, mouseY = 0;\n  var xp = 0, yp = 0;\n   \n  $(document).mousemove(function(e){\n    mouseX = e.pageX - 30;\n    mouseY = e.pageY - 30; \n  });\n    \n  setInterval(function(){\n    xp += ((mouseX - xp)/6);\n    yp += ((mouseY - yp)/6);\n    $(\"#circle\").css({left: xp +'px', top: yp +'px'});\n  }, 20);\n\n});\n</script>",
+    "css": null,
+    "js": null,
+    "instructions": "(embed video here)"
+  },
+  {
+    "id": "colored-square-shape-behind-image",
+    "name": "Colored Square Shape Behind Image",
+    "slug": "colored-square-shape-behind-image",
+    "category": "Other",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "CF1.0",
+      "GHL"
+    ],
+    "status": "Planning",
+    "previewUrl": null,
+    "description": null,
+    "html": null,
+    "css": "",
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "custom-bullet-list-icon",
+    "name": "Custom Bullet List Icon",
+    "slug": "custom-bullet-list-icon",
+    "category": "Text & Labels",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Review",
+    "previewUrl": "https://app.funnelbuild.io/v2/preview/8Tkwy6IgjQdShJjNLwZy?notrack=true/#section-D8hLyN6OwF",
+    "description": null,
+    "html": null,
+    "css": "Once you are done grabbing the custom icon from design, upload it on GHL then do the following: \n\n**1.** First, add the bullet list element and choose any random icon from the choices.\n\n**2.** And then, add a custom class on the bullet list element, for this sample I did use: \n**redcross-list\n\n3**. Lastly, add this on your CSS code, make sure to put comment label so that it's easy to navigate:\n\n.c-bullet-list .redcross-list ul{\n    padding: 0 !important;\n}\n.c-bullet-list .redcross-list ul li::marker { /* this is to hide the default icon*/\n    color: transparent !important;\n    font-size: 8px !important;\n}\n.c-bullet-list .redcross-list ul li {\n    position: relative;\n    padding-left: 40px !important;\n    padding-top: 10px;\n    padding-bottom: 10px;\n}\n.c-bullet-list .redcross-list ul li::before {\n    content: \"\";\n    position: absolute;\n    left: 0 !important;\n    width: 24px; /* change this value whatever the width of your custom icon has */\n    height: 25px; /* change this value whatever the height of your custom icon has */\n    margin: 0 !important;\n    top: 13px;\n    background-image: url('https://storage.googleapis.com/msgsndr/Ng3W3Gk7jDA6Yhj8i16z/media/64e765fccee95e7259a2d7c7.png');\n    background-size: contain;\n    background-repeat: no-repeat;\n}",
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "order-bump-interactive-type-3-green-box-order-bump",
+    "name": "[Order Bump] Interactive Type 3 - Green Box Order Bump",
+    "slug": "order-bump-interactive-type-3-green-box-order-bump",
+    "category": "Order Bumps",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Done",
+    "previewUrl": "https://app.automaticsales.ai/v2/preview/oAJoAexj1V9ydBdlQC3Q?notrack=true",
+    "description": null,
+    "html": null,
+    "css": "/**************************\n* Copyright 2024 Jackson Yew, All Rights Reserved\n* Do not share, or distribute this code without author's consent.\n* This copyright notice must remain in place whenever using\n* this code - DO NOT REMOVE\n* Author: Jackson Yew\n* Website: https://jacksonyew.com\n* This script is provided as-is.\n* Custom Bump Section\n* Last Updated: 25/01/2024\n**************************/\n\n/* remove the comment below if you want to hide the default Order Bump Form */\n/* .order-bump-container .main-section { \n    display: none;\n} */\n\n.add-option-btn {\n    max-width: 160px;\n    width: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    margin: 0 auto;\n}\n\n.add-option-btn.option-added {\n    background-color: #baf1ca;\n    border-color: rgb(0, 153, 0);\n    color: rgb(0, 153, 0);\n    transition: all 0.3s ease;\n}\n\n.add-option-btn.option-added:hover {\n    background-color: #e43b2c;\n    border-color: #e43b2c;\n    color: #ffffff;\n}\n\n.add-option-btn .main-heading-group {\n    display: flex !important;\n    align-items: center;\n    justify-content: center;\n}\n\n.add-option-btn .button-icon-start {\n    order: 2;\n}\n\n.add-option-btn.option-added:hover .button-icon-start {\n    display: none;\n}\n\n.add-option-btn .main-heading-button {\n    order: 3;\n}\n\n.add-option-btn .button-icon-end {\n    order: 1;\n    display: none;\n    margin-left: 0;\n    margin-right: 5px;\n}\n\n.add-option-btn.option-added:hover .button-icon-end {\n    display: block;\n}\n\n.add-option-btn.option-added:hover .main-heading-button {\n    font-size: 0;\n}\n\n.add-option-btn.option-added .main-heading-button::before {\n    content: 'REMOVE';\n    font-size: 0;\n}\n\n.add-option-btn.option-added:hover .main-heading-button::before {\n    font-size: 20px;\n}",
+    "js": null,
+    "instructions": "1. Add the Javascript inside the footer tracking code. \n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled.png)\n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled%201.png)\n\n1. Add the Styles in Custom CSS.\n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled%202.png)\n\n1. Modify button actions to “Website URL” and input the ID of the checkout form. ID of the form can be found when we inspect element the checkout form.\n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled%203.png)\n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled%204.png)\n\n1. In Button Settings, go to “Advance” then look for “Custom Class” field and add the class name “add-option-btn”.\n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled%205.png)"
+  },
+  {
+    "id": "button-hover-1-moving-icon-on-hover",
+    "name": "Button Hover #1: Moving Icon on Hover",
+    "slug": "button-hover-1-moving-icon-on-hover",
+    "category": "Buttons",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "CF1.0"
+    ],
+    "status": "In progress",
+    "previewUrl": null,
+    "description": null,
+    "html": null,
+    "css": "[data-title*='button'] .elButton .elButtonMain i::before {\n    -webkit-transform: translateZ(0);\n    transform: translateZ(0);\n    position: absolute;\n    left: -25px;\n    padding: 0;\n    top: 0;\n}\n[data-title*='button'] .elButton:hover .elButtonMain i:before, \n[data-title*='button'] .elButton:focus .elButtonMain i:before, \n[data-title*='button'] .elButton:active .elButtonMain i:before {\n  -webkit-animation-name: hvr-icon-wobble-horizontal;\n  animation-name: hvr-icon-wobble-horizontal;\n  -webkit-animation-duration: 1s;\n  animation-duration: 1s;\n  -webkit-animation-timing-function: ease-in-out;\n  animation-timing-function: ease-in-out;\n  -webkit-animation-iteration-count: 1;\n  animation-iteration-count: 1;\n}\n\n/* Icon Wobble Horizontal */\n@-webkit-keyframes hvr-icon-wobble-horizontal {\n  16.65% {\n    -webkit-transform: translateX(6px);\n    transform: translateX(6px);\n  }\n\n  33.3% {\n    -webkit-transform: translateX(-5px);\n    transform: translateX(-5px);\n  }\n\n  49.95% {\n    -webkit-transform: translateX(4px);\n    transform: translateX(4px);\n  }\n\n  66.6% {\n    -webkit-transform: translateX(-2px);\n    transform: translateX(-2px);\n  }\n\n  83.25% {\n    -webkit-transform: translateX(1px);\n    transform: translateX(1px);\n  }\n\n  100% {\n    -webkit-transform: translateX(0);\n    transform: translateX(0);\n  }\n}\n\n@keyframes hvr-icon-wobble-horizontal {\n  16.65% {\n    -webkit-transform: translateX(6px);\n    transform: translateX(6px);\n  }\n\n  33.3% {\n    -webkit-transform: translateX(-5px);\n    transform: translateX(-5px);\n  }\n\n  49.95% {\n    -webkit-transform: translateX(4px);\n    transform: translateX(4px);\n  }\n\n  66.6% {\n    -webkit-transform: translateX(-2px);\n    transform: translateX(-2px);\n  }\n\n  83.25% {\n    -webkit-transform: translateX(1px);\n    transform: translateX(1px);\n  }\n\n  100% {\n    -webkit-transform: translateX(0);\n    transform: translateX(0);\n  }\n}",
+    "js": null,
+    "instructions": "(embed video here)"
+  },
+  {
+    "id": "button-hover-2-gradient-button-icon-with-grow-effect-on-hover",
+    "name": "Button Hover #2: Gradient Button+Icon with Grow Effect on Hover",
+    "slug": "button-hover-2-gradient-button-icon-with-grow-effect-on-hover",
+    "category": "Buttons",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "CF1.0"
+    ],
+    "status": "In progress",
+    "previewUrl": "https://preview.funnelduo.com/optin1587915407998",
+    "description": null,
+    "html": null,
+    "css": "[data-title='button'] .elButton{\n  padding: 15px 80px !important;\n  position: relative;\n  will-change: transform, filter;\n  -webkit-transform-style: preserve-3d;\n  transform-style: preserve-3d;\n  -webkit-transition: all 0.3s ease-out;\n  transition: all 0.3s ease-out;\n  background: #fa6c9f;\n  background: -webkit-gradient(linear, left top, right top, from(#fa6c9f), color-stop(80%, #ffe140), to(#ffe140));\n  background: linear-gradient(to right, #ee7d19 0%, #fb6a00 80%, #e1ce2e 100%)\n}\n[data-title='button'] .elButton:hover {\n    -webkit-transform: scale(1.04);\n    transform: scale(1.04);\n    -webkit-filter: brightness(1.05) contrast(1.05);\n    filter: brightness(1.05) contrast(1.05);\n    -webkit-transform: scale(1.05);\n    transform: scale(1.05);\n}\n[data-title='button'] .elButton:before { \n  \tcontent:'';\n  \tcontent: '';\n\tdisplay: inline-block;\n\theight: 40px;\n  \twidth:100%;\n\tposition: absolute;\n\t-webkit-filter: blur(20px) brightness(0.95);\n\tfilter: blur(20px) brightness(0.95);\n\t-webkit-transform-style: preserve-3d;\n\ttransform-style: preserve-3d;\n\t-webkit-transition: all 0.3s ease-out;\n\ttransition: all 0.3s ease-out;\n  \tbackground: #fa6c9f;\n\tbackground: -webkit-gradient(linear, left top, right top, from(#fa6c9f), color-stop(80%, #ffe140), to(#ffe140));\n\tbackground: linear-gradient(to right, #ee7d19 0%, #fb6a00 80%, #e1ce2e 100%);\n\topacity: 0;\n\tbottom: 10px;\n  \tright:0;\n}\n[data-title='button'] .elButton:hover::before {\n    bottom: -6px;\n    opacity: 0.5;\n    -webkit-filter: blur(20px);\n    filter: blur(11px);\n}\n[data-title='button'] .elButton i {\n    -webkit-transform: translateZ(0);\n    transform: translateZ(0);\n    -webkit-transition-duration: 0.3s;\n    transition-duration: 0.3s;\n    -webkit-transition-property: transform;\n    transition-property: transform;\n    -webkit-transition-timing-function: ease-out;\n    transition-timing-function: ease-out;\n}\n[data-title='button'] .elButton:hover i {\n    -webkit-transform: scale(1.5) rotate(12deg);\n    transform: scale(1.5) rotate(12deg);\n}",
+    "js": null,
+    "instructions": "(embed video here)"
+  },
+  {
+    "id": "video-play-button-pulse-1",
+    "name": "Video Play Button Pulse #1",
+    "slug": "video-play-button-pulse-1",
+    "category": "Buttons",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "CF1.0"
+    ],
+    "status": "Planning",
+    "previewUrl": "https://preview.funnelduo.com/optin1587915407998",
+    "description": null,
+    "html": null,
+    "css": "",
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "faq-toggle",
+    "name": "FAQ Toggle",
+    "slug": "faq-toggle",
+    "category": "FAQ",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "CF1.0"
+    ],
+    "status": "Planning",
+    "previewUrl": null,
+    "description": null,
+    "html": null,
+    "css": "/* Section FAQ */\n.clickfunnels-com [data-title='Section FAQ'] [data-title='faq-accord-question'] {\n    border: 0 !important;\n    border-radius: 20px;\n    padding: 5px 20px;\n    position: relative;\n    z-index: 99;\n    margin-bottom: -25px;\n    background-color: #fff !important;\n    box-shadow: -6px 6px 20px rgba(0, 0, 0, 0.09);\n    height: 92px;\n    display: flex;\n    align-items: center;\n}\n.clickfunnels-com [data-title='Section FAQ'] [data-title='faq-accord-question'] .elHeadline {\n    padding-right: 40px !important;\n}\n.clickfunnels-com [data-title='Section FAQ'] [data-title='faq-accord-answer'] {\n    margin: 0 !important;\n    padding: 0 35px 0 !important;\n    background: #F4F4F4;\n    border-radius: 0 0 20px 20px;\n    position: relative;\n    z-index: 9;\n    transition: all 0.3s ease;\n    height: 0;\n    overflow: hidden;\n    display: block !important;\n    opacity: 0 !important;\n}\n.clickfunnels-com [data-title='Section FAQ'] [data-title='faq-accord-answer'].open {\n    height: 100%;\n    opacity: 1 !important;\n    padding: 50px 35px 30px !important;\n}\n.clickfunnels-com [data-title='Section FAQ'] [data-title='faq-accord-question'] i {\n    color: #6a9a37 !important;\n    font-size: 35px;\n    transition: all 0.3s ease;\n}",
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "faq-accordion",
+    "name": "FAQ Accordion",
+    "slug": "faq-accordion",
+    "category": "FAQ",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "CF1.0"
+    ],
+    "status": "Planning",
+    "previewUrl": null,
+    "description": null,
+    "html": null,
+    "css": "/* FAQ */\n.clickfunnels-com [data-title*='Section FAQ'] [data-title*='faq-accord-question'] {\n    border: 1px solid rgba(0, 0, 0, 0.1) !important;\n    border-radius: 0;\n    padding: 5px 20px;\n    position: relative;\n    z-index: 99;\n    margin-bottom: -25px;\n    background-color: #fff;\n    box-shadow: -6px 6px 20px rgba(0, 0, 0, 0.09);\n    height: auto;\n    display: flex;\n    align-items: center;\n}\n\n.clickfunnels-com [data-title*='Section FAQ'] [data-title*='faq-accord-question'] h1 {\n    color: #1A1E39 !important;\n}\n\n.clickfunnels-com [data-title*='Section FAQ'] .active[data-title*='faq-accord-question'] {\n    background-color: #000;\n}\n\n.clickfunnels-com [data-title*='Section FAQ'] .active[data-title*='faq-accord-question'] h1,\n.clickfunnels-com [data-title*='Section FAQ'] .active[data-title*='faq-accord-question'] h1 b {\n    color: #fff !important;\n}\n\n.clickfunnels-com [data-title*='Section FAQ'] [data-title*='faq-accord-question'] .elHeadline {\n    padding-right: 40px !important;\n    width: 100% !important;\n}\n\n.clickfunnels-com [data-title*='Section FAQ'] [data-title*='faq-accord-answer'] {\n    margin: 0 !important;\n    padding: 0 35px 0 !important;\n    background: #fff;\n    border-radius: 0 !important;\n    position: relative;\n    z-index: 9;\n    transition: all 0.3s ease;\n    height: 0;\n    overflow: hidden;\n    display: block !important;\n    opacity: 0 !important;\n}\n\n.clickfunnels-com [data-title*='Section FAQ'] [data-title*='faq-accord-answer'].open {\n    height: 100%;\n    opacity: 1 !important;\n    padding: 50px 55px 30px 35px !important;\n    border: 1px solid rgba(0, 0, 0, 0.1) !important;\n}\n\n.clickfunnels-com [data-title*='Section FAQ'] [data-title*='faq-accord-answer'] .elHeadline {\n    color: #000 !important;\n}\n\n.clickfunnels-com [data-title*='Section FAQ'] [data-title*='faq-accord-question'] i {\n    color: #001038 !important;\n    font-size: 20px;\n    transition: all 0.3s ease;\n}\n\n.clickfunnels-com [data-title*='Section FAQ'] .active[data-title*='faq-accord-question'] i {\n    color: #fff !important;\n}\n\n/* FAQ - END */\n\n<script>\n    $(document).ready(function () {\n        $(document).find('[data-title=\"faq-accord-question\"] > h1').css({ 'cursor': 'pointer' })\n        var accordQuest = $(document).find(\n            '[data-title=\"faq-accord-question\"] > h1'\n        );\n        var accordAns = $(document).find('[data-title=\"faq-accord-answer\"]');\n        var fontColorBase = accordQuest.css('color');\n    \n        accordQuest.each(function () {\n            $(this).css({ 'text-align': 'left', padding: '15px' });\n            $(this).after(\n                '<i style=\"cursor:pointer;color:' +\n                fontColorBase +\n                ';position: absolute;top: 50%;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);right: 20px;}\" class=\"fa_prepended fas fa-angle-right\" contenteditable=\"false\"></i>'\n            );\n\n            $(this).click(function () {\n                $('[data-title=\"faq-accord-question\"]').removeClass('active');\n                $('[data-title=\"faq-accord-answer\"]').removeClass('open');\n\n                $(this).parent().toggleClass('active');\n    \n                if ( $(this).parent().hasClass('active')) {\n                    $('[data-title=\"faq-accord-question\"]').find('i').removeClass('fas fa-angle-right').addClass('fas fa-angle-down');\n                    $(this).parent().find('i').removeClass('fas fa-angle-down').addClass('fas fa-angle-right');\n                } else {\n                    $('[data-title=\"faq-accord-question\"]').find('i').removeClass('fas fa-angle-down').addClass('fas fa-angle-right');\n                    $(this).parent().find('i').removeClass('fas fa-angle-right').addClass('fas fa-angle-down');\n                }\n                \n                $(this).parent().nextUntil('[data-title=\"faq-accord-question\"]').toggleClass('open');\n            });\n        });\n    \n    \n        accordAns.each(function () {\n            $(this).css({ 'text-align': 'left', padding: '15px' });\n        });\n        accordAns.slideUp();\n        // accordBut.eq(0).click()\n    });\n    </script>",
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "grayscale-to-colored-on-hover-image-cuts-description-box-ongoing",
+    "name": "Grayscale to Colored on Hover Image Cuts+Description Box (ongoing)",
+    "slug": "grayscale-to-colored-on-hover-image-cuts-description-box-ongoing",
+    "category": "Hover Effects",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "Elementor"
+    ],
+    "status": "Planning",
+    "previewUrl": null,
+    "description": null,
+    "html": null,
+    "css": "",
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "vimeo-autoplay-no-sound-until-click",
+    "name": "Vimeo Autoplay No Sound Until Click",
+    "slug": "vimeo-autoplay-no-sound-until-click",
+    "category": "Video",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "CF1.0"
+    ],
+    "status": "Planning",
+    "previewUrl": null,
+    "description": null,
+    "html": null,
+    "css": null,
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "elementor-dynamic-display-menu",
+    "name": "Elementor Dynamic display menu",
+    "slug": "elementor-dynamic-display-menu",
+    "category": "Navigation",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "Elementor"
+    ],
+    "status": "Planning",
+    "previewUrl": "https://stbl.io",
+    "description": null,
+    "html": null,
+    "css": "/* inside the wordpress menu module */\nselector .elementor-nav-menu {\n  display: flex !important;\n  max-height: 50px;\n  width: 200px;\n  position: relative;\n}\n\nselector .elementor-nav-menu .menu-item {\n  width: 100%;\n  background-color: #fff;\n}\n\nselector .menu-item .elementor-item {\n  max-width: max-content;\n}\n\nselector .elementor-nav-menu .menu-item.super-active-menu{\n    order: 1;\n}\n\nselector .elementor-nav-menu .menu-item:first-child {\n  order: 2;\n}\nselector .elementor-nav-menu .menu-item{\n    order: 3;\n}\n\nselector .menu-item {\n  display: none !important;\n}\n\nselector:hover .elementor-nav-menu .menu-item {\n      display: flex !important;\n}\n\nselector .menu-item.menu-item-home {\n  display: flex !important;\n  align-items: center;\n}\n\nselector .menu-item.super-active-menu {\n  display: flex !important;\n  align-items: center;\n}\n\nselector .e-n-menu-item-icon {\n  color: #949494;\n}\nselector .e-n-menu-item-icon-opened{\n    display: none;\n}\nselector .e-n-menu-item-icon-closed{\n    display: block;\n}\nselector:hover .e-n-menu-item-icon-opened{\n    display: block;\n}\nselector:hover .e-n-menu-item-icon-closed{\n    display: none;\n}\n\nselector .menu-item-home .elementor-item::before {\n  content: '\\f0d7';\n  font-family: \"Font Awesome 5 Free\";\n  font-weight: 900;\n  font-size: 12px;\n  width: var(--n-menu-item-icon-size,var(--n-menu-item-title-font-size));\n  font-style: normal;\n  font-variant: normal;\n  text-rendering: auto;\n  line-height: 1;\n  opacity: 1 !important;\n  position: absolute;\n  right: 0;\n  background: none !important;\n}\n\nselector:hover .menu-item-home .elementor-item::before{\n    content: '\\f0d8';\n}",
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "form-style-1-inner-box-shadow",
+    "name": "Form Style #1: Inner Box Shadow",
+    "slug": "form-style-1-inner-box-shadow",
+    "category": "Forms",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Planning",
+    "previewUrl": "https://automaticdesignclients.com/go1",
+    "description": null,
+    "html": null,
+    "css": "#form-builder {\n    padding-bottom: 0 !important;\n    margin: 0 !important;\n    padding-top: 20px !important;\n}\n\n#_builder-form {\n    padding: 0 !important;\n    border: 0 !important;\n    margin-bottom: 10px !important;\n}\n\n#_builder-form .extra-top-padding.fields-container.row {\n    margin-top: 0 !important;\n    padding-top: 0 !important;\n}\n\n#_builder-form input {\n    box-shadow: inset 0px 0px 7px #00000036 !important;\n}\n\n.form-builder--item.form-builder--btn-submit {\n    margin-bottom: 0 !important;\n}",
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "no-thanks-button",
+    "name": "No Thanks Button",
+    "slug": "no-thanks-button",
+    "category": "Buttons",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Review",
+    "previewUrl": "https://get.lifedna.com/blueprint-ds",
+    "description": null,
+    "html": null,
+    "css": ".c-button button.nothanks-textbtn {\n    text-decoration: underline;\n}\n\n.c-button button.nothanks-textbtn:hover {\n    transform: unset !important;\n}\n\n.c-button button.nothanks-textbtn .main-heading-button {\n    font-weight: normal !important;\n    text-decoration: underline;\n}\n\n.c-button button.nothanks-textbtn .button-icon-start, .c-button button.nothanks-textbtn .button-icon-end {\n    display: none;\n}",
+    "js": null,
+    "instructions": "(embed video here)"
+  },
+  {
+    "id": "pure-css-faq-toggle",
+    "name": "Pure CSS FAQ Toggle",
+    "slug": "pure-css-faq-toggle",
+    "category": "FAQ",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "Ontraport"
+    ],
+    "status": "In progress",
+    "previewUrl": "https://mastery.adrtimes.com/",
+    "description": null,
+    "html": null,
+    "css": "/* Section FAQ */\n.clickfunnels-com [data-title='Section FAQ'] [data-title='faq-accord-question'] {\n    border: 0 !important;\n    border-radius: 20px;\n    padding: 5px 20px;\n    position: relative;\n    z-index: 99;\n    margin-bottom: -25px;\n    background-color: #fff !important;\n    box-shadow: -6px 6px 20px rgba(0, 0, 0, 0.09);\n    height: 92px;\n    display: flex;\n    align-items: center;\n}\n.clickfunnels-com [data-title='Section FAQ'] [data-title='faq-accord-question'] .elHeadline {\n    padding-right: 40px !important;\n}\n.clickfunnels-com [data-title='Section FAQ'] [data-title='faq-accord-answer'] {\n    margin: 0 !important;\n    padding: 0 35px 0 !important;\n    background: #F4F4F4;\n    border-radius: 0 0 20px 20px;\n    position: relative;\n    z-index: 9;\n    transition: all 0.3s ease;\n    height: 0;\n    overflow: hidden;\n    display: block !important;\n    opacity: 0 !important;\n}\n.clickfunnels-com [data-title='Section FAQ'] [data-title='faq-accord-answer'].open {\n    height: 100%;\n    opacity: 1 !important;\n    padding: 50px 35px 30px !important;\n}\n.clickfunnels-com [data-title='Section FAQ'] [data-title='faq-accord-question'] i {\n    color: #6a9a37 !important;\n    font-size: 35px;\n    transition: all 0.3s ease;\n}",
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "ghl-button-classes-styling",
+    "name": "GHL Button Classes Styling",
+    "slug": "ghl-button-classes-styling",
+    "category": "Buttons",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Planning",
+    "previewUrl": null,
+    "description": null,
+    "html": null,
+    "css": "for button element styling:\n.c-button button,\n.c-button a\n\nfor order form button styling:\n.form-btn\n\nfor optin form  button styling:\n.form-builder--btn-submit button,\n.form-builder--btn-submit button p",
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "animated-shining-button-styling",
+    "name": "Animated Shining Button Styling",
+    "slug": "animated-shining-button-styling",
+    "category": "Buttons",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "Elementor",
+      "GHL",
+      "Shopify",
+      "WP"
+    ],
+    "status": "Planning",
+    "previewUrl": "https://haloprofits.com/path1",
+    "description": null,
+    "html": null,
+    "css": "/* button animation */\n:root {\n    --shine-degree: 120deg;\n    --shine-color: rgba(255, 255, 255, 0.4);\n    --shine-effect: linear-gradient(var(--shine-degree),\n            transparent,\n            var(--shine-color),\n            transparent);\n}\n\n@keyframes button-shine {\n    0% {\n        left: -200%;\n    }\n\n    100% {\n        left: 200%;\n    }\n}\n\n.shining-btn{\n\tposition: relative;\n}\n\n.shining-btn::before {\n    content: \"\";\n    position: absolute;\n    top: 0;\n    width: 100%;\n    height: 100%;\n    background: var(--shine-effect);\n    left: -200%;\n    transition: all 0.65s ease-in-out;\n    animation: button-shine 3s alternate infinite ease-in-out;\n    filter: blur(1.5rem);\n}",
+    "js": null,
+    "instructions": "(embed video here)\n\n> \n1. Add the “shining-btn” as a class of your button.\n2. Copy the CSS below and paste it in “CUSTOM CSS”"
+  },
+  {
+    "id": "sticky-header-css-js",
+    "name": "Sticky Header CSS/JS",
+    "slug": "sticky-header-css-js",
+    "category": "Navigation",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "In progress",
+    "previewUrl": "https://haloprofits.com/path1",
+    "description": null,
+    "html": null,
+    "css": null,
+    "js": null,
+    "instructions": null
+  },
+  {
+    "id": "order-bump-left-align-order-bump-image",
+    "name": "[Order Bump] Left-Align Order Bump Image",
+    "slug": "order-bump-left-align-order-bump-image",
+    "category": "Order Bumps",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "AS",
+      "GHL"
+    ],
+    "status": "Planning",
+    "previewUrl": null,
+    "description": null,
+    "html": null,
+    "css": "/*We Do not Provide Support For Custom Coding. This Template is downloaded as is.*\n*If you need assistance with Custom Coding, please consult a professional.*/\n\n/* order bump image left-aligned */\n.order-bump-container {\n    display: flex !important;\n    flex-wrap: wrap !important;\n    align-items: flex-start !important;\n}\n\n.order-bump-container .main-section {\n    width: 100% ! important;\n    order: 1 !important;\n}\n\n.order-bump-container p {\n    order: 3 !important;\n}\n\n.order-bump-container .bump--image-container {\n    order: 2 !important;\n    max-width: 40% !important;\n    margin: 12px 18px 0 0 !important;\n}\n/* order bump image left-aligned */",
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "order-bump-interactive-type-2-extra-add-remove-button-inside-order-bump-form",
+    "name": "[Order Bump] Interactive Type 2 - Extra Add/Remove Button INSIDE Order Bump Form",
+    "slug": "order-bump-interactive-type-2-extra-add-remove-button-inside-order-bump-form",
+    "category": "Buttons",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "AS",
+      "GHL"
+    ],
+    "status": "In progress",
+    "previewUrl": null,
+    "description": null,
+    "html": null,
+    "css": "/**************************\n* Copyright 2024 Jackson Yew, All Rights Reserved\n* Do not share, or distribute this code without author's consent.\n* This copyright notice must remain in place whenever using\n* this code - DO NOT REMOVE\n* Author: Jackson Yew\n* Website: https://jacksonyew.com\n* This script is provided as-is.\n* Custom Bump Section\n* Last Updated: 25/01/2024\n**************************/\n\n/* remove the comment below if you want to hide the default Order Bump Form */\n/* .order-bump-container .main-section { \n    display: none;\n} */\n\n.add-option-btn {\n    max-width: 160px;\n    width: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    margin: 0 auto;\n}\n\n.add-option-btn.option-added {\n    background-color: #baf1ca;\n    border-color: rgb(0, 153, 0);\n    color: rgb(0, 153, 0);\n    transition: all 0.3s ease;\n}\n\n.add-option-btn.option-added:hover {\n    background-color: #e43b2c;\n    border-color: #e43b2c;\n    color: #ffffff;\n}\n\n.add-option-btn .main-heading-group {\n    display: flex !important;\n    align-items: center;\n    justify-content: center;\n}\n\n.add-option-btn .button-icon-start {\n    order: 2;\n}\n\n.add-option-btn.option-added:hover .button-icon-start {\n    display: none;\n}\n\n.add-option-btn .main-heading-button {\n    order: 3;\n}\n\n.add-option-btn .button-icon-end {\n    order: 1;\n    display: none;\n    margin-left: 0;\n    margin-right: 5px;\n}\n\n.add-option-btn.option-added:hover .button-icon-end {\n    display: block;\n}\n\n.add-option-btn.option-added:hover .main-heading-button {\n    font-size: 0;\n}\n\n.add-option-btn.option-added .main-heading-button::before {\n    content: 'REMOVE';\n    font-size: 0;\n}\n\n.add-option-btn.option-added:hover .main-heading-button::before {\n    font-size: 20px;\n}",
+    "js": null,
+    "instructions": "1. Add the Javascript inside the footer tracking code. \n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled.png)\n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled%201.png)\n\n1. Add the Styles in Custom CSS.\n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled%202.png)\n\n1. Modify button actions to “Website URL” and input the ID of the checkout form. ID of the form can be found when we inspect element the checkout form.\n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled%203.png)\n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled%204.png)\n\n1. In Button Settings, go to “Advance” then look for “Custom Class” field and add the class name “add-option-btn”.\n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled%205.png)"
+  },
+  {
+    "id": "ghl-swiper-marquee-slider",
+    "name": "GHL Swiper Marquee Slider",
+    "slug": "ghl-swiper-marquee-slider",
+    "category": "Sliders",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Planning",
+    "previewUrl": null,
+    "description": null,
+    "html": null,
+    "css": "",
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "ripple-effect-animation",
+    "name": "Ripple Effect Animation",
+    "slug": "ripple-effect-animation",
+    "category": "Animations",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Planning",
+    "previewUrl": null,
+    "description": null,
+    "html": "<div class=\"circles\">\n  <div class=\"circle1\"></div>\n  <div class=\"circle2\"></div>\n  <div class=\"circle3\"></div>\n</div>",
+    "css": ".circles {\n  height: 90vmin;\n  position: relative;\n  width: 90vmin;\n}\n.circles > div {\n  animation: growAndFade 3s infinite ease-out;\n  background-color: dodgerblue;\n  border-radius: 50%;\n  height: 100%;\n  opacity: 0;\n  position: absolute;\n  width: 100%;\n}\n.circles .circle1 {\n  animation-delay: 1s;\n}\n.circles .circle2 {\n  animation-delay: 2s;\n}\n.circles .circle3 {\n  animation-delay: 3s;\n}\n\n@keyframes growAndFade {\n  0% {\n    opacity: 0.25;\n    transform: scale(0);\n  }\n  100% {\n    opacity: 0;\n    transform: scale(1);\n  }\n}\nbody {\n  align-items: center;\n  display: flex;\n  height: 100vh;\n  justify-content: center;\n  margin: 0;\n}",
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "aos-js-for-ghl",
+    "name": "AOS.js for GHL",
+    "slug": "aos-js-for-ghl",
+    "category": "Animations",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Planning",
+    "previewUrl": "https://app.automaticsales.ai/v2/preview/E4xg99kGg9H2dywsFVpV?notrack=true",
+    "description": null,
+    "html": null,
+    "css": null,
+    "js": null,
+    "instructions": null
+  },
+  {
+    "id": "reset-ghl-form-styling",
+    "name": "Reset GHL Form Styling",
+    "slug": "reset-ghl-form-styling",
+    "category": "Forms",
+    "tags": [],
+    "platforms": [
+      "AS",
+      "GHL"
+    ],
+    "status": "Review",
+    "previewUrl": null,
+    "description": null,
+    "html": null,
+    "css": "/* Form width adjustments */\ndiv#_builder-form {\nmax-width: 100% !important;width: 100% !important;\n}\n/* Form width adjustments */\nsection#form-builder > .ghl-form-wrap {\nmax-width: 100% !important;\nwidth: 100% !important;\n}\n/* Form width adjustments */\ndiv#_builder-form .field-container {\nmax-width: 100% !important;\nwidth: 100% !important;\n}\n/* Form padding adjustments */\n#_builder-form > div.extra-top-padding.fields-container.row {\npadding: 0px 0 !important;\n}",
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "logo-marquee-slider-pure-css-3-horizontal",
+    "name": "Logo Marquee Slider (Pure CSS-3) - Horizontal",
+    "slug": "logo-marquee-slider-pure-css-3-horizontal",
+    "category": "Sliders",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "CF1.0",
+      "GHL"
+    ],
+    "status": "Review",
+    "previewUrl": null,
+    "description": null,
+    "html": "<div class=\"marquee-logos\">\n    <div class=\"hero__logos-wrapper\">\n        <img loading=\"eager\" alt=\"Forbes logo\" src=\"https://images.clickfunnels.com/5a/c6342f8d034b8bbe9d3e48a3098ef6/forbes-logo5847e9aacef1014c0b5e4828.png\" class=\"hero-client-logo\">\n        <img loading=\"eager\" alt=\"Entrepreneur logo\" src=\"https://images.clickfunnels.com/30/5ccdf0f1934c109e83e68716148f51/Entrepreneur_logo.png\" class=\"hero-client-logo\">\n        <img loading=\"eager\" alt=\"CNN logo\" src=\"https://images.clickfunnels.com/a0/7369b583774b13b3d6f4b7362419ff/5842ab75a6515b1e0ad75b0b.png\" class=\"hero-client-logo\">\n        <img loading=\"eager\" alt=\"NewsCom logo\" src=\"https://images.clickfunnels.com/19/39e3dbcac04118b6ff694a5510ef41/News-com-au_logo-1.png\" class=\"hero-client-logo\">\n        <img loading=\"eager\" alt=\"DailyMirror logo\" src=\"https://images.clickfunnels.com/6c/f0e644d6fa4eae8470a5a3b9af8bdf/da8753dc03-daily-mirror-logo-daily.png\" class=\"hero-client-logo\">\n        <img loading=\"eager\" alt=\"DailyTelegraph logo\" src=\"https://images.clickfunnels.com/c5/47ee4a7af04c309308131f69527fc7/the-daily-telegraph-sydney-logo-vector-1.png\" class=\"hero-client-logo\">\n        <img loading=\"eager\" alt=\"DailyMail logo\" src=\"https://images.clickfunnels.com/04/6f8af4fe5546caba6aca353a8a8b9e/daily-mail-5847f47bcef1014c0b5e4894.png\" class=\"hero-client-logo\">\n        <img loading=\"eager\" alt=\"TheSun logo\" src=\"https://images.clickfunnels.com/cb/9455c07f50409aadf1e41aa78e018e/The_Sun.svg\" class=\"hero-client-logo\">\n        <img loading=\"eager\" alt=\"FoxNews logo\" src=\"https://images.clickfunnels.com/d9/05fc172646424aa11f2339c75f1064/pngwing.com.png\" class=\"hero-client-logo\">\n    </div>\n    <div class=\"hero__logos-wrapper\">\n        <img loading=\"eager\" alt=\"Forbes logo\" src=\"https://images.clickfunnels.com/5a/c6342f8d034b8bbe9d3e48a3098ef6/forbes-logo5847e9aacef1014c0b5e4828.png\" class=\"hero-client-logo\">\n        <img loading=\"eager\" alt=\"Entrepreneur logo\" src=\"https://images.clickfunnels.com/30/5ccdf0f1934c109e83e68716148f51/Entrepreneur_logo.png\" class=\"hero-client-logo\">\n        <img loading=\"eager\" alt=\"CNN logo\" src=\"https://images.clickfunnels.com/a0/7369b583774b13b3d6f4b7362419ff/5842ab75a6515b1e0ad75b0b.png\" class=\"hero-client-logo\">\n        <img loading=\"eager\" alt=\"NewsCom logo\" src=\"https://images.clickfunnels.com/19/39e3dbcac04118b6ff694a5510ef41/News-com-au_logo-1.png\" class=\"hero-client-logo\">\n        <img loading=\"eager\" alt=\"DailyMirror logo\" src=\"https://images.clickfunnels.com/6c/f0e644d6fa4eae8470a5a3b9af8bdf/da8753dc03-daily-mirror-logo-daily.png\" class=\"hero-client-logo\">\n        <img loading=\"eager\" alt=\"DailyTelegraph logo\" src=\"https://images.clickfunnels.com/c5/47ee4a7af04c309308131f69527fc7/the-daily-telegraph-sydney-logo-vector-1.png\" class=\"hero-client-logo\">\n        <img loading=\"eager\" alt=\"DailyMail logo\" src=\"https://images.clickfunnels.com/04/6f8af4fe5546caba6aca353a8a8b9e/daily-mail-5847f47bcef1014c0b5e4894.png\" class=\"hero-client-logo\">\n        <img loading=\"eager\" alt=\"TheSun logo\" src=\"https://images.clickfunnels.com/cb/9455c07f50409aadf1e41aa78e018e/The_Sun.svg\" class=\"hero-client-logo\">\n        <img loading=\"eager\" alt=\"FoxNews logo\" src=\"https://images.clickfunnels.com/d9/05fc172646424aa11f2339c75f1064/pngwing.com.png\" class=\"hero-client-logo\">\n    </div>\n    <div class=\"hero__logos-wrapper\">\n        <img loading=\"eager\" alt=\"Forbes logo\" src=\"https://images.clickfunnels.com/5a/c6342f8d034b8bbe9d3e48a3098ef6/forbes-logo5847e9aacef1014c0b5e4828.png\" class=\"hero-client-logo\">\n        <img loading=\"eager\" alt=\"Entrepreneur logo\" src=\"https://images.clickfunnels.com/30/5ccdf0f1934c109e83e68716148f51/Entrepreneur_logo.png\" class=\"hero-client-logo\">\n        <img loading=\"eager\" alt=\"CNN logo\" src=\"https://images.clickfunnels.com/a0/7369b583774b13b3d6f4b7362419ff/5842ab75a6515b1e0ad75b0b.png\" class=\"hero-client-logo\">\n        <img loading=\"eager\" alt=\"NewsCom logo\" src=\"https://images.clickfunnels.com/19/39e3dbcac04118b6ff694a5510ef41/News-com-au_logo-1.png\" class=\"hero-client-logo\">\n        <img loading=\"eager\" alt=\"DailyMirror logo\" src=\"https://images.clickfunnels.com/6c/f0e644d6fa4eae8470a5a3b9af8bdf/da8753dc03-daily-mirror-logo-daily.png\" class=\"hero-client-logo\">\n        <img loading=\"eager\" alt=\"DailyTelegraph logo\" src=\"https://images.clickfunnels.com/c5/47ee4a7af04c309308131f69527fc7/the-daily-telegraph-sydney-logo-vector-1.png\" class=\"hero-client-logo\">\n        <img loading=\"eager\" alt=\"DailyMail logo\" src=\"https://images.clickfunnels.com/04/6f8af4fe5546caba6aca353a8a8b9e/daily-mail-5847f47bcef1014c0b5e4894.png\" class=\"hero-client-logo\">\n        <img loading=\"eager\" alt=\"TheSun logo\" src=\"https://images.clickfunnels.com/cb/9455c07f50409aadf1e41aa78e018e/The_Sun.svg\" class=\"hero-client-logo\">\n        <img loading=\"eager\" alt=\"FoxNews logo\" src=\"https://images.clickfunnels.com/d9/05fc172646424aa11f2339c75f1064/pngwing.com.png\" class=\"hero-client-logo\">\n    </div>\n</div>",
+    "css": ".marquee-logos {\n        position: relative;\n        overflow: hidden;\n        display: flex;\n    }\n    .hero__logos-wrapper {\n        animation: marquee--move__logos 35s linear infinite;\n        display: flex;\n        white-space: nowrap;\n        will-change: transform;\n        width: 1300px;\n        gap: 15px;\n        align-items: center;\n    }\n    .marquee-logos .hero-client-logo {\n        object-fit: contain;\n        display: inline-block;\n        width: 8.625rem;\n        height: 2.375rem;\n    }\n    .marquee-logos::before {\n        content: '';\n        top: 0%;\n        bottom: 0%;\n        left: 0%;\n        right: auto;\n        position: absolute;\n        width: 2rem;\n        background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);\n        z-index: 1;\n    }\n    .marquee-logos::after {\n        content: '';\n        top: 0%;\n        bottom: 0%;\n        left: auto;\n        right: 0%;\n        position: absolute;\n        width: 2rem;\n        background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);\n        z-index: 1;\n    }\n\n    @keyframes marquee--move__logos{\n        0% {\n            transform: translateX(0%);\n        }\n        100% {\n            transform: translateX(-100%);\n        }\n    }",
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "navigation-mobile-menu",
+    "name": "Navigation Mobile Menu",
+    "slug": "navigation-mobile-menu",
+    "category": "Navigation",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "CF1.0"
+    ],
+    "status": "Planning",
+    "previewUrl": "https://preview.funnelduo.com/home1588476128293",
+    "description": null,
+    "html": null,
+    "css": "/* MOBILE MENU */\n@media screen and (max-width:769px){\n    [data-title*='Navigation'] {\n        padding: 0 !important;\n        position: absolute;\n        right: 5%;\n        top: 9%;\n    }\n\t [data-title*='Navigation'] nav {\n        -webkit-transition: right 0.5s ease;\n        -moz-transition: right 0.5s ease;\n        -ms-transition: right 0.5s ease;\n        -o-transition: right 0.5s ease;\n        transition: right 0.5s ease;\n        background: #d60000;\n        cursor: pointer;\n        height: auto;\n        right: -40rem;\n        padding: 0px !important;\n        position: absolute;\n        top: -20px;\n        width: 200px;\n        z-index: 999999999999;\n        border-radius: 0;\n        border: none;\n    }\n    [data-title*='Navigation'] nav.expanded {\n        right: 0;\n        top: -20px;\n    }\n    [data-title*='Navigation'] nav ul {\n        list-style: none;\n        margin: 0;\n        padding: 0;\n        width: 100%;\n    }\n    [data-title*='Navigation'] nav li {\n        display: block !important;\n        text-align: left;\n        padding: 0 !important;\n    }\n    [data-title*='Navigation'] nav a {\n        font-size: 14px;\n        line-height: 24px;\n        color: #fff !important;\n        padding: 5px 10px !important;\n        display: block !important;\n    }\n    [data-title*='Navigation'] nav a:hover {\n        text-decoration: none;\n        background-color: #000;\n        color: #fff !important;\n    }\n    [data-title*='Navigation'] .nav-toggle {\n        -webkit-user-select: none;\n        -moz-user-select: none;\n        user-select: none;\n        cursor: pointer;\n        height: 2rem;\n        right: 0;\n        position: absolute;\n        top: -60px;\n        width: 25px;\n        z-index: 2;\n    }\n    [data-title*='Navigation'] .nav-toggle:hover { opacity: 0.8; }\n    [data-title*='Navigation'] .nav-toggle .nav-toggle-bar,\n  \t[data-title*='Navigation'] .nav-toggle .nav-toggle-bar::after,\n    [data-title*='Navigation'] .nav-toggle .nav-toggle-bar::before {\n      position: absolute;\n      top: 50%;\n      -webkit-transform: translateY(-50%);\n      -ms-transform: translateY(-50%);\n      transform: translateY(-50%);\n      -webkit-transition: all 0.5s ease;\n      -moz-transition: all 0.5s ease;\n      -ms-transition: all 0.5s ease;\n      -o-transition: all 0.5s ease;\n      transition: all 0.5s ease;\n      background: #ffffff;\n      content: '';\n      height: 0.2rem;\n      width: 100%;\n    }\n    [data-title*='Navigation'] .nav-toggle .nav-toggle-bar { margin-top: 0; }\n    [data-title*='Navigation'] .nav-toggle .nav-toggle-bar::after { margin-top: 0.8rem; }\n    [data-title*='Navigation'] .nav-toggle .nav-toggle-bar::before { margin-top: -0.8rem; }\n    [data-title*='Navigation'] .nav-toggle.expanded .nav-toggle-bar { background: transparent; }\n    [data-title*='Navigation'] .nav-toggle.expanded .nav-toggle-bar::after,\n  \t[data-title*='Navigation'] .nav-toggle.expanded .nav-toggle-bar::before {\n      background: #ffffff;\n      margin-top: 0;\n    }\n    [data-title*='Navigation'] .nav-toggle.expanded .nav-toggle-bar::after {\n      -ms-transform: rotate(45deg);\n      -webkit-transform: rotate(45deg);\n      transform: rotate(45deg);\n    }\n    [data-title*='Navigation'] .nav-toggle.expanded .nav-toggle-bar::before {\n      -ms-transform: rotate(-45deg);\n      -webkit-transform: rotate(-45deg);\n      transform: rotate(-45deg);\n    }\n}",
+    "js": null,
+    "instructions": "(embed video here)\n\n> \n\n![Untitled](Navigation%20Mobile%20Menu/Untitled.png)\n\nAdd a the Custom JS/HTML element below navigation (see screenshot above) and paste the following:"
+  },
+  {
+    "id": "vertical-scrolling-bar-simple",
+    "name": "Vertical scrolling bar (Simple)",
+    "slug": "vertical-scrolling-bar-simple",
+    "category": "Animations",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Ready To Start",
+    "previewUrl": null,
+    "description": null,
+    "html": "<!-- to be pasted on tracking code -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js\"\n    integrity=\"sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==\"\n    crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>\n<script>\n    $(\".section-timeline\").prepend('<div class=\"timeline_progress\"><div class=\"timeline_progress-bar\"></div></div>');\n\n    //check if the element is in viewport\n    $.fn.isInViewport = function () {\n        var elementTop = $(this).offset().top;\n\n        var elementBottom = elementTop + $(this).outerHeight() / 2;\n\n        var viewportTop = $(window).scrollTop();\n\n        var viewportHalf = viewportTop + $(window).height() / 2;\n\n        return elementBottom > viewportTop && elementTop < viewportHalf;\n    };\n\n    //increase target element opacity execution\n    // the \".timeline-row\" is the class of the element where we are applying the opacity effect\n    $(window).on('load resize scroll', function () {\n        $('.timeline-row').each(function () {\n\n            if ($(this).isInViewport()) {\n                $(this).css('opacity', 1)\n            } else {\n                $(this).css('opacity', 0.25);\n            }\n            \n        });\n    });\n</script>",
+    "css": ".timeline-row {\n    opacity: 0.3;\n    transition: all 0.3s ease;\n}\n\n.timeline-row .sticky-top > .inner {\n    height: auto;\n    position: sticky;\n    top: 48%;\n}\n\n.timeline-title {\n    max-width: max-content;\n    padding-left: 28% !important;\n}\n\n.timeline-title s {\n    position: absolute;\n    left: 10%;\n    transform: scale(4);\n    text-decoration: none;\n    background-image: linear-gradient(#134181 61%, #009dff);\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n}\n\n.timeline_progress {\n    width: 3px;\n    height: 100%;\n    background-color: #14253f;\n    position: absolute;\n    overflow: hidden;\n    top: 0;\n    left: 0;\n    right: 0;\n    margin: 0 auto;\n}\n\n.timeline_progress-bar {\n    width: 3px;\n    height: 50vh;\n    background-color: #fff;\n    background-image: linear-gradient(#134181 61%, #009dff);\n    position: fixed;\n    top: 0;\n    bottom: 50vh;\n    left: auto;\n    right: auto;\n    overflow: visible;\n}\n\n@media screen and (max-width: 767px) {\n    .timeline-row>.inner {\n        display: grid !important;\n        grid-column-gap: 0px;\n        grid-row-gap: 0px;\n        grid-template-rows: auto;\n        grid-template-columns: 64px 1fr;\n    }\n\n    .timeline-row .timeline_left {\n        grid-area: 1 / 2 / 2 / 3;\n        margin-left: -30px !important;\n    }\n\n    .timeline-row .timeline_centre {\n        grid-area: 1 / 1 / 3 / 2;\n        width: 23px !important;\n    }\n\n    .timeline-row .timeline_right {\n        grid-area: span 1 / span 1 / span 1 / span 1;\n        margin-left: -30px !important;\n    }\n\n    .timeline_progress {\n        left: 20px;\n        margin: 0 auto 0 0;\n    }\n\n    .timeline-title {\n        max-width: max-content;\n        padding-left: 0 !important;\n    }\n\n    .timeline-title s {\n        position: relative;\n        left: 0;\n        transform: scale(1);\n        font-size: 100px;\n        display: block;\n        text-align: left;\n        line-height: 1;\n    }\n}",
+    "js": null,
+    "instructions": "(embed video here)\n\n1. Copy the CSS and Paste it in custom css.\n\n![Untitled](Vertical%20scrolling%20bar%20(Advanced)%20+%20Dim%20Highlight/Untitled.png)\n\n1. Copy the Javascript Code and place it in Tracking Code > Footer Tracking\n\n![Untitled](Vertical%20scrolling%20bar%20(Advanced)%20+%20Dim%20Highlight/Untitled%201.png)\n\n1. Add class “section-timeline” to the section where you want display the progress bar. \n\n![Untitled](Vertical%20scrolling%20bar%20(Advanced)%20+%20Dim%20Highlight/Untitled%202.png)\n\n1. Add class “timeline-row” in the row element. This class have the opacity transition while scrolling to it’s viewport.\n\n![Untitled](Vertical%20scrolling%20bar%20(Advanced)%20+%20Dim%20Highlight/Untitled%203.png)\n\n>"
+  },
+  {
+    "id": "vertical-scrolling-bar-advanced-dim-highlight",
+    "name": "Vertical scrolling bar (Advanced) + Dim/Highlight",
+    "slug": "vertical-scrolling-bar-advanced-dim-highlight",
+    "category": "Animations",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Ready To Start",
+    "previewUrl": null,
+    "description": null,
+    "html": "<!-- to be pasted on tracking code -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js\"\n    integrity=\"sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==\"\n    crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>\n<script>\n    $(\".section-timeline\").prepend('<div class=\"timeline_progress\"><div class=\"timeline_progress-bar\"></div></div>');\n\n    //check if the element is in viewport\n    $.fn.isInViewport = function () {\n        var elementTop = $(this).offset().top;\n\n        var elementBottom = elementTop + $(this).outerHeight() / 2;\n\n        var viewportTop = $(window).scrollTop();\n\n        var viewportHalf = viewportTop + $(window).height() / 2;\n\n        return elementBottom > viewportTop && elementTop < viewportHalf;\n    };\n\n    //increase target element opacity execution\n    // the \".timeline-row\" is the class of the element where we are applying the opacity effect\n    $(window).on('load resize scroll', function () {\n        $('.timeline-row').each(function () {\n\n            if ($(this).isInViewport()) {\n                $(this).css('opacity', 1)\n            } else {\n                $(this).css('opacity', 0.25);\n            }\n            \n        });\n    });\n</script>",
+    "css": ".timeline-row {\n    opacity: 0.3;\n    transition: all 0.3s ease;\n}\n\n.timeline-row .sticky-top > .inner {\n    height: auto;\n    position: sticky;\n    top: 48%;\n}\n\n.timeline-title {\n    max-width: max-content;\n    padding-left: 28% !important;\n}\n\n.timeline-title s {\n    position: absolute;\n    left: 10%;\n    transform: scale(4);\n    text-decoration: none;\n    background-image: linear-gradient(#134181 61%, #009dff);\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n}\n\n.timeline_progress {\n    width: 3px;\n    height: 100%;\n    background-color: #14253f;\n    position: absolute;\n    overflow: hidden;\n    top: 0;\n    left: 0;\n    right: 0;\n    margin: 0 auto;\n}\n\n.timeline_progress-bar {\n    width: 3px;\n    height: 50vh;\n    background-color: #fff;\n    background-image: linear-gradient(#134181 61%, #009dff);\n    position: fixed;\n    top: 0;\n    bottom: 50vh;\n    left: auto;\n    right: auto;\n    overflow: visible;\n}\n\n@media screen and (max-width: 767px) {\n    .timeline-row>.inner {\n        display: grid !important;\n        grid-column-gap: 0px;\n        grid-row-gap: 0px;\n        grid-template-rows: auto;\n        grid-template-columns: 64px 1fr;\n    }\n\n    .timeline-row .timeline_left {\n        grid-area: 1 / 2 / 2 / 3;\n        margin-left: -30px !important;\n    }\n\n    .timeline-row .timeline_centre {\n        grid-area: 1 / 1 / 3 / 2;\n        width: 23px !important;\n    }\n\n    .timeline-row .timeline_right {\n        grid-area: span 1 / span 1 / span 1 / span 1;\n        margin-left: -30px !important;\n    }\n\n    .timeline_progress {\n        left: 20px;\n        margin: 0 auto 0 0;\n    }\n\n    .timeline-title {\n        max-width: max-content;\n        padding-left: 0 !important;\n    }\n\n    .timeline-title s {\n        position: relative;\n        left: 0;\n        transform: scale(1);\n        font-size: 100px;\n        display: block;\n        text-align: left;\n        line-height: 1;\n    }\n}",
+    "js": null,
+    "instructions": "(embed video here)\n\n1. Copy the CSS and Paste it in custom css.\n\n![Untitled](Vertical%20scrolling%20bar%20(Advanced)%20+%20Dim%20Highlight/Untitled.png)\n\n1. Copy the Javascript Code and place it in Tracking Code > Footer Tracking\n\n![Untitled](Vertical%20scrolling%20bar%20(Advanced)%20+%20Dim%20Highlight/Untitled%201.png)\n\n1. Add class “section-timeline” to the section where you want display the progress bar. \n\n![Untitled](Vertical%20scrolling%20bar%20(Advanced)%20+%20Dim%20Highlight/Untitled%202.png)\n\n1. Add class “timeline-row” in the row element. This class have the opacity transition while scrolling to it’s viewport.\n\n![Untitled](Vertical%20scrolling%20bar%20(Advanced)%20+%20Dim%20Highlight/Untitled%203.png)\n\n>"
+  },
+  {
+    "id": "moving-mouse-hoverlight-on-background",
+    "name": "Moving mouse hoverlight on background",
+    "slug": "moving-mouse-hoverlight-on-background",
+    "category": "Hover Effects",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "Elementor",
+      "GHL"
+    ],
+    "status": "Ready To Start",
+    "previewUrl": null,
+    "description": null,
+    "html": "<div class=\"cursor-glow\"></div>\n\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js\" integrity=\"sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>\n<script>\n  $(document).mousemove(function(e){\n    $(\".cursor-glow\").css({\n      left:e.pageX - 300, \n      top:e.pageY - 300\n    });\n});\n</script>\n\n<!-- Glowing cursor for GHL -->\n<style>\n\t.cursor-glow {\n\t    height: 600px;\n\t    width: 600px;\n\t    position: absolute;\n\t    border-radius: 100%;\n\t\t\t\n\t\t\t/* background color of the glowing cursor -- start */\n\t    background: radial-gradient(ellipse at center,  rgba(96,171,248,1) 0%,rgba(64,150,238,0) 100%);\n\t\t\t/* background color of the glowing cursor -- end */\n\t\n\t    filter: blur(30px);\n\t    opacity: 0.4;\n\t}\n</style>\n\n<div class=\"cursor-glow\"></div>\n\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js\" integrity=\"sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>\n<script>\n  $(document).mousemove(function(e){\n    $(\".cursor-glow\").css({\n      left:e.pageX - 300, \n      top:e.pageY - 300\n    });\n});\n</script>\n<!-- Glowing cursor for GHL -->",
+    "css": ".cursor-glow {\n    height: 600px;\n    width: 600px;\n    position: absolute;\n    border-radius: 100%;\n\t\t\n\t\t/* background color of the glowing cursor -- start */\n    background: radial-gradient(ellipse at center,  rgba(96,171,248,1) 0%,rgba(64,150,238,0) 100%);\n\t\t/* background color of the glowing cursor -- end */\n\n    filter: blur(30px);\n    opacity: 0.4;\n}",
+    "js": null,
+    "instructions": "(embed video here)\n\n**For GHL:\n1. Add a custom html element on the uppermost part of the page and add the following html tag.**\n\n>"
+  },
+  {
+    "id": "content-hover-box-light-dark-versions",
+    "name": "Content Hover Box (Light & Dark Versions)",
+    "slug": "content-hover-box-light-dark-versions",
+    "category": "Hover Effects",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Review",
+    "previewUrl": "https://app.automaticsales.ai/v2/preview/1opIBmCJWijEjZ70xfgo",
+    "description": null,
+    "html": null,
+    "css": "",
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "sticky-trustpilot-review-scrolling-section-desktop-mobile",
+    "name": "Sticky Trustpilot Review Scrolling Section (Desktop + Mobile)",
+    "slug": "sticky-trustpilot-review-scrolling-section-desktop-mobile",
+    "category": "Navigation",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "AS",
+      "CF1.0",
+      "GHL"
+    ],
+    "status": "In progress",
+    "previewUrl": "https://ewa.ecomwarrioracademy.com/optin1705697706593",
+    "description": null,
+    "html": null,
+    "css": "",
+    "js": null,
+    "instructions": "(embed video here)"
+  },
+  {
+    "id": "bento-grid-with-viewport-animation",
+    "name": "Bento Grid With Viewport Animation",
+    "slug": "bento-grid-with-viewport-animation",
+    "category": "Animations",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Review",
+    "previewUrl": "https://app.automaticsales.ai/v2/preview/E4xg99kGg9H2dywsFVpV",
+    "description": null,
+    "html": null,
+    "css": "",
+    "js": null,
+    "instructions": "(embed video here)"
+  },
+  {
+    "id": "stacked-card-testimonials",
+    "name": "Stacked-Card Testimonials",
+    "slug": "stacked-card-testimonials",
+    "category": "Other",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Review",
+    "previewUrl": "https://app.automaticsales.ai/v2/preview/E4xg99kGg9H2dywsFVpV",
+    "description": null,
+    "html": "<!-- Swiper Js for Header -->\n<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css\" integrity=\"sha512-rd0qOHVMOcez6pLWPVFIv7EfSdGKLt+eafXh4RO/12Fgr41hDQxfGvoi1Vy55QIVcQEujUE1LQrATCLl2Fs+ag==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />\n\n<!-- Swiper Js -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js\" integrity=\"sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>\n\n<!-- overiding ghl defualts in row and column elements to avoid conflict -->\n<script>\n  $('.card-swiper').removeClass('c-row'); \n  $('.card-swiper > .inner').addClass('swiper-wrapper'); \n  $('.card-swiper .c-column').removeClass('c-column'); \n\n  $('.card-swiper').append('<div class=\"swiper-button swiper-button-next\"></div><div class=\"swiper-button swiper-button-prev\"></div><div class=\"swiper-pagination\"></div>');\n</script>\n\n<script>\n  var swiper = new Swiper(\".card-swiper\", {\n    effect: \"cards\",\n    grabCursor: true,\n    navigation: {\n      nextEl: \".swiper-button-next\",\n      prevEl: \".swiper-button-prev\",\n    },\n  });\n</script>",
+    "css": "/* Swiper */\n.testimonial-card-slider > .inner {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\n.swiper {\n    width: 240px;\n}\n\n.swiper-slide {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    border-radius: 18px;\n    font-size: 22px;\n    font-weight: bold;\n    color: #fff;\n}\n/* Swiper -- end */",
+    "js": null,
+    "instructions": "(embed video here)\n\n1. Add ‘testimonial-card-slider’ class to which section you wish to display the card slider.\n\n![Untitled](Stacked-Card%20Testimonials/Untitled.png)\n\n1. Add the ‘card-swiper’ and ‘swiper’ classes inside the row of the section.\n\n![Untitled](Stacked-Card%20Testimonials/Untitled%201.png)\n\n1. For each of the columns under the row, add class ‘swiper-slide’\n\n![Untitled](Stacked-Card%20Testimonials/Untitled%202.png)\n\n1. Copy CSS and JS library for Header and Footer Tracking Code. You can get them [here](https://cdnjs.com/libraries/Swiper) too.\n\n![Untitled](Stacked-Card%20Testimonials/Untitled%203.png)\n\n![Untitled](Stacked-Card%20Testimonials/Untitled%204.png)\n\n1. Copy the swiper execution js below and paste the code on the footer tracking code.\nMake sure it’s placed below the Swiper Js Library or else it won’t work\n\n![Untitled](Stacked-Card%20Testimonials/Untitled%205.png)\n\n1. Copy additional styles and paste it in the custom css\n\n![Untitled](Stacked-Card%20Testimonials/Untitled%206.png)\n\nJS and CSS libraries link and script codes for Header and Footer Tracking codes\n>"
+  },
+  {
+    "id": "button-custom-shaped-with-hover-animation",
+    "name": "Button: Custom-Shaped With Hover Animation",
+    "slug": "button-custom-shaped-with-hover-animation",
+    "category": "Buttons",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "AS",
+      "GHL"
+    ],
+    "status": "Review",
+    "previewUrl": "https://app.automaticsales.ai/v2/preview/E4xg99kGg9H2dywsFVpV",
+    "description": null,
+    "html": null,
+    "css": "/* button */\n.c-button button.site-btn {\n\t\t/* adjust the 'clip-path' for your desired shape */\n    clip-path: polygon(5% 0%, 100% 0, 100% 75%, 95% 100%, 0 100%, 0 25%);\n    background-color: #9a35f7 !important;\n    padding: 1px !important;\n    position: relative;\n    overflow: hidden;\n}\n\n.c-button button.site-btn::before {\n    content: '';\n    background-color: #030014;\n    width: 99.6%;\n    height: 98%;\n    position: absolute;\n    top: 50%;\n    bottom: 0;\n    left: 0;\n    right: 0;\n    margin: 0 auto;\n    transform: translateY(-50%);\n\t\t/* adjust the 'clip-path' for your desired shape */\n    clip-path: polygon(5% 0%, 100% 0, 100% 73.1%, 94.5% 100%, 0 100%, 0 25%);\n    transition: all 0.3s ease;\n}\n\n.c-button button.site-btn:hover::before {\n    background-color: #9a35f7;\n}\n\n.c-button button.site-btn .main-heading-group {\n\t\t/* faded background inside the button */\n    background: radial-gradient(ellipse at center, rgba(154, 53, 247, 0) 0%, rgba(154, 53, 247, 0) 34%, rgba(154, 53, 247, 0.2) 100%);\n\t\t/* faded background inside the button --end */\n    position: relative;\n    padding: 14px 12px;\n\t\t/* adjust the 'clip-path' for your desired shape */\n    clip-path: polygon(5% 0%, 100% 0, 100% 75%, 95% 100%, 0 100%, 0 25%);\n    font-weight: 400 !important;\n}\n/* button -- end*/",
+    "js": null,
+    "instructions": "(embed video here)\n1. Add ‘site-btn’ class to the button.\n\n![Untitled](Button%20Custom-Shaped%20With%20Hover%20Animation/Untitled.png)\n\n**2.** Copy the css below for the button and paste it in ‘Custom CSS’.\n\n![Untitled](Button%20Custom-Shaped%20With%20Hover%20Animation/Untitled%201.png)\n\n1. If you want to change the background color of the faded color effect you can go through this site [https://www.colorzilla.com/gradient-editor/](https://www.colorzilla.com/gradient-editor/)\n\nYou can copy the generated color from here and replace the existing background in the ‘.main-heading-group’ class in the css\n\n![Untitled](Button%20Custom-Shaped%20With%20Hover%20Animation/Untitled%202.png)\n\n>"
+  },
+  {
+    "id": "simple-pulsing-button-element",
+    "name": "Simple Pulsing Button/Element",
+    "slug": "simple-pulsing-button-element",
+    "category": "Buttons",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "AS",
+      "Elementor",
+      "GHL",
+      "WP"
+    ],
+    "status": "Review",
+    "previewUrl": null,
+    "description": null,
+    "html": "<div class=\"col c12\" style=\"min-height:300px\">\n<button class=\"pulse-button\"></button></div><style>\n\n.pulse-button {\n\tposition: relative;\n\twidth: 90px;\n\theight: 90px;\n\tborder: none;\n\tbox-shadow: 0 0 0 0 rgba(232, 76, 61, 0.7);\n\tborder-radius: 50%;\n\tbackground-color: #e84c3d;\n\tbackground-image: url(http://powerandco.net/wp-content/uploads/2017/12/powernewicon.png);\n\tbackground-size:111%;\n\tbackground-position:-5px -5px;\n\tbackground-repeat: no-repeat;\n\tcursor: pointer;\n\t-webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);\n\t-moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);\n\t-ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);\n\tanimation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);\n}\n.pulse-button:hover {\n\t-webkit-animation: none;-moz-animation: none;-ms-animation: none;animation: none;\n}\n\n@-webkit-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}\n@-moz-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}\n@-ms-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}\n@keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}</style>",
+    "css": null,
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "order-bump-interactive-type-4-extra-add-remove-button-inside-order-bump-form",
+    "name": "[Order Bump] Interactive Type 4 - Extra Add/Remove Button INSIDE Order Bump Form",
+    "slug": "order-bump-interactive-type-4-extra-add-remove-button-inside-order-bump-form",
+    "category": "Buttons",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "AS",
+      "GHL"
+    ],
+    "status": "Done",
+    "previewUrl": "https://app.automaticsales.ai/v2/preview/QbWbQolL4Do3ZliogcLi",
+    "description": null,
+    "html": null,
+    "css": "/**************************\n* Copyright 2024 Jackson Yew, All Rights Reserved\n* Do not share, or distribute this code without author's consent.\n* This copyright notice must remain in place whenever using\n* this code - DO NOT REMOVE\n* Author: Jackson Yew\n* Website: https://jacksonyew.com\n* This script is provided as-is.\n* Custom Bump Section\n* Last Updated: 25/01/2024\n**************************/\n\n/* remove the comment below if you want to hide the default Order Bump Form */\n/* .order-bump-container .main-section { \n    display: none;\n} */\n\n.add-option-btn {\n    max-width: 160px;\n    width: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    margin: 0 auto;\n}\n\n.add-option-btn.option-added {\n    background-color: #baf1ca;\n    border-color: rgb(0, 153, 0);\n    color: rgb(0, 153, 0);\n    transition: all 0.3s ease;\n}\n\n.add-option-btn.option-added:hover {\n    background-color: #e43b2c;\n    border-color: #e43b2c;\n    color: #ffffff;\n}\n\n.add-option-btn .main-heading-group {\n    display: flex !important;\n    align-items: center;\n    justify-content: center;\n}\n\n.add-option-btn .button-icon-start {\n    order: 2;\n}\n\n.add-option-btn.option-added:hover .button-icon-start {\n    display: none;\n}\n\n.add-option-btn .main-heading-button {\n    order: 3;\n}\n\n.add-option-btn .button-icon-end {\n    order: 1;\n    display: none;\n    margin-left: 0;\n    margin-right: 5px;\n}\n\n.add-option-btn.option-added:hover .button-icon-end {\n    display: block;\n}\n\n.add-option-btn.option-added:hover .main-heading-button {\n    font-size: 0;\n}\n\n.add-option-btn.option-added .main-heading-button::before {\n    content: 'REMOVE';\n    font-size: 0;\n}\n\n.add-option-btn.option-added:hover .main-heading-button::before {\n    font-size: 20px;\n}",
+    "js": null,
+    "instructions": "1. Add the Javascript inside the footer tracking code. \n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled.png)\n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled%201.png)\n\n1. Add the Styles in Custom CSS.\n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled%202.png)\n\n1. Modify button actions to “Website URL” and input the ID of the checkout form. ID of the form can be found when we inspect element the checkout form.\n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled%203.png)\n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled%204.png)\n\n1. In Button Settings, go to “Advance” then look for “Custom Class” field and add the class name “add-option-btn”.\n\n![Untitled](%5BOrder%20Bump%5D%20Interactive%20Type%201%20-%20Extra%20Add%20Remove/Untitled%205.png)"
+  },
+  {
+    "id": "quiz-html",
+    "name": "Quiz Html",
+    "slug": "quiz-html",
+    "category": "Other",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "AS",
+      "CF2.0",
+      "GHL"
+    ],
+    "status": "Review",
+    "previewUrl": null,
+    "description": null,
+    "html": "<form id=\"surveyForm\" action=\"\">\n    <div class=\"tab\" data-check-empty=\"true\" style=\"display: inline-block;\">\n        <h5 style=\"color: black !important;\">What's your <span class=\"underline\">GOAL</span> for starting an online\n            business?</h5>\n        <div class=\"row justify-content-around\" style=\"padding: 0px !important\">\n            <div class=\"col-4 col-img\">\n                <div class=\"img-radio custom-control custom-radio image-checkbox\">\n                    <input type=\"radio\" class=\"custom-control-input\" id=\"goal-hustle\" name=\"bizgoal\">\n                    <label class=\"custom-control-label\" for=\"goal-hustle\">\n                        <img src=\"https://kindlepublishingincome.com/img/side_hustle.png\" alt=\"#\" class=\"img-fluid\">\n                        <span>To create a side hustle</span>\n                    </label>\n                </div>\n            </div>\n            <div class=\"col-4 col-img\">\n                <div class=\"img-radio custom-control custom-radio image-checkbox\">\n                    <input type=\"radio\" class=\"custom-control-input\" id=\"goal-escape95\" name=\"bizgoal\">\n                    <label class=\"custom-control-label\" for=\"goal-escape95\">\n                        <img src=\"https://kindlepublishingincome.com/img/money_time.png\" alt=\"#\" class=\"img-fluid\">\n                        <span>To escape the 9-5 and replace my salary</span>\n                    </label>\n                </div>\n            </div>\n            <div class=\"col-4 col-img\">\n                <div class=\"img-radio custom-control custom-radio image-checkbox\">\n                    <input type=\"radio\" class=\"custom-control-input\" id=\"goal-empire\" name=\"bizgoal\">\n                    <label class=\"custom-control-label\" for=\"goal-empire\">\n                        <img src=\"https://kindlepublishingincome.com/img/money_bag.png\" alt=\"#\" class=\"img-fluid\">\n                        <span>To build an \"Online Empire\"</span>\n                    </label>\n                </div>\n            </div>\n        </div>\n    </div>\n    \n    <div class=\"tab\" data-future-pace=\"true\">\n        <h5>That's <span class=\"underline\">awesome!</span></h5>\n        <h2 class=\"nudge-hl\" data-forid=\"goal-hustle\">A LOT of people are currently using this system to <span\n                class=\"highlight-half\">make a few hundred, or a few thousand on top of their salary</span>!</h2>\n        <h2 class=\"nudge-hl\" data-forid=\"goal-escape95\">Some of my students are using this system to <span\n                class=\"highlight-half\">replace their salaries and go all-in</span> on their online business!</h2>\n        <h2 class=\"nudge-hl\" data-forid=\"goal-empire\">Some of my best students have been <span\n                class=\"highlight-half\">consistently doing 6 figures a year</span> with the same system I'm about to show\n            you</h2>\n        <img class=\"nudge-img\" data-forid=\"goal-hustle\"\n            src=\"https://kindlepublishingincome.com/img/KPI_Testimonial_Christopher.png\" alt=\"#\">\n        <img class=\"nudge-img\" data-forid=\"goal-escape95\"\n            src=\"https://kindlepublishingincome.com/img/KPI_Testimonial_Megan.png\" alt=\"#\">\n        <img class=\"nudge-img\" data-forid=\"goal-empire\"\n            src=\"https://kindlepublishingincome.com/img/KPI_Testimonial_Ted.png\" alt=\"#\">\n        <br><br>\n    </div>\n    <div class=\"tab\" data-check-empty=\"true\">\n        <h5 style=\"color: black !important;\">How much time per day can you dedicate to <span class=\"underline\">get\n                started?</span></h5>\n        <div class=\"row justify-content-around\" style=\"padding: 0px !important\">\n            <div class=\"col-4 col-img\">\n                <div class=\"img-radio custom-control custom-radio image-checkbox\">\n                    <input type=\"radio\" class=\"custom-control-input\" id=\"time-30m\" name=\"havetime\">\n                    <label class=\"custom-control-label\" for=\"time-30m\">\n                        <img src=\"https://kindlepublishingincome.com/img/30_min.png\" alt=\"#\" class=\"img-fluid\">\n                        <span>30 min, or less</span>\n                    </label>\n                </div>\n            </div>\n            <div class=\"col-4 col-img\">\n                <div class=\"img-radio custom-control custom-radio image-checkbox\">\n                    <input type=\"radio\" class=\"custom-control-input\" id=\"time-1h\" name=\"havetime\">\n                    <label class=\"custom-control-label\" for=\"time-1h\">\n                        <img src=\"https://kindlepublishingincome.com/img/60_min.png\" alt=\"#\" class=\"img-fluid\">\n                        <span>1 hour, give or take</span>\n                    </label>\n                </div>\n            </div>\n            <div class=\"col-4 col-img\">\n                <div class=\"img-radio custom-control custom-radio image-checkbox\">\n                    <input type=\"radio\" class=\"custom-control-input\" id=\"time-hours\" name=\"havetime\">\n                    <label class=\"custom-control-label\" for=\"time-hours\">\n                        <img src=\"https://kindlepublishingincome.com/img/clock_ok.png\" alt=\"#\" class=\"img-fluid\">\n                        <span>Several hours</span>\n                    </label>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"tab\" data-future-pace=\"true\">\n        <h5>That's <span class=\"underline\">perfect</span> 👌</h5>\n        <h2 class=\"nudge-hl\" data-forid=\"time-30m\">I'll show you how you can get started very quickly <span\n                class=\"highlight-half\">even if you're already busy...</span></h2>\n        <h2 class=\"nudge-hl\" data-forid=\"time-1h\">An hour or so a day is enough to get this online business up and\n            running, and <span class=\"highlight-half\"> anyone can do this!</span> 👇</h2>\n        <h2 class=\"nudge-hl\" data-forid=\"time-hours\">With a few hours a day, you'll get this up and running in no time!\n            After that <span class=\"highlight-half\"> you can multiply this system and the sky is the limit!</span> 👇\n        </h2>\n        <img class=\"nudge-img\" data-forid=\"time-30m\"\n            src=\"https://kindlepublishingincome.com/img/KPI_Testimonial_Sarah2.png\" alt=\"#\">\n        <img class=\"nudge-img\" data-forid=\"time-1h\"\n            src=\"https://kindlepublishingincome.com/img/KPI_Testimonial_Sarah.png\" alt=\"#\">\n        <img class=\"nudge-img\" data-forid=\"time-hours\"\n            src=\"https://kindlepublishingincome.com/img/KPI_Testimonial_Sue.png\" alt=\"#\">\n        <br><br>\n    </div>\n    <div class=\"tab\" data-check-empty=\"true\">\n        <h5>How SOON do you wish to be making your <span class=\"underline\">first sales?</span></h5>\n        <div class=\"row justify-content-around\">\n            <div class=\"col-6 col-img\">\n                <div class=\"img-radio custom-control custom-radio image-checkbox\">\n                    <input type=\"radio\" class=\"custom-control-input\" id=\"soon-weeks\" name=\"howsoon\">\n                    <label class=\"custom-control-label\" for=\"soon-weeks\">\n                        <img src=\"https://kindlepublishingincome.com/img/around_the_clock.png\" alt=\"#\"\n                            class=\"img-fluid\">\n                        <span>Within weeks, if possible</span>\n                    </label>\n                </div>\n            </div>\n            <div class=\"col-6 col-img\">\n                <div class=\"img-radio custom-control custom-radio image-checkbox\">\n                    <input type=\"radio\" class=\"custom-control-input\" id=\"soon-months\" name=\"howsoon\">\n                    <label class=\"custom-control-label\" for=\"soon-months\">\n                        <img src=\"https://kindlepublishingincome.com/img/month_calendar.png\" alt=\"#\" class=\"img-fluid\">\n                        <span>In a few months sounds reasonable.</span>\n                    </label>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"tab\" data-future-pace=\"true\">\n        <h5>That's <span class=\"underline\">great!</span></h5>\n        <h2 class=\"nudge-hl\" data-forid=\"soon-days\">This system is so easy and quick to run that <span\n                class=\"highlight-half\">it's possible to get results the very same day!</span></h2>\n        <h2 class=\"nudge-hl\" data-forid=\"soon-weeks\">A couple of weeks is a <span class=\"highlight-half\">totally\n                reasonable time to start making sales</span> once you follow what I'm about to show you!</h2>\n        <h2 class=\"nudge-hl\" data-forid=\"soon-months\">Some of my students get quick results, some take a bit more time.\n            <span class=\"highlight-half\">The KEY is to keep going!</span> and results will follow 👇</h2>\n        <img class=\"nudge-img\" data-forid=\"soon-days\"\n            src=\"https://kindlepublishingincome.com/img/KPI_Testimonial_Kat.png\" alt=\"#\">\n        <img class=\"nudge-img\" data-forid=\"soon-weeks\"\n            src=\"https://kindlepublishingincome.com/img/KPI_Testimonial_Kat.png\" alt=\"#\">\n        <img class=\"nudge-img\" data-forid=\"soon-months\"\n            src=\"https://kindlepublishingincome.com/img/KPI_Testimonial_Megan.png\" alt=\"#\">\n        <br><br>\n    </div>\n    <div class=\"tab last-tab\" data-cta-button=\"true\">\n        <h5 style=\"color: black !important; margin: unset !important;\">Great! You'll LOVE this <span\n                class=\"underline\">100% Free Workshop!</span></h5>\n        <br>\n        <h1 id=\"survey-h1\" class=\"survey-h1 dynamic-H1\" style=\"color: black !important;\">\n            Learn The Secret Kindle Side Hustle That Makes Me <span style=\"color: #f87d00;\">\n                Six Figures A Year In Almost-Passive Income </span>\n            <i>Without Being An \"Author\" </i> 👇\n        </h1>\n        <h5 id=\"survey-subhead\" style=\"font-weight: 600;\"></h5>\n    </div>\n    <div id=\"empty-error\" class=\"reject\">\n        Please select one option.\n    </div>\n    <div style=\"overflow:auto; text-align: center;\">\n        <button type=\"button\" class=\"form-btn\" id=\"prevBtn\" onclick=\"nextPrev(-1)\"\n            style=\"display: none;\">Previous</button>\n        <button type=\"button\" class=\"form-btn\" id=\"nextBtn\" onclick=\"nextPrev(1)\">Next</button>\n    </div>\n    <div style=\"text-align:center; margin-top:30px;\">\n        <span class=\"step active\">1</span>\n        <span class=\"step\" style=\"display: none;\"></span>\n        <span class=\"step\">2</span>\n        <span class=\"step\" style=\"display: none;\"></span>\n        <span class=\"step\">3</span>\n        <span class=\"step\" style=\"display: none;\"></span>\n    </div>\n</form>\n\n<script>\n    /*\n   * Requires jQuery to be loaded on the page\n   */\n\n    var currentTab = 0; // Current tab is set to be the first tab (0)\n    var lastAnswerId = \"\";\n\n    showTab(currentTab); // Display the current tab\n\n    function showTab(n) {\n\n        console.log(\"Showing tab \" + n);\n        var tabs = $(\".tab\");\n        $(tabs[n]).show().css('display', 'inline-block');\n\n        if (n == 0) {\n            $(\"#prevBtn\").hide();\n        } else {\n            $(\"#prevBtn\").show().css('display', 'inline-block');\n            $($(\"#surveyForm .step\")[n - 1]).addClass(\"finish\");\n        }\n\n        if (n > 0 && $(tabs[n]).data(\"futurePace\") == true) {\n            $(\"#prevBtn\").hide();\n\n            // Sort out the headers\n            var headers = $(\".nudge-hl\");\n            $(headers).hide();\n\n            var nudgeH2 = $(tabs[n]).find(\".nudge-hl[data-forid='\" + lastAnswerId + \"']\");\n            $(nudgeH2).show();\n\n            // Sort out the images\n            var imgs = $(\".nudge-img\");\n            $(imgs).hide();\n\n            var nudgeImg = $(tabs[n]).find(\".nudge-img[data-forid='\" + lastAnswerId + \"']\");\n            $(nudgeImg).show();\n        }\n\n        if ($(tabs[n]).hasClass(\"last-tab\")) {\n\n            if ($(tabs[n]).data(\"testLb3\") == true) {\n                $(\"#survey-h5\").html(\n                    \"Great! We Think You'll LOVE this <span class='highlight-orange'>100% Free Workshop!</span>\"\n                );\n            }\n\n            if ($(tabs[n]).data(\"ctaButton\") == true) {\n                $(\"#nextBtn\").html(\"Save Free Seat For Training\");\n                $(\"#prevBtn\").hide();\n            }\n\n            $(\"#nextBtn\").click(function () {\n                //$(\"#modalPopup\").modal('hide');\n              $(\".closeLPModal\").click();\n              $('html, body').animate({\n                scrollTop: $(\"#row--24494\").offset().top - 100\n              }, 700);\n            });\n        }\n\n        fixStepIndicator(n)\n    }\n\n    function nextPrev(n) {\n\n        var tabs = $(\".tab\");\n        var currTab = $(\".tab\")[currentTab];\n\n        if ($(currTab).data(\"checkEmpty\") == true) {\n            if (!checkEmpty()) return false;\n        } else {\n            $(\"#empty-error\").hide();\n        }\n\n        var input = $(currTab).find(\"input:checked\");\n        if (!!$(input).attr(\"id\")) {\n            lastAnswerId = $(input).attr(\"id\");\n        }\n\n        $(currTab).hide();\n        currentTab = currentTab + n;\n        showTab(currentTab);\n    }\n\n    function checkEmpty() {\n\n        var valid = true;\n        var tabs = $(\".tab\");\n        var currTab = $(\".tab\")[currentTab];\n        var errorDivId = $(currTab).data(\"errorDivId\");\n\n        var input = $(currTab).find(\"input:checked\");\n        if (!$(input).attr(\"id\")) {\n            $(\"#empty-error\").show().css('display', 'block');\n            valid = false;\n        }\n\n        else {\n            $(\"#empty-error\").hide();\n        }\n\n        return valid;\n    }\n\n    function fixStepIndicator(n) {\n        console.log(\"Fixing step \" + n);\n        var steps = $(\"#surveyForm .step\");\n        steps.removeClass(\"active\");\n        $(steps[n]).addClass(\"active\");\n    }\n</script>",
+    "css": "/* SURVEY FORM */\n#surveyForm {\n  margin: 0 auto !important;\n  padding: 20px;\n  width: 100%;\n  overflow: hidden;\n}\n\n#surveyForm .row {\n  display: flex;\n  gap: 10px;\n}\n\n/* Style the input fields */\n\n#surveyForm input {\n    padding: 10px;\n    width: 100%;\n    font-size: 17px;\n    border: 1px solid #aaaaaa;\n}\n\n/* Mark input boxes that gets an error on validation: */\n\n#surveyForm input.invalid {\n    background-color: #ffdddd;\n}\n\n/* Hide all steps by default: */\n\n#surveyForm .tab {\n    display: none;\n    text-align:center;\n}\n\n/* Make circles that indicate the steps of the form: */\n\n.step {\n    height: 24px;\n    width: 24px;\n    margin: 0 5px;\n    background-color: #ddd;\n    border: none;\n    border-radius: 50%;\n    display: inline-block;\n    opacity: 0.4;\n    color: #999;\n    font-size: 12px;\n    line-height: 24px;\n}\n\n/* Mark the active step: */\n\n.step.active {\n    opacity: 1;\n    background: #349756;\n    color: #fff;\n}\n\n/* Mark the steps that are finished and valid: */\n\n.step.finish {\n    background-color: #349756;\n    color: #fff;\n}\n\n#nextBtn,\n#prevBtn {\n    font-size: 22px;\n    line-height: 24px;\n    font-weight: 600 !important;\n    padding: 12px 30px;\n    min-width: 150px;\n    margin: 5px;\n    border-radius:50px; \n    font-weight: normal;\n    text-align:center;\n}\n\n#prevBtn {\n    background: linear-gradient(#E8E8E8, #DCDCDC);\n    color: #BEBEBE;\n    filter: unset !important;\n    border-color: #BEBEBE;\n}\n\n#nextBtn { \n    background: linear-gradient(to bottom,  rgba(248,147,0,1) 0%,rgba(247,107,0,1) 100%);  \n    color:#fff; \n    filter: unset !important;\n    text-shadow: 2px 2px 0px rgb(0 0 0 / 14%);\n}\n\n#nextBtn break {\n    display: block;\n    font-weight: 400;\n    line-height: normal;\n    font-size: 18px;\n    margin-top: 4px;\n}\n\n#surveyForm h5,\nmodal-header > h5 {\n    font-size: 24px;\n    line-height: 30px;\n    margin-bottom: 20px;\n    font-weight: 600;\n    color: black;\n}\n\n#surveyForm .form-check {\n    display: block;\n    margin-bottom: 10px;\n    padding: 10px 10px 10px 30px;\n    border: 2px solid #c6d8f2;\n    background: #f2f6ff;\n    border-radius: 5px;\n    text-align: left;\n}\n\n#surveyForm .img-radio {\n  display: block;\n  margin-bottom: 10px;\n  padding: 10px 10px 10px 10px;\n  border: 2px solid #c6d8f2;\n  background: #f2f6ff;\n  border-radius: 5px;\n  text-align: center;\n  height: 100% !important;\n}\n\n#surveyForm .img-radio label > img {\n    margin-bottom: 15px;\n    max-width: 50%;\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n}\n\n#surveyForm .img-radio label > span {\n  font-weight: normal;\n  font-size: 16px;\n}\n\n#surveyForm .form-tab input {\n    border: 2px solid #c6d8f2;\n    background: #fff;\n    border-radius: 5px;\n    margin-bottom: 10px;\n    min-height: 48px;\n    font-size: 16px;\n}\n\n#surveyForm .form-check input {\n    width: auto;\n}\n\n.reject {\n    background: lightcoral;\n    text-align: center;\n    padding: 10px;\n    border-radius: 10px;\n    color: white;\n    font-weight: 600;\n    border-color: red;\n    border-style: dashed;\n    border-width: 2px;\n    display: none;\n    margin: 5px 0 5px 0;\n}\n\n#surveyForm input[type='radio']:after {\n    width: 16px;\n    height: 16px;\n    border-radius: 15px;\n    top: -3px;\n    left: -1px;\n    position: relative;\n    background-color: #d1d3d1;\n    content: '';\n    display: inline-block;\n    visibility: visible;\n    border: 2px solid white;\n}\n\n#surveyForm input[type='radio']:checked:after {\n    width: 16px;\n    height: 16px;\n    border-radius: 15px;\n    top: -3px;\n    left: -1px;\n    position: relative;\n    background-color: #7d3dff;\n    content: '';\n    display: inline-block;\n    visibility: visible;\n    border: 2px solid #7d3dff;\n}\n\n.overlay {\n    overflow: hidden;\n}\n\n#surveyForm label { display: block !important; }\n\n.popup {\n    background-color: #ffffff;\n    padding: 0;\n    position: absolute;\n    transform: translate(-50%, -50%);\n    left: 50%;\n    top: 50%;\n    border-radius: 8px;\n    display: none;\n    text-align: center;\n    width: 600px;\n    box-shadow: 0 0 500px rgba(0, 0, 0, 0.8);\n    -webkit-box-shadow: 0 0 500px rgba(0, 0, 0, 0.8);\n}\n\n.survey-close {\n    display: block;\n    margin: 0 10px 0 auto;\n    background-color: transparent;\n    font-size: 30px;\n    color: #9797a5;\n    border: none;\n    outline: none;\n    cursor: pointer;\n}\n\n.modal-dialog {\n    /*width: 600px;*/\n    /*max-width: 100%;*/\n}\n\n.modal-header {\n    padding-bottom: 0;\n    border: none;\n}\n\n.underline {\n    text-decoration: underline;\n    text-decoration-color: #349756;\n}\n\n.highlight-orange {\n    background: linear-gradient(120deg, #ffcc5d8c 0%, #ffcc5d8c 100%);\n    background-repeat: no-repeat;\n    background-size: 100% 40%;\n    background-position: 0 90%;\n    font-weight: 550;\n}\n\n#surveyForm .survey-h1 {\n    font-size: 38px;\n    font-weight: 600;\n    color: black;\n}\n\n#surveyForm .nudge-hl, #surveyForm .cta-hl {\n    font-size: 32px;\n    line-height: 40px;\n    font-weight: 600;\n    margin: 20px 0 20px;\n}\n\n#surveyForm img.nudge-img {\n    max-width: 75%;\n    box-shadow: 5px 5px 20px 2px #d5d5d5cc;\n    border-radius: 15px;\n}\n\n@media (min-width: 768px) and (max-width: 991px) {\n\n    #surveyForm img.nudge-img { max-width: 100%; }\n\n    #surveyForm .img-radio label > img {\n    margin-bottom: 5px;\n    max-width: 100%;\n        display: block;\n        margin-left: auto;\n        margin-right: auto;\n    }\n\n    #surveyForm .img-radio label > span {\n        font-weight: 600;\n        font-size: 12px;\n        line-height: 12px;\n    }\n\n    #surveyForm h5 {\n        font-size: 20px;\n    }\n\n    .col-img {\n        padding-left: 5px;\n        padding-right: 5px;\n    }\n}\n\n@media (max-width:767px) {\n\t#modalPopup {\n\t\twidth: 95% !important;\n\t\tmargin-left: auto !important;\n\t\tmargin-right: auto !important;\n\t\tleft: 0 !important;\n\t\tright: 0 !important;\n\t}\n\t#surveyForm img.nudge-img { max-width: 100%; }    \n\t\n\t#surveyForm .survey-h1 {\n\t    font-size: 26px !important;\n\t    line-height: 40px !important;\n\t}\n\t\n\t#surveyForm .nudge-hl, #surveyForm .cta-hl {\n\t    font-size: 22px !important;\n\t    line-height: 30px !important;\n\t    margin-bottom: 15px;\n\t}\n\t\n\t#surveyForm {\n\t    margin: 10px auto;\n\t    padding: 0px;\n\t}\n\t#surveyForm .row {\n\t\t\tgap: 0;\n\t}\n\t#surveyForm h5 {\n\t    font-size: 20px;\n\t}\n\t\n\t#surveyForm .img-radio label > img {\n\t    margin-bottom: 5px;\n\t    max-width: 100%;\n\t    display: block;\n\t    margin-left: auto;\n\t    margin-right: auto;\n\t}\n\t\n\t#surveyForm .img-radio label > span {\n\t    font-weight: 600;\n\t    font-size: 12px;\n\t    line-height: 12px;\n\t}\n\t\n\t.col-img {\n\t    padding-left: 5px;\n\t    padding-right: 5px;\n\t}\n\t\n\t.modal-dialog {\n\t    width: auto;\n\t}\n\t\n\t#prevBtn {\n\t    margin-bottom: 10px;\n\t}\n\t\n\t#nextBtn break { \n\t    line-height: unset;\n\t    font-size: 18px;\n\t    margin-top: 7px;\n\t}\n}",
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "ghl-comparison-slider",
+    "name": "GHL Comparison Slider",
+    "slug": "ghl-comparison-slider",
+    "category": "Sliders",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "AS",
+      "Elementor",
+      "GHL",
+      "Shopify",
+      "WP"
+    ],
+    "status": "Review",
+    "previewUrl": "https://app.solarcheatcode.com/v2/preview/PidThA0ig8oIrU34H7K9?notrack=true",
+    "description": null,
+    "html": "<div class=\"img-comp-wrapper\">\n  <span class=\"img-comp-label\" data-type=\"original\">After</span>\n    <span class=\"img-comp-label\" data-type=\"modified\">Before</span>\n  \n    <div class=\"img-comp-container\">  \n      <div class=\"img-comp-slider\"></div>\n      <div class=\"img-comp-responsive\">\n          <div class=\"img-comp-img\">\n              <img src=\"https://storage.googleapis.com/msgsndr/I0uPpUFfCTORhC4HUE6R/media/6644722860ebb7b0b841acf2.png\" style=\"width:auto;height:100%;max-width:initial;\" width=\"640\" height=\"480\" />\n          </div>\n        \n          <div class=\"img-comp-img img-comp-overlay\" id=\"img-comp-overlay\">\n              <img src=\"https://storage.googleapis.com/msgsndr/I0uPpUFfCTORhC4HUE6R/media/6644722873711a405f2d47b1.png\" style=\"width:auto;height:100%;max-width:initial;\" width=\"640\" height=\"480\" />\n          </div>\n      </div>\n    </div>\n</div>\n\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js\" integrity=\"sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>\n<script>\n  function maxVal(val, itsmax) {\n    if (val <= itsmax && val >= 0) return val\n    else if (val <0) return 0\n    else return itsmax;\n  }\n\n  $(\".img-comp-overlay\").each(function () {\n    var slider = $(this).parents(\".img-comp-container\").find(\".img-comp-slider\");\n    var img = $(this).find(\"img\");\n\n    var slidef = function () {\n      var e = window.event;\n      var x = img.offset().left;\n      img.parent().width(maxVal(e.pageX - x, jQuery(\".img-comp-img\").width()));\n      slider.css(\"left\", (maxVal(e.pageX - x, jQuery(\".img-comp-img\").width())) + \"px\")\n    }\n\n    //Mouse was pressed\n    slider.mousedown(function (e) {\n      e.preventDefault();\n      $(window).on(\"mousemove.slideev\", this, slidef);\n    });\n\n    $(window).mouseup(function (e) {\n      e.preventDefault();\n      $(window).off(\"mousemove.slideev\");\n    });\n\n    //Finger is swiping\n    slider.on(\"touchmove\", function (e) {\n      e.preventDefault();\n      var t = e.touches[0];\n      var x = img.offset().left;\n      img.parent().width(maxVal(t.pageX - x, jQuery(\".img-comp-img\").width()));\n      slider.css(\"left\", (maxVal(t.pageX - x, jQuery(\".img-comp-img\").width())) + \"px\")\n    })\n  });\n</script>",
+    "css": "/********** Comparison Slider ************/\n.img-comp-wrapper {\n    position: relative;\n    width: 100%;\n    max-width: 780px;\n    margin: 0em auto;\n    background: #e8e8e8;\n    padding: 0;\n    border-radius: 1rem;\n    height: 60vh;\n    overflow: hidden;\n    display: flex;\n    align-items: flex-start;\n    justify-content: center;\n}\n\n.img-comp-container {\n    position: relative;\n    width: 100%;\n    max-width: 410px;\n    margin: 0em auto;\n    height: 100%;\n}\n\n.img-comp-label {\n    position: absolute;\n    color: #fff;\n    padding: 1em;\n    font-family: var(--headlinefont);\n    font-weight: 600;\n}\n\n.img-comp-label[data-type=\"original\"] {\n    top: 0;\n    right: 0;\n    background-color: #0668d9;\n}\n\n.img-comp-label[data-type=\"modified\"] {\n    top: 0;\n    left: 0;\n    background-color: #f02;\n}\n\n.img-comp-responsive {\n    height: 0;\n    width: 100%;\n    padding-bottom: 75%;\n}\n\n.img-comp-responsive .img-comp-overlay {\n    border-right: 1px solid #fff;\n}\n\n.img-comp-img {\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    overflow: hidden\n}\n\n.img-comp-img img {\n    display: block;\n    margin: 0 auto;\n    height: auto !important;\n}\n\n.img-comp-overlay {\n    width: 50%;\n}\n\n.img-comp-slider {\n    position: absolute;\n    z-index: 9;\n    cursor: ew-resize;\n    width: 40px;\n    height: 100%;\n    border-radius: 50%;\n    left: 50%;\n    top: 50%;\n    transform: translate(-50%, -50%);\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\n.img-comp-slider::before {\n    color: #fff;\n    content: \"\";\n    font-family: \"Font Awesome 5 Free\";\n    font-weight: 700;\n    margin: 0;\n    background: #000;\n    width: 40px;\n    height: 44px;\n    display: flex;\n    align-content: center;\n    justify-content: center;\n    border-radius: 100%;\n    padding-top: 13px;\n    box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.3);\n}\n\n@media screen and (max-width: 767px) {\n    .img-comp-wrapper {\n        background: transparent;\n        padding: 0 0 0;\n    }\n\n    .img-comp-container {\n        background: #e8e8e8;\n    }\n\n    .img-comp-label {\n        z-index: 9;\n        font-size: 14px;\n    }\n}",
+    "js": null,
+    "instructions": ">"
+  },
+  {
+    "id": "ghl-swiper-marquee-slider",
+    "name": "GHL Swiper Marquee Slider",
+    "slug": "ghl-swiper-marquee-slider",
+    "category": "Sliders",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "In progress",
+    "previewUrl": null,
+    "description": null,
+    "html": null,
+    "css": "",
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "horintal-sliding-on-window-scroll",
+    "name": "Horintal Sliding on Window Scroll",
+    "slug": "horintal-sliding-on-window-scroll",
+    "category": "Animations",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Review",
+    "previewUrl": "https://app.automaticsales.ai/v2/preview/LiRmbHjELs3jKjNyu03E?notrack=true",
+    "description": null,
+    "html": null,
+    "css": null,
+    "js": null,
+    "instructions": null
+  },
+  {
+    "id": "ghl-pulse-button",
+    "name": "GHL Pulse Button",
+    "slug": "ghl-pulse-button",
+    "category": "Buttons",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "AS",
+      "CF1.0",
+      "Elementor",
+      "GHL"
+    ],
+    "status": "Review",
+    "previewUrl": null,
+    "description": null,
+    "html": null,
+    "css": ".pulse-btn{\n\tanimation: pulse-animation 2s infinite;\n}\n\n/* RGBA Colors can be changed to matche your button style */\n/* Change the number with ***px*** to adjust */\n@keyframes pulse-animation {\n    0% {\n\t    box-shadow: 0 0 0 0px rgba(139, 198, 62, 0.3);\n    }\n    100% {\n\t    box-shadow: 0 0 0 20px rgba(139, 198, 62, 0);\n    }\n}",
+    "js": null,
+    "instructions": "(embed video here)\n\n1. Add the ‘pulse-btn’ class to the button element\n2. Copy the style below and paster in Custom CSS"
+  },
+  {
+    "id": "ghl-form-builder-button-pulse",
+    "name": "GHL Form Builder Button Pulse",
+    "slug": "ghl-form-builder-button-pulse",
+    "category": "Buttons",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "AS",
+      "GHL"
+    ],
+    "status": "Review",
+    "previewUrl": "https://app.automaticsales.ai/v2/preview/ppaLCu9kFbEsX6dAtEcd?notrack=true",
+    "description": null,
+    "html": null,
+    "css": "button {\n\tanimation: pulse-animation 2s infinite;\n}\n\n/* RGBA Colors can be changed to matche your button style */\n/* Change the number with ***px*** to adjust */\n@keyframes pulse-animation {\n    0% {\n\t    box-shadow: 0 0 0 0px rgba(139, 198, 62, 0.3);\n    }\n    100% {\n\t    box-shadow: 0 0 0 20px rgba(139, 198, 62, 0);\n    }\n}",
+    "js": null,
+    "instructions": "(embed video here)\n\n1. Inside the form builder navigate to settings and scroll to the bottom until the CSS field.\n2. Add the CSS below to add the pulse animation.\n3. The timing of the animation can be adjusted in the ‘***animation: pulse-animation 2s infinite***’ where number with ‘s’ is the duration of the animation\n\n> Here is for the GHL form builder.\n>"
+  },
+  {
+    "id": "count-up-timer-with-comma-separator",
+    "name": "Count Up Timer with Comma Separator",
+    "slug": "count-up-timer-with-comma-separator",
+    "category": "Timers",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "AS",
+      "Elementor",
+      "GHL",
+      "Shopify",
+      "WP"
+    ],
+    "status": "Review",
+    "previewUrl": "https://app.solarcheatcode.com/v2/preview/PidThA0ig8oIrU34H7K9?notrack=true",
+    "description": null,
+    "html": "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js\" integrity=\"sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>\n<script>\n  $(function($, win) {\n    $.fn.inViewport = function(cb) {\n      return this.each(function(i,el){\n        function visPx(){\n          var H = $(this).height(),\n              r = el.getBoundingClientRect(), t=r.top, b=r.bottom;\n          return cb.call(el, Math.max(0, t>0? H-t : (b<H?b:H)));  \n        } visPx();\n        $(win).on(\"resize scroll\", visPx);\n      });\n    };\n  }(jQuery, window));\n\n  jQuery(function($) { // DOM ready and $ in scope\n    $(\".counter s\").inViewport(function(px) { // Make use of the `px` argument!!!\n      // if element entered V.port ( px>0 ) and\n      // if prop initNumAnim flag is not yet set\n      //  = Animate numbers\n      if(px>0 && !this.initNumAnim) { \n        this.initNumAnim = true; // Set flag to true to prevent re-running the same animation\n        $(this).prop('Counter',0).animate({\n          Counter: $(this).text()\n        }, {\n          duration: 5000,\n          step: function (now) {\n            $(this).text(parseInt(now.toFixed(0)).toLocaleString(\"en\"));\n          }\n        });         \n      }\n    });\n  });\n</script>",
+    "css": "/* counter */\n.counter s {\n    text-decoration: none;\n}",
+    "js": null,
+    "instructions": "(embed video here)\n\nIf dealing with GHL\n 1.  Add ‘counter’ to the element you wish to count up when element is on it’s view port.\n\n1. Select the numbers only text and use either of the B, I, S, U or Link to add a tag to it.\nMake sure the number text doesn’t have comma( , ) as it will be supplied automatically with the script.\n\n[Untitled](Count%20Up%20Timer%20with%20Comma%20Separator/Untitled%201.mp4)\n\n1. Copy the CSS below to Custom CSS\n2. Copy the Scripts to Tracking Code > Footer Tracking\n\n>"
+  },
+  {
+    "id": "responsive-font-size",
+    "name": "Responsive Font Size",
+    "slug": "responsive-font-size",
+    "category": "Other",
+    "tags": [
+      "CSS"
+    ],
+    "platforms": [
+      "AS",
+      "CF1.0",
+      "GHL",
+      "Shopify",
+      "WP"
+    ],
+    "status": "Review",
+    "previewUrl": null,
+    "description": null,
+    "html": null,
+    "css": "* {\n  /* Typography */\n  --main-font: 'Slabo 27px', serif;\n  \n  /* Calculation */\n  --responsive: calc((var(--min-font) * 1px) + (var(--max-font) - var(--min-font)) * ((100vw - 420px) / (1200 - 420))); /* Ranges from 421px to 1199px */\n}\n\nh1 {\n  /* Set max and min font sizes */\n  --max-font: 50;\n  --min-font: 25;\n  font-family: var(--main-font);\n  font-size: var(--responsive);\n}\n\np {\n  font-family: sans-serif;\n  margin: auto;\n  width: fit-content;\n  \n  /* Set max and min font sizes */\n  --max-font: 20;\n  --min-font: 14;\n  font-size: var(--responsive);\n}\n\n@media (min-width: 1200px) {\n  h1,\n  p {\n    font-size: calc(var(--max-font) * 1px);\n  }\n}\n\n@media (max-width: 420px) {\n  h1,\n  p {\n    font-size: calc(var(--min-font) * 1px);\n  }\n}\n\n/* Whatever */\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n\nhtml, body {\n  height: 100%;\n}\n\nbody {\n  display: flex;\n}\n\ndiv {\n  margin: auto;\n  padding: 20px;\n}\n\na,\na:visited,\na:focus,\na:active,\na:link {\n  text-decoration: none;\n  outline: 0;\n}\n\na {\n  color: skyblue;\n  transition: .2s ease-in-out color;\n}\n\nh1, h2, h3, h4 {\n  margin: .3em 0;\n}\n\nul {\n  padding: 0;\n  list-style: none;\n}\n\nimg {\n  vertical-align: middle;\n  height: auto;\n  width: 100%;\n}",
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "removing-utm-in-url",
+    "name": "Removing UTM in URL",
+    "slug": "removing-utm-in-url",
+    "category": "Other",
+    "tags": [],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Review",
+    "previewUrl": null,
+    "description": null,
+    "html": "<script type=\"text/javascript\">\nvar utmRemoverRun = false;\nfunction utmRemover() {\n\tif (!utmRemoverRun) { // only run once\n\tutmRemoverRun = true;\n\tvar cleanSearch = window.location.search\n\t\t.replace(/utm_[^&]+&?/g, '') // removes utm_xxx parameters\n\t\t.replace(/&$/, '')  // removes & if last character\n\t\t.replace(/^\\?$/, '')  // removes ? if only remaining character\n\t\t;\n\t// some pass utm_xxxx in the hash\n\tvar cleanHash = window.location.hash\n\t\t.replace(/utm_[^&]+&?/g, '') // removes utm_xxx parameters\n\t\t.replace(/&$/, '')  // removes & if last character\n\t\t.replace(/^\\#$/, '')  // removes # if only remaining character\n\t\t;\n\t\t\n\twindow.history.replaceState({}, '', window.location.pathname + cleanSearch + cleanHash);\n\t}\n};\nsetTimeout(utmRemover, 2000); // remove after 2 second\n// These need to run after the pageview command \nif (typeof ga !== 'undefined') ga(utmRemover);  // remove after normal Analytics has run\nif (typeof __gaTracker !== 'undefined') __gaTracker(utmRemover); // remove after Yoast Analytics has run\n</script>",
+    "css": null,
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "animated-double-arrow-down",
+    "name": "Animated Double Arrow Down",
+    "slug": "animated-double-arrow-down",
+    "category": "Other",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "Elementor",
+      "GHL",
+      "WP"
+    ],
+    "status": "In progress",
+    "previewUrl": null,
+    "description": null,
+    "html": "<style>\n    #double-angle-down {\n        max-width: 50px;\n        height: 50px;\n        display: flex;\n        margin: 0 auto;\n        align-items: center;\n        justify-content: center;\n    }\n\n    .arrow {\n        position: absolute;\n        margin-left: 0px;\n        width: 30px;\n        height: 30px;\n        background-size: contain;\n        top: 14px;\n    }\n\n    .segunda {\n        margin-top: 14px;\n    }\n\n    .bounceAlpha {\n        animation-name: bounceAlpha;\n        animation-duration: 1.4s;\n        animation-iteration-count: infinite;\n        animation-timing-function: linear;\n    }\n\n    .arrow.primera.bounceAlpha {\n        animation-name: bounceAlpha;\n        animation-duration: 1.4s;\n        animation-delay: 0.2s;\n        animation-iteration-count: infinite;\n        animation-timing-function: linear;\n    }\n\n    .arrow.primera {\n        animation-name: bounceAlpha;\n        animation-duration: 2s;\n        animation-delay: 1.2s;\n        animation-iteration-count: infinite;\n        animation-timing-function: linear;\n    }\n\n    .arrow {\n        animation-name: bounceAlpha;\n        animation-duration: 2s;\n        animation-delay: 1s;\n        animation-iteration-count: infinite;\n        animation-timing-function: linear;\n    }\n\n    @keyframes bounceAlpha {\n        0% {\n            opacity: 1;\n            transform: translateY(0px) scale(1);\n        }\n\n        25% {\n            opacity: 0;\n            transform: translateY(10px) scale(0.9);\n        }\n\n        26% {\n            opacity: 0;\n            transform: translateY(-10px) scale(0.9);\n        }\n\n        55% {\n            opacity: 1;\n            transform: translateY(0px) scale(1);\n        }\n    }\n</style>\n\n<div id=\"double-angle-down\">\n    <span class=\"arrow primera next\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\"\n            viewBox=\"0 0 448 512\"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->\n            <path\n                d=\"M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z\" />\n        </svg>\n    </span>\n    <span class=\"arrow segunda next\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\"\n            viewBox=\"0 0 448 512\"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->\n            <path\n                d=\"M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z\" />\n        </svg>\n    </span>\n</div>\n\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js\"\n    integrity=\"sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==\"\n    crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script><!-- don't include if you already have jquery library -->\n\n<script>\n    $(window).on('scroll', function () {\n        const scrollPosition = $(window).scrollTop();\n        if (scrollPosition >= 100) {\n            $('.anim-row').css('opacity', 1 - (scrollPosition - 100) / 100);\n        } else {\n            $('.anim-row').css('opacity', 1);\n        }\n\n    });\n</script>",
+    "css": null,
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "scaling-element-on-scroll",
+    "name": "Scaling Element on Scroll",
+    "slug": "scaling-element-on-scroll",
+    "category": "Animations",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "GHL",
+      "WP"
+    ],
+    "status": "In progress",
+    "previewUrl": null,
+    "description": null,
+    "html": "<!-- zooming in animation -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js\"></script>\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js\"></script>\n\n<script>\n  $(document).ready(function () {\n    $('.scale-image').wrap('<div class=\"scale-image-container\">');\n\n    var $containers = $('.scale-image-container');\n\n    $containers.each(function () {\n      var $container = $(this);\n\n      // Create a new timeline for the container\n      var tlContainer = gsap.timeline({\n        scrollTrigger: {\n          trigger: $container,\n          start: 'top 50%',\n          end: 'bottom 50%',\n          scrub: true,\n          markers: false\n        }\n      });\n\n      // Animate the container's scale\n      tlContainer.to($container, {\n        scale: 1.2,\n        duration: 1,\n        ease: 'linear'\n      }, 0);\n      \n    });//$containers\n\n  });//document ready\n</script>",
+    "css": null,
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "scrolltrigger-line-animation-gsap",
+    "name": "ScrollTrigger Line Animation (GSAP)",
+    "slug": "scrolltrigger-line-animation-gsap",
+    "category": "Animations",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Review",
+    "previewUrl": null,
+    "description": null,
+    "html": "<style>\n\t.custom-line-anim { // height of the scrolling line will base on here\n    height: 400px;\n  }\n  \n  .custom-line-anim > div {\n    height: 100%;\n  }\n  \n  .v-line-wrapper {\n    position: absolute;\n    top: -77px;\n    left: 0;\n    right: 0;\n  }\n  .v-line {\n    width: 3px;\n    background-color: #0184DE;\n    position: relative; /* add this to ensure height: 100vh works */\n    height: 0; /* initial height is 0, will animate to 100vh */\n    margin: 0 auto;\n  }\n  .v-line::after {\n    content: \"\";\n    position: absolute;\n    width: 40px;\n    height: 40px;\n    background: #0184de;\n    bottom: -40px;\n    left: -18px;\n    margin: 0 auto;\n    border-radius: 100%;\n    -webkit-animation: btnpulse 1.5s infinite;\n    animation: btnpulse 1.5s infinite;\n  }\n</style>\n<div class=\"v-line-wrapper\">\n  <div class=\"v-line\"></div>\n</div>\n\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js\"></script>\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js\"></script>\n<!-- line animation -->\n<script>\n    $(document).ready(function () {\n        var $vLine = $('.v-line');\n\n        gsap.to($vLine, {\n            height: '100%',\n            scrollTrigger: {\n                trigger: $vLine,\n                start: 'top 80%',\n                end: '+=500',\n                scrub: true,\n                markers: false\n            }\n        });\n    });\n</script>",
+    "css": null,
+    "js": null,
+    "instructions": "(embed video here)\n\n1. Add Custom Code element and add class ‘custom-line-anim’\n2. Copy the html code below inside\n3. Copy the script in Footer Tracking code\n\n>"
+  },
+  {
+    "id": "reveal-hidden-section-base-from-vimeo-progress-timelineline-progress",
+    "name": "Reveal hidden section base from Vimeo Progress Timelineline Progress",
+    "slug": "reveal-hidden-section-base-from-vimeo-progress-timelineline-progress",
+    "category": "Video",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Done",
+    "previewUrl": "https://erinandsarit.com/callprep",
+    "description": null,
+    "html": "<!-- Your Vimeo iframe --> \n<iframe\n  id=\"vimeo-player\"\n  src=\"https://player.vimeo.com/video/1118115799?h=e6a1332d37&amp;app_id=122963&amp;autoplay=1&amp;controls=1\"\n  allow=\"autoplay\"\n  title=\"player\"\n  allowfullscreen\n  loading=\"lazy\"\n  width=\"640\"\n  height=\"360\"\n></iframe>\n \n<!-- Hidden section --> \n<div id=\"hidden-section\">\n     \n  <h2>Hidden Content Revealed at 3:32!</h2>\n     \n  <p>\n    This section is now visible because the video reached 3 minutes and 32\n    seconds.\n  </p>\n   \n</div>\n \n<!-- Vimeo Player API --> \n<script src=\"https://player.vimeo.com/api/player.js\"></script>\n \n<script>\n      var iframe = document.getElementById('vimeo-player');    \n\t\t  var player = new Vimeo.Player(iframe);\n      var revealed = false; // To ensure the section is revealed only once\n      player.on('timeupdate', function(data) { // data.seconds is the current playback time in seconds\n\t  \n\t\t\t  if (!revealed && data.seconds >= 212) { // 3 minutes 32 seconds = 212 seconds\n\t\t\t\t  document.getElementById('hidden-section').style.display = 'block';        \n\t\t\t\t  revealed = true;      \n\t\t\t  }    \n\t\t\t  \n\t\t\t}); \n</script>\n\n<!-- multiple hidden section -->\n<script>\n    var iframe = document.getElementById('vimeo-player');  \n\t  var player = new Vimeo.Player(iframe);  \n\t  var revealed = false; // To ensure the sections are revealed only once\n    \n\t  // Array of your hidden section IDs  \n\t  var sectionIds = [    \n\t  'section-2vSDA-9WvC',    \n\t  'section-eDbMAsjKzm',    \n\t  'section-WXR6Z8bJED',    \n\t  'section-1xDq9gzp22'  \n\t  ];    \n\t  \n\t  player.on('timeupdate', function(data) {    \n\t\t  if (!revealed && data.seconds >= 5) {      \n\t\t\t  revealed = true;      \n\t\t\t  sectionIds.forEach(function(id) {        \n\t\t\t\t  var el = document.getElementById(id);        \n\t\t\t\t  \n\t\t\t\t  if (el) {          \n\t\t\t\t\t  el.style.display = 'block';        \n\t\t\t\t\t  }      \n\t\t\t  });    \n\t\t  }  \n\t  });\n</script>",
+    "css": "#hidden-section {      \n\tdisplay: none;      \n\tmargin-top: 20px;      \n\tpadding: 10px;      \n\tbackground-color: #f0f0f0;      \n\tborder: 1px solid #ccc;    \n}",
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "ghl-colored-tabs",
+    "name": "GHL Colored Tabs",
+    "slug": "ghl-colored-tabs",
+    "category": "Other",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Review",
+    "previewUrl": "https://app.automaticsales.ai/v2/preview/RKBNAK2f5CjKeT3elzzh",
+    "description": null,
+    "html": "<script>\n  //tabs menu\n  const menus = document.querySelectorAll('div.tab-menu');\n  const sections = document.querySelectorAll('div.tab-content');\n\n  // Add data-option attribute to each section\n  sections.forEach((section, index) => {\n    section.setAttribute('data-option', `option${index + 1}`);\n  });\n\n  // Add data-section attribute to each menu\n  menus.forEach((menu, index) => {\n    menu.setAttribute('data-section', `option${index + 1}`);\n  });\n\n  // Append .tab-corners to each menu\n  menus.forEach(menu => {\n    const tabCorners = document.createElement('div');\n    tabCorners.classList.add('tab-corners');\n\n    const leftCorner = document.createElement('div');\n    leftCorner.classList.add('tab-corner', 'is-left');\n\n    const rightCorner = document.createElement('div');\n    rightCorner.classList.add('tab-corner', 'is-right');\n\n    tabCorners.appendChild(leftCorner);\n    tabCorners.appendChild(rightCorner);\n\n    menu.appendChild(tabCorners);\n  });\n\n  // Create a copy of each tab-content and append it to each tab-menu\n  sections.forEach((section, index) => {\n    const mobileContent = section.cloneNode(true);\n    mobileContent.classList.remove('tab-content');\n    mobileContent.removeAttribute('data-option');\n    mobileContent.classList.add('tab-content-mobile');\n    menus[index].appendChild(mobileContent);\n  });\n\n  menus.forEach(menu => menu.addEventListener('click', function () {\n    // Remove 'active' class from all menus\n    menus.forEach(m => m.classList.remove('active'));\n    // Add 'active' class to the clicked menu\n    menu.classList.add('active');\n    // Hide all sections first\n    sections.forEach(section => {\n      section.classList.add('hidden');\n    });\n    // Show the section associated with the clicked menu\n    // Derive section class based on menu's data-section attribute\n    const optionClass = menu.getAttribute('data-section');\n    document.querySelector(`[data-option=\"${optionClass}\"]`).classList.remove('hidden');\n  }));\n\n  // Simulate a click on the first menu\n  if (menus.length > 0) {\n    menus[0].click();\n  }\n</script>",
+    "css": ".hidden {\n    display: none;\n}\n\n.card-title.is-xlarge h2 {\n    font-size: 1.8rem !important;\n}\n\n.body-medium p {\n    font-size: 1.2rem !important;\n    line-height: 1.3 !important;\n}\n\n.custom-container-1>.inner {\n    max-width: 1350px !important;\n}\n\n.tabs-nav>.inner {\n    gap: 15px;\n}\n\n.tabs-nav .c-column {\n    padding: 0;\n}\n\n.tabs-nav .c-image-feature,\n.tabs-nav .c-image-feature .img-feature-container {\n    height: 100%;\n}\n\n.tabs-nav .img-feature-container.tab-menu {\n    display: flex !important;\n    flex-direction: column !important;\n    flex-wrap: wrap !important;\n    border: 2px solid #ececec;\n    border-radius: 1.2rem;\n    box-shadow: 1px 12px 6px 0 rgba(236, 236, 236, 0.4);\n    cursor: pointer;\n    transition: all 0.3s ease;\n}\n\n.tabs-nav .img-feature-container.tab-menu.active {\n    box-shadow: 0 0 0 0 rgba(236, 236, 236, 0);\n}\n\n.tabs-nav img.tab-menu {\n    border-radius: 0.9rem !important;\n}\n\n.tabs-nav .img-feature-container.tab-menu .img-container,\n.tabs-nav .img-feature-container.tab-menu .txt-container {\n    width: 100% !important;\n}\n\n.tabs-nav .img-feature-container.tab-menu .img-container {\n    padding: 0 !important;\n}\n\n.tabs-nav .img-feature-container.tab-menu .txt-container {\n    padding: .6rem !important;\n}\n\n.tabs-nav .featureHeadline p {\n    margin-bottom: .1rem;\n    font-size: 1rem;\n}\n\n.tabs-nav .featureText p {\n    font-size: .8rem;\n    line-height: 1.3;\n}\n\n.tabs-nav .tab-menu .tab-corners {\n    z-index: 3;\n    pointer-events: none;\n    color: #e4f7f9;\n    flex-flow: row;\n    justify-content: space-between;\n    align-items: flex-start;\n    display: flex;\n    position: absolute;\n    inset: auto 0% -100px;\n    height: 66px;\n    margin-left: 0;\n    margin-right: 0;\n}\n\n.tabs-nav .tab-menu.active .tab-corners {\n    bottom: -50px;\n}\n\n.tabs-nav .tab-menu .tab-corner.is-left {\n    width: 34px;\n    height: 34px;\n    transform: rotate(0);\n    inset: 0% auto auto -11.7%;\n    position: absolute;\n}\n\n.tabs-nav .tab-menu .tab-corner.is-right {\n    width: 34px;\n    height: 34px;\n    transform: rotate(90deg);\n    inset: 0% -11.7% auto auto;\n    position: absolute;\n}\n\n[data-section=\"option1\"].active {\n    background: #e4f7f9;\n    border-color: #bff1f5 !important;\n}\n\n[data-section=\"option2\"].active {\n    background: #fffae6;\n    border-color: #fef3c2 !important;\n}\n\n[data-section=\"option3\"].active {\n    background: #f0f0ff;\n    border-color: #e0e1fa !important;\n}\n\n[data-section=\"option4\"].active {\n    background: #fcf2fe;\n    border-color: #fce5ff !important;\n}\n\n[data-section=\"option5\"].active {\n    background: #f8fbe7;\n    border-color: #eff5ce !important;\n}\n\n[data-section=\"option1\"].active .tab-corners {\n    background-color: #e4f7f9;\n}\n\n[data-section=\"option2\"].active .tab-corners {\n    background-color: #fffae6;\n}\n\n[data-section=\"option3\"].active .tab-corners {\n    background-color: #f0f0ff;\n}\n\n[data-section=\"option4\"].active .tab-corners {\n    background-color: #fcf2fe;\n}\n\n[data-section=\"option5\"].active .tab-corners {\n    background-color: #f8fbe7;\n}\n\n[data-section=\"option1\"].active .tab-corner.is-left {\n    width: 2px;\n    height: 100%;\n    background-image: none;\n    background-color: #bff1f5;\n    transform: rotate(0deg);\n    inset: 0% auto auto 0;\n}\n\n[data-section=\"option1\"].active .tab-corner.is-right {\n    background-image: radial-gradient(circle at 0px 0px, rgba(255, 255, 255, 0) 30px, rgb(191, 241, 245), 30px, rgb(191, 241, 245), 32px, rgb(228, 247, 249) 32px);\n}\n\n[data-section=\"option2\"].active .tab-corner.is-left,\n[data-section=\"option2\"].active .tab-corner.is-right {\n    background-image: radial-gradient(circle at 0px 0px, rgba(255, 255, 255,0) 30px, rgb(255, 243, 194), 30px, rgb(255, 243, 194), 32px, rgb(255, 250, 230) 32px);\n}\n\n[data-section=\"option3\"].active .tab-corner.is-left,\n[data-section=\"option3\"].active .tab-corner.is-right {\n    background-image: radial-gradient(circle at 0px 0px, rgba(255, 255, 255,0) 30px, rgb(225, 225, 250), 30px, rgb(225, 225, 250), 32px, rgb(240, 240, 255) 32px);\n}\n\n[data-section=\"option4\"].active .tab-corner.is-left,\n[data-section=\"option4\"].active .tab-corner.is-right {\n    background-image: radial-gradient(circle at 0px 0px, rgba(255, 255, 255,0) 30px, rgb(253, 229, 255), 30px, rgb(253, 229, 255), 32px, rgb(252, 242, 254) 32px);\n}\n\n[data-section=\"option5\"].active .tab-corner.is-left {\n    background-image: radial-gradient(circle at 0px 0px, rgba(255, 255, 255,0) 30px, rgb(239, 245, 206), 30px, rgb(239, 245, 206), 32px, rgb(248, 251, 231) 32px);\n}\n\n[data-section=\"option5\"].active .tab-corner.is-right {\n    width: 2px;\n    height: 100%;\n    background-image: none;\n    background-color: #eff5ce;\n    transform: rotate(0deg);\n    inset: 0% 0% auto auto;\n}\n\n.tab-content-mobile {\n    display: none;\n}\n\n@media screen and (max-width:767px) {\n    .card-title.is-xlarge h2 {\n        font-size: 1.5rem !important;\n    }\n\n    .body-medium p {\n        font-size: 1rem !important;\n    }\n\n    .tab-content {\n        display: none !important;\n    }\n\n    .tab-corners {\n        display: none !important;\n    }\n\n    .tabs-nav img.tab-menu {\n        border-radius: 0.9rem !important;\n        min-height: 100px !important;\n        object-fit: cover;\n    }\n\n    .tabs-nav .img-feature-container.tab-menu {\n        flex-direction: row !important;\n        align-items: center !important;\n    }\n\n    .tabs-nav .img-feature-container.tab-menu .img-container {\n        width: 30% !important;\n    }\n\n    .tabs-nav .img-feature-container.tab-menu .txt-container {\n        width: 60% !important;\n        padding-left: 20px !important;\n    }\n\n    .tabs-nav .tab-menu.active .tab-content-mobile {\n        display: block;\n        padding: 1rem 0 0 0;\n        border: none;\n    }\n}",
+    "js": null,
+    "instructions": "(embed video here)\n\n1. Add row for tab navigation. Add class tabs-nav.\n2. In this sample, I added 5 columns. Add image feature element in each columns then add class ‘tab-menu’\n3. For each Tab-content, add rows then add class ‘tab-content’ in each of it.\n\n*Note: Automatically, the order of each tab-menu is from left to right and for the tab-content is from top to bottom. So the first tab-menu is for the first tab-content. So on and so fort.*"
+  },
+  {
+    "id": "ghl-swiper-slider-without-using-custom-code-element",
+    "name": "GHL Swiper Slider without using custom code element.",
+    "slug": "ghl-swiper-slider-without-using-custom-code-element",
+    "category": "Sliders",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Review",
+    "previewUrl": "https://grow.musestorytelling.com/v2/preview/7WGledIvhms2UivzaC6H?notrack=true",
+    "description": null,
+    "html": "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js\" integrity=\"sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js\" integrity=\"sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>\n\n<!-- overiding ghl defualts in row and column elements to avoid conflict -->\n<script>\n  $('.testimonial-swiper').removeClass('c-section'); \n  $('.testimonial-swiper > .inner').addClass('swiper-wrapper'); \n  $('.testimonial-swiper .c-row').removeClass('c-row'); \n\n  $('.testimonial-swiper').append('<div class=\"swiper-buttons\"><div class=\"swiper-button swiper-button-next\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" height=\"1em\" viewBox=\"0 0 24 24\"><path fill=\"currentColor\" d=\"M13 7.828V20h-2V7.828l-5.364 5.364l-1.414-1.414L12 4l7.778 7.778l-1.414 1.414z\"/></svg></div><div class=\"swiper-button swiper-button-prev\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" height=\"1em\" viewBox=\"0 0 24 24\"><path fill=\"currentColor\" d=\"M13 7.828V20h-2V7.828l-5.364 5.364l-1.414-1.414L12 4l7.778 7.778l-1.414 1.414z\"/></svg></div></div><div class=\"swiper-pagination\"></div>');\n</script>\n\n<script>\n  var swiper = new Swiper(\".testimonial-swiper\", {\n    slidesPerView: 1,\n    spaceBetween: 10,\n    loop: true,\n    grabCursor: true,\n    navigation: {\n      nextEl: \".swiper-button-next\",\n      prevEl: \".swiper-button-prev\",\n    },\n    breakpoints: {\n      640: {\n        slidesPerView: 2,\n        spaceBetween: 15,\n      },\n      768: {\n        slidesPerView: 3,\n        spaceBetween: 20,\n      },\n      1024: {\n        slidesPerView: 4,\n        spaceBetween: 24,\n      },\n    },\n  });\n</script>",
+    "css": "/* Testimonial Slider */\n.swiper-wrapper {\n    display: -webkit-flex;\n}\n\n.swiper-wrapper {\n    display: -webkit-box !important;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-transition-property: -webkit-transform;\n    transition-property: -webkit-transform;\n    -o-transition-property: transform;\n    transition-property: transform;\n    transition-property: transform, -webkit-transform;\n    -webkit-box-sizing: content-box;\n    box-sizing: content-box;\n    margin-bottom: -12px;\n}\n\n.swiper {\n    width: 100%;\n}",
+    "js": null,
+    "instructions": "(embed video here)\n\n1. Add ‘testimonial-swiper’ class to section desired to display the testmonial slider.\n2. Each of the rows added to that section will act as slide so we need to add class ‘swiper-slide’ to each row."
+  },
+  {
+    "id": "ghl-slick-slider-no-custom-code-element",
+    "name": "GHL Slick Slider ( No Custom Code Element)",
+    "slug": "ghl-slick-slider-no-custom-code-element",
+    "category": "Sliders",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Review",
+    "previewUrl": "https://app.automaticsales.ai/v2/preview/XfHp9fSl94eByFs2CoaK?notrack=true",
+    "description": null,
+    "html": "<!-- Header tracking code -->\n\n<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css\" integrity=\"sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />\n\n<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css\" integrity=\"sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />\n\n<!-- Footer tracking code -->\n\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js\" integrity=\"sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>\n\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js\" integrity=\"sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>\n\n<script>\n$('.testimonial-slider > .inner').slick({\n  dots: true,\n  infinite: false,\n  speed: 300,\n  slidesToShow: 3,\n  slidesToScroll: 3,\n  responsive: [\n    {\n      breakpoint: 1024,\n      settings: {\n        slidesToShow: 2,\n        slidesToScroll: 2,\n        infinite: true,\n        dots: true\n      }\n    },\n    {\n      breakpoint: 600,\n      settings: {\n        slidesToShow: 2,\n        slidesToScroll: 2\n      }\n    },\n    {\n      breakpoint: 480,\n      settings: {\n        slidesToShow: 1,\n        slidesToScroll: 1\n      }\n    }\n    // You can unslick at a given breakpoint now by adding:\n    // settings: \"unslick\"\n    // instead of a settings object\n  ]\n});\n</script>",
+    "css": ".testimonial-slider .slick-slide {\n    margin: 0 10px;\n}\n\n.testimonial-slider .slick-slide img {\n    margin: 0 auto;\n}\n\n.testimonial-slider .slick-arrow::before {\n    font-size: 32px !important;\n}\n\n.testimonial-slider ul.slick-dots button::before {\n    color: #fff !important;\n    font-size: 10px;\n}",
+    "js": null,
+    "instructions": "1. Add “testimonial-slider” class to the section you want to have the testimonial slider. This will make all the rows within this section the testimonial slide(slick-slide).\n\n![image.png](GHL%20Slick%20Slider%20(%20No%20Custom%20Code%20Element)/image.png)\n\n1. Copy and paste the styles and scripts below.\n\n>"
+  },
+  {
+    "id": "timeline-swiper-slider",
+    "name": "Timeline Swiper Slider",
+    "slug": "timeline-swiper-slider",
+    "category": "Sliders",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Review",
+    "previewUrl": "https://app.automaticsales.ai/v2/preview/o1LBy1ZFZwa6C9W7o9Nm?notrack=true",
+    "description": null,
+    "html": "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.2/swiper-bundle.css\" integrity=\"sha512-zar81H5lVN36QFsq/da1hxpOLODXK4/oFwBGOFrvdWX6SBe3NWriWTQS6YQDVfW5fDeb2Vry41YQCELOe8cHww==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />\n\n<div class=\"swiper-container swiper--top\">\n  \t<div class=\"swiper-pagination\"></div>\n  \t<img class=\"image-with-tick\" src=\"https://assets.cdn.filesafe.space/l6jEceS4lWdzoBGNJL20/media/6667275193aa338210bfd9d8.png\"/>\n    <div class=\"swiper-wrapper\">\n        <div class=\"swiper-slide\">\n            <img src=\"https://storage.googleapis.com/msgsndr/cMr8cDX5LokKkcvU8Ble/media/6666aa391848ae99d5a31d1c.png\">\n        </div>\n\n        <div class=\"swiper-slide\">\n            <img src=\"https://storage.googleapis.com/msgsndr/cMr8cDX5LokKkcvU8Ble/media/6666a8ff072c069c1f8bc0aa.png\">\n        </div>\n\n        <div class=\"swiper-slide\">\n            <img src=\"https://storage.googleapis.com/msgsndr/cMr8cDX5LokKkcvU8Ble/media/6666a8ff1848aef635a31ba2.png\">\n        </div>\n    </div>\n\n    <div class=\"swiper-button-next\"></div>\n    <div class=\"swiper-button-prev\"></div>\n</div>\n\n<!-- swiper js -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.2/swiper-bundle.min.js\"\n    integrity=\"sha512-+z66PuMP/eeemN2MgRhPvI3G15FOBbsp5NcCJBojg6dZBEFL0Zoi0PEGkhjubEcQF7N1EpTX15LZvfuw+Ej95Q==\"\n    crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>\n<script>\n    let SwiperTop = new Swiper('.swiper--top', {\n        slidesPerView: 1,\n        spaceBetween: 10,\n        centeredSlides: true,\n      \tautoplay: {\n          delay: 2000,\n          disableOnInteraction: false,\n        },\n        pagination: {\n            el: '.swiper-pagination',\n            clickable: true\n        },\n        navigation: {\n            nextEl: '.swiper-button-next',\n            prevEl: '.swiper-button-prev',\n        },\n        loop: true,\n    });\n</script>",
+    "css": "/* swiper slide -- start */\n.swiper-container {\n    position: relative;\n    overflow: hidden;\n    padding: 0 0 0;\n    margin-top: 0;\n}\n\n.swiper-wrapper {\n    display: -webkit-box !important;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-transition-property: -webkit-transform;\n    transition-property: -webkit-transform;\n    -o-transition-property: transform;\n    transition-property: transform;\n    transition-property: transform,-webkit-transform;\n    -webkit-box-sizing: content-box;\n    box-sizing: content-box;\n    margin-bottom: -12px;\n}\n\n.swiper-slide {\n    background: #1d253a;\n}\n\n.swiper-slide img {\n    width: 100%;\n    max-width: 100%;\n    height: 100%;\n}\n\n.swiper-button-next, .swiper-button-prev {\n    width: 50%;\n    height: 100%;\n    top: 0;\n    opacity: 0;\n}\n\n.swiper-pagination {\n    position: relative !important;\n    display: flex;\n    margin-top: 10px;\n    margin-bottom: 10px;\n}\n\n.swiper-pagination .swiper-pagination-bullet {\n    width: 100%;\n    border-radius: 10px;\n    height: 3px;\n    background: rgba(255, 255, 255, 0.5) !important;\n    position: relative;\n    overflow: hidden;\n}\n\n.swiper-pagination-bullet::before {\n    content: \"\";\n    display: block;\n    position: absolute;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n}\n\n.swiper-pagination-bullet-active {\n    background: rgba(0, 0, 0, 0.4);\n}\n\n.swiper-pagination-bullet-active::before {\n    background-color: #fff;\n    -webkit-animation: slide-progress 2.2s cubic-bezier(0.0, 0.0, 1.0, 1.0) forwards;\n    animation: slide-progress 2.2s cubic-bezier(0.0, 0.0, 1.0, 1.0) forwards;\n}\n\n.swiper-paused .swiper-pagination-bullet-active::before {\n    -webkit-animation-play-state: paused;\n    animation-play-state: paused;\n}\n\n@-webkit-keyframes slide-progress {\n    0% {\n        transform: translateX(-100%);\n    }\n\n    100% {\n        transform: translateX(0);\n    }\n}\n\n@keyframes slide-progress {\n    0% {\n        transform: translateX(-100%);\n    }\n\n    100% {\n        transform: translateX(0);\n    }\n}\n\nimg.image-with-tick {\n    max-width: 220px;\n    margin-bottom: 40px;\n}\n\n/* IOS and MAC */\n.swiper-wrapper {\n    display: -webkit-flex;\n}\n/* IOS and MAC */\n/* swiper slide -- end */\n\n@media screen and (max-width:767px) {\n    .swiper-pagination {\n        padding: 0 10px;\n    }\n}",
+    "js": null,
+    "instructions": "(embed video here)\n\n> \n\nHeader Tracking Code"
+  },
+  {
+    "id": "ghl-desktop-responsive-menu",
+    "name": "GHL Desktop Responsive Menu",
+    "slug": "ghl-desktop-responsive-menu",
+    "category": "Navigation",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Review",
+    "previewUrl": null,
+    "description": null,
+    "html": null,
+    "css": null,
+    "js": null,
+    "instructions": null
+  },
+  {
+    "id": "ghl-image-carousel-marquee-style",
+    "name": "GHL Image Carousel (marquee style)",
+    "slug": "ghl-image-carousel-marquee-style",
+    "category": "Sliders",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "In progress",
+    "previewUrl": null,
+    "description": null,
+    "html": "<style>\n  .marquee {\n    white-space: nowrap;\n    position: relative;\n    width: 100%;\n  }\n\n  .marquee-inner {\n    display: flex;\n    align-items: center;\n    gap: 2vw;\n    will-change: transform;\n  }\n\n  .marquee-inner img {\n    transition: transform 0.5s;\n    flex-shrink: 0;\n    border-radius: 10px;\n    object-fit: cover;\n    width: 426px;\n    height: 450px;\n  }\n</style>\n\n<div class=\"marquee\">\n  <div class=\"marquee-inner\">\n    <img src=\"https://images.unsplash.com/photo-1719836257725-cc6659c4100e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE2NzIyODd8&ixlib=rb-4.0.3&q=85\" alt=\"Image 1\">\n    <img src=\"https://images.unsplash.com/photo-1719836257725-cc6659c4100e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE2NzIyODd8&ixlib=rb-4.0.3&q=85\" alt=\"Image 1\">\n    <img src=\"https://images.unsplash.com/photo-1719836257725-cc6659c4100e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE2NzIyODd8&ixlib=rb-4.0.3&q=85\" alt=\"Image 1\">\n    <img src=\"https://images.unsplash.com/photo-1719836257725-cc6659c4100e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE2NzIyODd8&ixlib=rb-4.0.3&q=85\" alt=\"Image 1\">\n    <img src=\"https://images.unsplash.com/photo-1719836257725-cc6659c4100e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE2NzIyODd8&ixlib=rb-4.0.3&q=85\" alt=\"Image 1\">\n    <img src=\"https://images.unsplash.com/photo-1719836257725-cc6659c4100e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE2NzIyODd8&ixlib=rb-4.0.3&q=85\" alt=\"Image 1\">\n  </div>\n</div>\n\n<script>\n  document.addEventListener(\"DOMContentLoaded\", () => {\n    const marquee = document.querySelector(\".marquee-inner\");\n    const speed = 1.5; // Scrolling Speed\n    let scrollAmount = 0;\n\n    // Duplicates the content\n    const marqueeContent = marquee.innerHTML;\n    marquee.innerHTML += marqueeContent;\n\n    const startScrolling = () => {\n      scrollAmount -= speed;\n      if (Math.abs(scrollAmount) >= marquee.scrollWidth / 2) {\n        scrollAmount = 0;\n      }\n      marquee.style.transform = `translateX(${scrollAmount}px)`;  \n      requestAnimationFrame(startScrolling);\n    };\n\n    startScrolling();\n  });\n</script>",
+    "css": null,
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "vertical-thumbnails-product-slider",
+    "name": "Vertical Thumbnails Product Slider",
+    "slug": "vertical-thumbnails-product-slider",
+    "category": "Sliders",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "In progress",
+    "previewUrl": "https://app.gohighlevel.com/v2/preview/Y5LNYs948fjm13dDOPP3?notrack=true",
+    "description": null,
+    "html": null,
+    "css": "",
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "swiper-slider-with-thumbnails",
+    "name": "Swiper slider with thumbnails",
+    "slug": "swiper-slider-with-thumbnails",
+    "category": "Sliders",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "In progress",
+    "previewUrl": null,
+    "description": null,
+    "html": "<!-- header script -->\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css\">\n\n<!-- footer script -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js\" integrity=\"sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>\n\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js\" integrity=\"sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>\n\n<script>    \nvar slider = new Swiper('.gallery-slider', {        \n\tslidesPerView: 1,    \n});\n\nvar thumbs = new Swiper('.gallery-thumbs', {\n\tspaceBetween: 10,        \n\tslidesPerView: 4,        \n\tfreeMode: true,        \n\tslideToClickedSlide: true,        \n\twatchSlidesProgress: true,        \n\tnavigation: {            \n\t\tnextEl: '.swiper-button-next',            \n\t\tprevEl: '.swiper-button-prev',        \n\t},    \n\t});\n    \nslider.controller.control = thumbs;    \nthumbs.controller.control = slider;\n</script>\n\n<div class=\"gallery\">\n    <div class=\"swiper-container gallery-slider\">\n        <div class=\"swiper-wrapper\">\n            <div class=\"swiper-slide\">\n                <img src=\"image_link_here\" />\n            </div>\n            <div class=\"swiper-slide\">\n                <img src=\"image_link_here\" />\n            </div>\n            <div class=\"swiper-slide\">\n                <img src=\"image_link_here\" />\n            </div>\n            <div class=\"swiper-slide\">\n                <img src=\"image_link_here\" />\n            </div>\n            <div class=\"swiper-slide\">\n                <img src=\"image_link_here\" />\n            </div>\n            <div class=\"swiper-slide\">\n                <img src=\"image_link_here\" />\n            </div>\n            <div class=\"swiper-slide\">\n                <img src=\"image_link_here\" />\n            </div>\n        </div>\n    </div>\n\n    <div class=\"swiper-container gallery-thumbs\">\n        <div class=\"swiper-wrapper\">\n            <div class=\"swiper-slide\">\n                <img src=\"image_link_here\" />\n            </div>\n            <div class=\"swiper-slide\">\n                <img src=\"image_link_here\" />\n            </div>\n            <div class=\"swiper-slide\">\n                <img src=\"image_link_here\" />\n            </div>\n            <div class=\"swiper-slide\">\n                <img src=\"image_link_here\" />\n            </div>\n            <div class=\"swiper-slide\">\n                <img src=\"image_link_here\" />\n            </div>\n            <div class=\"swiper-slide\">\n                <img src=\"image_link_here\" />\n            </div>\n            <div class=\"swiper-slide\">\n                <img src=\"image_link_here\" />\n            </div>\n        </div>\n\n        <div class=\"swiper-button-prev\"></div>\n        <div class=\"swiper-button-next\"></div>\n    </div>\n</div>",
+    "css": ".swiper-slide img {        \n\twidth: 100%;    \n}\n.product-slider-container {        \n\tpadding: 30px;        \n\tbackground: rgb(252, 247, 243);        \n\tborder-radius: 24px;    \n}\n.gallery-slider {        \n\tmargin-bottom: 20px;        \n\tborder-radius: 8px;        \n\toverflow: hidden;    \n}\n.gallery-thumbs {        \n\tposition: relative;        \n\toverflow: hidden;    \n}\n.swiper-button-prev::after,    \n.swiper-button-next::after {        \n\tfont-size: 16px !important;        \n\tcolor: #000;        \n\tfont-weight: 900;    \n}\n.swiper-button-next,    \n.swiper-button-prev {        \n\tbackground: #fff;        \n\tborder-radius: 100%;        \n\twidth: 40px;        \n\theight: 40px;    \n}",
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  },
+  {
+    "id": "multiple-popup-in-ghl-with-exit-popup-function",
+    "name": "Multiple Popup in GHL (with exit popup function)",
+    "slug": "multiple-popup-in-ghl-with-exit-popup-function",
+    "category": "Video",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Done",
+    "previewUrl": null,
+    "description": null,
+    "html": "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js\" integrity=\"sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>\n<script>\n  $(document).ready(function () {\n    $('.pop-row').hide();\n\n    let popItem = $('.c-image');\n    let popButton = $('.pop-button').parent();\n\n    $(popButton).on('click', function (e) {\n      e.preventDefault();\n      e.stopPropagation();\n\n      $('.pop-row').hide();\n\n      hRef = $(this).attr('id');\n      $('.'+ hRef).show();\n\n      console.log('.'+ hRef);\n    });\n\n    $(popItem).on('click', function (e) {\n      e.preventDefault();\n      e.stopPropagation();\n\n      $('.pop-row').hide();\n        \n      hRef = $(this).attr('id');\n      $('.'+ hRef).show();\n\n      console.log('.'+ hRef);\n    });\n    \n    // Show exit intent popup\n    $(document).on('mouseleave', function (e) {\n      if (e.clientY < 50) { // Trigger when the cursor leaves the page (exit intent)\n        $('.pop-row').hide(); // Hide all pop-ups\n        $('.exit-popup').show(); // Show the exit intent popup\n      }\n    });\n  });\n</script>",
+    "css": null,
+    "js": null,
+    "instructions": "***Add the script below and paste it in a Code Block. Place it in the very bottom part*\n\nIf popup trigger is a image:**\n\n1. Set Action of the Image to “Open popup”.\n\n![Untitled](Multiple%20Popup%20in%20GHL/Untitled.png)\n\n1. Copy the ID of the image you wish to be a trigger of the popup (*not including the “#”*).\n\n![Untitled](Multiple%20Popup%20in%20GHL/Untitled%201.png)\n\n1. Open popup settings, then paste the **Image ID** copied as a class of the row you have added\n2. Add class “pop-row” for each row inside the popup.\n\n![Untitled](Multiple%20Popup%20in%20GHL/Untitled%202.png)\n\n![Untitled](Multiple%20Popup%20in%20GHL/Untitled%203.png)\n\n**If popup trigger is a button:**\n\n1. Set action of the button to “”Open Popup”.\n2. Add class “pop-button”.\n3. Copy the Id of the button.\n4. Paste the copied Id of the button as a Class of the row in the popup.\n\n>"
+  },
+  {
+    "id": "logo-slider-base-from-ghl-site",
+    "name": "Logo Slider base from GHL site",
+    "slug": "logo-slider-base-from-ghl-site",
+    "category": "Sliders",
+    "tags": [
+      "CSS",
+      "JS"
+    ],
+    "platforms": [
+      "GHL"
+    ],
+    "status": "Review",
+    "previewUrl": null,
+    "description": null,
+    "html": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n\n    <style>\n        .scroller__inner {\n            display: flex;\n            flex-wrap: wrap;\n            gap: 3rem;\n        }\n\n        .scroller[data-animated=\"true\"] {\n            overflow: hidden;\n            -webkit-mask: linear-gradient(90deg,\n                    transparent,\n                    white 5%,\n                    white 95%,\n                    transparent);\n            mask: linear-gradient(90deg, transparent, white 5%, white 95%, transparent);\n        }\n\n        .scroller[data-animated=\"true\"] .scroller__inner {\n            width: max-content;\n            flex-wrap: nowrap;\n            animation: scroll var(--_animation-duration, 40s) var(--_animation-direction, forwards) linear infinite;\n        }\n\n        .scroller[data-direction=\"right\"] {\n            --_animation-direction: reverse;\n        }\n\n        .scroller[data-direction=\"left\"] {\n            --_animation-direction: forwards;\n        }\n\n        .scroller[data-speed=\"fast\"] {\n            --_animation-duration: 20s;\n        }\n\n        .scroller[data-speed=\"slow\"] {\n            --_animation-duration: 60s;\n        }\n\n        @keyframes scroll {\n            to {\n                transform: translate(calc(-50% - 0.5rem));\n            }\n        }\n\n        .scroller img {\n            height: 50px;\n            width: auto;\n            max-width: 100%;\n            display: inline-block;\n        }\n\n        @media (max-width:932px) {\n            .scroller img {\n                width: auto;\n            }\n        }\n    </style>\n</head>\n\n<body>\n    <main>\n        <div class=\"scroller\" data-direction=\"left\" data-speed=\"slow\" data-animated=\"true\">\n            <div class=\"scroller__inner\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a506eacd2a0b72e015.png\" alt=\"Printfull\" height=\"50px;\" width=\"100%\">\n                <img src=\"https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6708273f16989c97e93c88f4.png\" alt=\"HIPAA\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5eeb737f0f46d445b.png\" alt=\"Xero\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67abd58650fb000ed8851f30.png\" alt=\"Zapier\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67af641f237ce2563df82508.png\" alt=\"WhatsApp\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a572d42b2bbdab113b.png\" alt=\"Wave\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a579284bbe3b6a77ac.png\" alt=\"Facebook\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a579284bdb1a6a77ab.png\" alt=\"Clio\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5ee6da9493235043e.png\" alt=\"Stripe\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5ee6da9500a35043d.png\" alt=\"Shopify\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a506eacd595072e016.png\" alt=\"TickTok\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a534b29afa9dca6433.png\" alt=\"QB\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a537d82f92fceb7e3d.png\" alt=\"LinkedIn\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a54325e150f16636dc.png\" alt=\"Google\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a534b29a2b24ca6434.png\" alt=\"Slack\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a579284b08c36a77ad.png\" alt=\"Shipo\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5ee6da9160435043f.png\" alt=\"Instagram\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a534b29a1b3eca6435.png\" alt=\"Woo\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5f3bda8b1b50e5c3e.png\" alt=\"Google Buisness\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a506eacd2a0b72e015.png\" alt=\"Printfull\" height=\"50px;\" width=\"100%\" aria-hidden=\"true\">\n                <img src=\"https://assets.cdn.filesafe.space/knES3eSWYIsc5YSZ3YLl/media/6708273f16989c97e93c88f4.png\" alt=\"HIPAA\" aria-hidden=\"true\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5eeb737f0f46d445b.png\" alt=\"Xero\" aria-hidden=\"true\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67abd58650fb000ed8851f30.png\" alt=\"Zapier\" aria-hidden=\"true\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67af641f237ce2563df82508.png\" alt=\"WhatsApp\" aria-hidden=\"true\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a572d42b2bbdab113b.png\" alt=\"Wave\" aria-hidden=\"true\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a579284bbe3b6a77ac.png\" alt=\"Facebook\" aria-hidden=\"true\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a579284bdb1a6a77ab.png\" alt=\"Clio\" aria-hidden=\"true\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5ee6da9493235043e.png\" alt=\"Stripe\" aria-hidden=\"true\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5ee6da9500a35043d.png\" alt=\"Shopify\" aria-hidden=\"true\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a506eacd595072e016.png\" alt=\"TickTok\" aria-hidden=\"true\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a534b29afa9dca6433.png\" alt=\"QB\" aria-hidden=\"true\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a537d82f92fceb7e3d.png\" alt=\"LinkedIn\" aria-hidden=\"true\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a54325e150f16636dc.png\" alt=\"Google\" aria-hidden=\"true\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a534b29a2b24ca6434.png\" alt=\"Slack\" aria-hidden=\"true\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a579284b08c36a77ad.png\" alt=\"Shipo\" aria-hidden=\"true\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5ee6da9160435043f.png\" alt=\"Instagram\" aria-hidden=\"true\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a534b29a1b3eca6435.png\" alt=\"Woo\" aria-hidden=\"true\">\n                <img src=\"https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/67ab96a5f3bda8b1b50e5c3e.png\" alt=\"Google Buisness\" aria-hidden=\"true\">\n            </div>\n        </div>\n    </main>\n\n    <script>\n        const scrollers = document.querySelectorAll(\".scroller\");\n\n        // If a user hasn't opted in for recuded motion, then we add the animation\n        if (!window.matchMedia(\"(prefers-reduced-motion: reduce)\").matches) {\n            addAnimation();\n        }\n\n        function addAnimation() {\n            scrollers.forEach((scroller) => {\n                // add data-animated=\"true\" to every `.scroller` on the page\n                scroller.setAttribute(\"data-animated\", true);\n\n                // Make an array from the elements within `.scroller-inner`\n                const scrollerInner = scroller.querySelector(\".scroller__inner\");\n                const scrollerContent = Array.from(scrollerInner.children);\n                //console.log(scrollerContent);\n                // For each item in the array, clone it\n                // add aria-hidden to it\n                // add it into the `.scroller-inner`\n                scrollerContent.forEach((item) => {\n                    const duplicatedItem = item.cloneNode(true);\n                    duplicatedItem.setAttribute(\"aria-hidden\", true);\n                    scrollerInner.appendChild(duplicatedItem);\n                });\n            });\n        }\n\n        document.addEventListener(\"DOMContentLoaded\", function () {\n            const dots = document.querySelectorAll(\".red-dot, .green-dot, .blue-dot\");\n\n            const observer = new IntersectionObserver(entries => {\n                entries.forEach((entry, index) => {\n                    if (entry.isIntersecting) {\n                        setTimeout(() => {\n                            entry.target.classList.add(\"animate\");\n                        }, index * 1000); // Delay increases for each element (1s per index)\n                        observer.unobserve(entry.target); // Stop observing after animation runs\n                    }\n                });\n            }, { threshold: 0.5 }); // Trigger when 50% of the section is visible\n\n            dots.forEach(dot => observer.observe(dot));\n        });\n\n    </script>\n</body>\n\n</html>",
+    "css": null,
+    "js": null,
+    "instructions": "(embed video here)\n\n>"
+  }
+]

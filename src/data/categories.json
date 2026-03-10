@@ -1,0 +1,74 @@
+[
+  {
+    "id": "animations",
+    "name": "Animations",
+    "slug": "animations",
+    "icon": "🎬"
+  },
+  {
+    "id": "buttons",
+    "name": "Buttons",
+    "slug": "buttons",
+    "icon": "🔘"
+  },
+  {
+    "id": "faq",
+    "name": "FAQ",
+    "slug": "faq",
+    "icon": "❓"
+  },
+  {
+    "id": "forms",
+    "name": "Forms",
+    "slug": "forms",
+    "icon": "📝"
+  },
+  {
+    "id": "hover-effects",
+    "name": "Hover Effects",
+    "slug": "hover-effects",
+    "icon": "✨"
+  },
+  {
+    "id": "navigation",
+    "name": "Navigation",
+    "slug": "navigation",
+    "icon": "🧭"
+  },
+  {
+    "id": "order-bumps",
+    "name": "Order Bumps",
+    "slug": "order-bumps",
+    "icon": "☑️"
+  },
+  {
+    "id": "other",
+    "name": "Other",
+    "slug": "other",
+    "icon": "📦"
+  },
+  {
+    "id": "sliders",
+    "name": "Sliders",
+    "slug": "sliders",
+    "icon": "🎚️"
+  },
+  {
+    "id": "text-labels",
+    "name": "Text & Labels",
+    "slug": "text-labels",
+    "icon": "🏷️"
+  },
+  {
+    "id": "timers",
+    "name": "Timers",
+    "slug": "timers",
+    "icon": "⏱️"
+  },
+  {
+    "id": "video",
+    "name": "Video",
+    "slug": "video",
+    "icon": "🎥"
+  }
+]
